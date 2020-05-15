@@ -6,8 +6,8 @@ const propertyNames = ['factory', 'factoryStyle', 'ingredients', 'name', 'amount
 const FACTORY_DATAFILE = './data/productionsindex.lua';
 const GOODS_DATAFILE = './data/goodsindex.lua';
 
-const FACTORY_OUTPUT_FILE = './data/factories.json';
-const GOODS_OUTPUT_FILE = './data/goods.json';
+const FACTORY_OUTPUT_FILE = './src/data/factories.json';
+const GOODS_OUTPUT_FILE = './src/data/goods.json';
 
 const FACTORY_BASE_COST = 3000000;
 const FACTORY_COST_MULTIPLER = 4500;
@@ -55,9 +55,9 @@ function transformFactory(data, index, goods) {
     const firstGood = data.results[0].name;
     factory.name = data.factory.replace('${size}', '').replace('${good}', firstGood).trim();
     factory.type = data.factoryStyle;
-    factory.inputs = convertInputs(factory.ingredients, goods);
-    factory.outputs = convertInputs(factory.results, goods);
-    factory.garbages = convertInputs(factory.garbages, goods);
+    factory.inputs = convertInputs(data.ingredients, goods);
+    factory.outputs = convertInputs(data.results, goods);
+    factory.garbages = convertInputs(data.garbages, goods);
 
     const {cost, upgradeCost} = getFactoryCosts(factory, goods);
     factory.cost = cost;

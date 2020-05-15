@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss';
+import {FactoryList} from "./components/FactoryList";
+import factories from './data/factories.json';
+import goods from './data/goods.json';
+import {TechTree} from "./components/TechTree";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            factories: factories,
+            goods: goods,
+            selectedFactory: null
+        };
+    }
+
+    render() {
+        return (
+            <div className="app">
+                <h1 className="title">Avorion Economic Planner</h1>
+                <div className="content">
+                    <FactoryList factories={this.state.factories}
+                                 onSelect={selectedFactory => this.setState({selectedFactory})}></FactoryList>
+                    {this.state.selectedFactory && (<TechTree selectedFactory={this.state.selectedFactory}></TechTree>)}
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
