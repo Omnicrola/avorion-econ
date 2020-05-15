@@ -1,4 +1,5 @@
 import React from 'react';
+import factories from '../data/factories.json';
 
 export class FactoryList extends React.Component {
     constructor(props) {
@@ -21,7 +22,7 @@ export class FactoryList extends React.Component {
         return (<div className="factory-list">
             <input type="text" className="search" placeholder="search..."
                    onChange={e => this.setState({filter: e.target.value})}/>
-            {this.props.factories
+            {factories
                 .filter(f => this.filterList(f.name))
                 .sort(this.sortByName)
                 .map(f => (

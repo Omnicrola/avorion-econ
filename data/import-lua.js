@@ -75,7 +75,7 @@ function convertInputs(inputs, goods) {
     return inputs.map(input => {
         return {
             ...input,
-            id: goods.find(g => g.name === input.name)
+            id: goods.find(g => g.name === input.name).id
         }
     });
 }

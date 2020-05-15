@@ -1,5 +1,7 @@
 body {
   background-image: url('../images/planet-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .app {
@@ -24,6 +26,36 @@ body {
 .tech-tree {
   flex-grow: 1;
   margin: 0 40px;
+
+  .build-list {
+    * {
+      margin-top: 8px;
+    }
+
+    .indent-0 {
+      margin: 0
+    }
+
+    .indent-1 {
+      margin-left: 2em
+    }
+
+    .indent-2 {
+      margin-left: 4em
+    }
+
+    .indent-3 {
+      margin-left: 6em
+    }
+
+    .indent-4 {
+      margin-left: 8em
+    }
+
+    .indent-5 {
+      margin-left: 16em
+    }
+  }
 }
 
 .factory-list {
@@ -43,6 +75,7 @@ body {
     background: white;
     border: 1px solid black;
   }
+
 }
 
 .factory {
