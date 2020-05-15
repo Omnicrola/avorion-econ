@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/avorion-econ/static/css/main.d1b05096.chunk.css",
+    "main.js": "/avorion-econ/static/js/main.14893010.chunk.js",
+    "main.js.map": "/avorion-econ/static/js/main.14893010.chunk.js.map",
+    "runtime-main.js": "/avorion-econ/static/js/runtime-main.8d63bb70.js",
+    "runtime-main.js.map": "/avorion-econ/static/js/runtime-main.8d63bb70.js.map",
+    "static/js/2.7c71b4ca.chunk.js": "/avorion-econ/static/js/2.7c71b4ca.chunk.js",
+    "static/js/2.7c71b4ca.chunk.js.map": "/avorion-econ/static/js/2.7c71b4ca.chunk.js.map",
+    "index.html": "/avorion-econ/index.html",
+    "precache-manifest.e185fd72c6c857d739607050037f9e37.js": "/avorion-econ/precache-manifest.e185fd72c6c857d739607050037f9e37.js",
+    "service-worker.js": "/avorion-econ/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/avorion-econ/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.7c71b4ca.chunk.js.LICENSE.txt": "/avorion-econ/static/js/2.7c71b4ca.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/avorion-econ/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d63bb70.js",
+    "static/js/2.7c71b4ca.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.14893010.chunk.js"
+  ]
+}
