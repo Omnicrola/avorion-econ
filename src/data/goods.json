@@ -1,1 +1,3003 @@
-[{"name":"Acid","plural":"Acid","description":"A tank filled with vitriolic acid.","icon":"data/textures/icons/acid.png","price":402,"size":1,"level":3,"importance":2,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true},"id":2},{"name":"Acron Drug","plural":"Acron Drugs","description":"A highly addictive drug.","icon":"data/textures/icons/powder.png","price":6000,"size":0.1,"level":null,"importance":0,"illegal":true,"dangerous":false,"tags":{"consumer":true},"chains":{},"id":3},{"name":"Adhesive","plural":"Adhesive","description":"Common adhesive. Used on smaller parts where there's no space for screws.","icon":"data/textures/icons/adhesive.png","price":402,"size":0.25,"level":3,"importance":3,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":4},{"name":"Aluminum","plural":"Aluminum","description":"A container full of pure aluminum.","icon":"data/textures/icons/aluminium.png","price":200,"size":1,"level":0,"importance":7,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":5},{"name":"Ammunition","plural":"Ammunition","description":"Ammunition for projectile weapons.","icon":"data/textures/icons/ammo-box.png","price":3786,"size":3,"level":5,"importance":1,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":6},{"name":"Ammunition L","plural":"Ammunition L","description":"Ammunition for turrets.","icon":"data/textures/icons/ammunition-l.png","price":422,"size":2.5,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":7},{"name":"Ammunition M","plural":"Ammunition M","description":"Ammunition for large handheld guns.","icon":"data/textures/icons/ammunition-m.png","price":422,"size":1.5,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":8},{"name":"Ammunition S","plural":"Ammunition S","description":"Ammunition for small handguns.","icon":"data/textures/icons/ammunition-s.png","price":422,"size":0.5,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":9},{"name":"Antigrav Generator","plural":"Antigrav Generators","description":"A generator that creates a field where gravity has no effect.","icon":"data/textures/icons/anti-grav-generator.png","price":71632,"size":2.5,"level":8,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":10},{"name":"Antigrav Unit","plural":"Antigrav Units","description":"This device generates antigrav fields for easier transportation of objects.","icon":"data/textures/icons/antigrav-unit.png","price":25391,"size":2.5,"level":7,"importance":4,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":11},{"name":"Avorion Ore","plural":"Avorion Ore","description":"Avorion ore that can be refined into Avorion.","icon":"data/textures/icons/rock.png","price":12,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":12},{"name":"Beer","plural":"Beer","description":"A box of beer.","icon":"data/textures/icons/beer-stein.png","price":216,"size":0.5,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":13},{"name":"Bio Gas","plural":"Bio Gas","description":"Biological gas. Probably toxic.","icon":"data/textures/icons/bio-gas.png","price":213,"size":1,"level":2,"importance":3,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":14},{"name":"Body Armor","plural":"Body Armors","description":"Exoskeleton armor for elite soldiers.","icon":"data/textures/icons/kevlar-vest.png","price":95906,"size":1.5,"level":9,"importance":0,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":15},{"name":"Book","plural":"Books","description":"A book with an exciting, procedurally generated story.","icon":"data/textures/icons/open-book.png","price":319,"size":0.2,"level":3,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":16},{"name":"Carbon","plural":"Carbon","description":"A container of carbon.","icon":"data/textures/icons/carbon.png","price":423,"size":1,"level":2,"importance":5,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":17},{"name":"Cattle","plural":"Cattle","description":"Cattle.","icon":"data/textures/icons/cattle.png","price":254,"size":1.5,"level":2,"importance":2,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":18},{"name":"Chemicals","plural":"Chemicals","description":"Multitank containing all sorts of different chemicals, most of them toxic.","icon":"data/textures/icons/chemical.png","price":402,"size":1,"level":3,"importance":6,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"consumer":true,"industrial":true,"military":true,"technology":true},"id":19},{"name":"Chlorine","plural":"Chlorine","description":"A pressure container filled with pure chlorine.","icon":"data/textures/icons/chlorine.png","price":150,"size":1,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":20},{"name":"Clothes","plural":"Clothes","description":"Normal looking clothing.","icon":"data/textures/icons/trousers.png","price":102,"size":1,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":21},{"name":"Coal","plural":"Coal","description":"Fossil fuel. Still used in some factories.","icon":"data/textures/icons/fossil-fuel.png","price":200,"size":2,"level":0,"importance":2,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":22},{"name":"Cocoa","plural":"Cocoa","description":"A bag of roasted cocoa beans.","icon":"data/textures/icons/cocoa.png","price":87,"size":0.2,"level":5,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":23},{"name":"Coffee","plural":"Coffee","description":"A bag of roasted coffee beans.","icon":"data/textures/icons/coffee-beans.png","price":187,"size":0.2,"level":5,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":24},{"name":"Computation Mainframe","plural":"Computation Mainframes","description":"A high speed computer used as infrastructure for stations and ships.","icon":"data/textures/icons/computation-mainframe.png","price":37940,"size":1,"level":7,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":25},{"name":"Conductor","plural":"Conductors","description":"Thick cables used for transmitting electrical energy.","icon":"data/textures/icons/conductor.png","price":168,"size":0.15,"level":4,"importance":9,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":26},{"name":"Coolant","plural":"Coolant","description":"A canister full of coolant for the most common engines.","icon":"data/textures/icons/snowflake-2.png","price":402,"size":0.5,"level":3,"importance":4,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":27},{"name":"Copper","plural":"Copper","description":"A medium sized crate full of copper bars.","icon":"data/textures/icons/copper.png","price":350,"size":1,"level":0,"importance":5,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":28},{"name":"Corn","plural":"Corn","description":"A container full of corn.","icon":"data/textures/icons/corn.png","price":28,"size":1,"level":1,"importance":5,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":29},{"name":"Crystal","plural":"Crystals","description":"Naturally grown crystals.","icon":"data/textures/icons/crystal.png","price":190,"size":1.5,"level":0,"importance":2,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":30},{"name":"Dairy","plural":"Dairy","description":"A tank full of dairy products, like yoghurt or butter.","icon":"data/textures/icons/udder.png","price":19,"size":1,"level":3,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":31},{"name":"Diamond","plural":"Diamonds","description":"A handful of diamonds. Useless unless you know where to sell them.","icon":"data/textures/icons/diamond.png","price":750,"size":0.05,"level":0,"importance":3,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"consumer":true,"industrial":true,"technology":true},"id":32},{"name":"Display","plural":"Displays","description":"A touch display for computers.","icon":"data/textures/icons/checkbox-tree.png","price":7858,"size":1,"level":6,"importance":5,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":33},{"name":"Drill","plural":"Drills","description":"Mining drill, often used in asteroid mines.","icon":"data/textures/icons/drill.png","price":20443,"size":20,"level":7,"importance":1,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"technology":true},"id":34},{"name":"Drone","plural":"Drones","description":"Unmanned little ships for everyday purposes.","icon":"data/textures/icons/spoutnik.png","price":7754,"size":10,"level":5,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":35},{"name":"Electro Magnet","plural":"Electro Magnets","description":"High power multi-purpose electromagnets.","icon":"data/textures/icons/electro-magnet.png","price":483,"size":0.75,"level":5,"importance":4,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":36},{"name":"Electromagnetic Charge","plural":"Electromagnetic Charges","description":"One-time use charge that can set free a strong electromagnetic pulse.","icon":"data/textures/icons/electromagnetic-charge.png","price":13985,"size":1,"level":6,"importance":0,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":37},{"name":"Electron Accelerator","plural":"Electron Accelerators","description":"A device that accelerates electrons to near light speed.","icon":"data/textures/icons/electron-accelerator.png","price":125431,"size":12,"level":8,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":38},{"name":"Energy Cell","plural":"Energy Cells","description":"Small blue canisters with a high voltage charge inside them.","icon":"data/textures/icons/battery-pack-alt.png","price":50,"size":1,"level":0,"importance":43,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":39},{"name":"Energy Container","plural":"Energy Containers","description":"Bigger than energy cells, these devices can hold up to 1000x more energy.","icon":"data/textures/icons/electric.png","price":1087,"size":4.5,"level":5,"importance":2,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":40},{"name":"Energy Generator","plural":"Energy Generators","description":"A device that generates energy from an antimatter core.","icon":"data/textures/icons/energy-generator.png","price":15957,"size":2,"level":6,"importance":3,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"technology":true},"id":41},{"name":"Energy Inverter","plural":"Energy Inverters","description":"Converts electron flow into positron flow.","icon":"data/textures/icons/energy-inverter.png","price":1277,"size":3,"level":6,"importance":0,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":42},{"name":"Energy Tube","plural":"Energy Tubes","description":"Long tubes that are used to transport high amounts of energy.","icon":"data/textures/icons/energy-tube.png","price":2895,"size":1.5,"level":5,"importance":7,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":43},{"name":"Explosive Charge","plural":"Explosive Charges","description":"A military grade explosive.","icon":"data/textures/icons/explosive-charge.png","price":1423,"size":1.5,"level":4,"importance":0,"illegal":false,"dangerous":true,"tags":{"military":true},"chains":{"military":true},"id":44},{"name":"Fabric","plural":"Fabric","description":"Raw fabric used for clothing or bandages.","icon":"data/textures/icons/fabric.png","price":91,"size":1,"level":3,"importance":2,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true,"technology":true},"id":45},{"name":"Fertilizer","plural":"Fertilizer","description":"A tank with fertilizer, important for more exotic plants.","icon":"data/textures/icons/fertilizer.png","price":319,"size":1,"level":1,"importance":3,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"consumer":true,"industrial":true},"id":46},{"name":"Fish","plural":"Fish","description":"A barrel full of fish.","icon":"data/textures/icons/fish.png","price":152,"size":0.5,"level":2,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":47},{"name":"Fluorine","plural":"Fluorine","description":"A pressure container filled with pure fluorine.","icon":"data/textures/icons/fluorine.png","price":250,"size":1,"level":0,"importance":2,"illegal":false,"dangerous":true,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":48},{"name":"Food","plural":"Food","description":"Healthy food packaged in one-man portions.","icon":"data/textures/icons/chicken-leg.png","price":300,"size":0.5,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":49},{"name":"Food Bar","plural":"Food Bars","description":"Bars of compressed food.","icon":"data/textures/icons/bar.png","price":223,"size":0.5,"level":2,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":50},{"name":"Force Generator","plural":"Force Generators","description":"A generator that creates a force field that pushes or pulls objects.","icon":"data/textures/icons/force-generator.png","price":49576,"size":4,"level":7,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":51},{"name":"Fruit","plural":"Fruits","description":"A specially engineered fruit, containing a wide range of important vitamins.","icon":"data/textures/icons/shiny-apple.png","price":56,"size":0.5,"level":1,"importance":2,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":52},{"name":"Fuel","plural":"Fuel","description":"A tank with fuel for vehicles or space ships.","icon":"data/textures/icons/fuel.png","price":1232,"size":1,"level":2,"importance":2,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":53},{"name":"Fungus","plural":"Fungi","description":"A container with fungus, used for making alcohol.","icon":"data/textures/icons/mushroom.png","price":46,"size":1,"level":3,"importance":2,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":54},{"name":"Fusion Core","plural":"Fusion Cores","description":"Highly advanced portable fusion generator.","icon":"data/textures/icons/fusion-core.png","price":5114,"size":2.5,"level":6,"importance":2,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":55},{"name":"Fusion Generator","plural":"Fusion Generators","description":"The bigger, better and more advanced variant of the fusion core.","icon":"data/textures/icons/fusion-generator.png","price":39553,"size":2.5,"level":7,"importance":1,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":56},{"name":"Gauss Rail","plural":"Gauss Rail","description":"A rail for immense acceleration of projectiles with magnetic fields.","icon":"data/textures/icons/gauss-rail.png","price":7735,"size":2,"level":6,"importance":1,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true,"technology":true},"id":57},{"name":"Gem","plural":"Gems","description":"A big gem. It's worth a lot, but you have to sell it first.","icon":"data/textures/icons/saphir.png","price":400,"size":0.05,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"consumer":true},"id":58},{"name":"Glass","plural":"Glass","description":"A box containing several plates of glass.","icon":"data/textures/icons/metal-disc.png","price":182,"size":1,"level":1,"importance":3,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":59},{"name":"Gold","plural":"Gold","description":"A small box containing gold bars.","icon":"data/textures/icons/metal-bar.png","price":600,"size":0.5,"level":0,"importance":8,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":60},{"name":"Gun","plural":"Guns","description":"Hand guns. Used by robots and living beings.","icon":"data/textures/icons/bolter-gun.png","price":1232,"size":0.5,"level":6,"importance":1,"illegal":false,"dangerous":true,"tags":{"military":true},"chains":{"military":true},"id":61},{"name":"Helium","plural":"Helium","description":"A pressure container filled with pure helium gas.","icon":"data/textures/icons/helium.png","price":50,"size":1,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":62},{"name":"High Capacity Lens","plural":"High Capacity Lenses","description":"A focal lens designed for high capacity lasers.","icon":"data/textures/icons/high-capacity-lens.png","price":4689,"size":1,"level":3,"importance":0,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":63},{"name":"High Pressure Tube","plural":"High Pressure Tubes","description":"Tubes that can sustain extremely high pressure. Most commonly used in factories or weapons.","icon":"data/textures/icons/high-pressure-tube.png","price":1650,"size":2,"level":5,"importance":2,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":64},{"name":"Hydrogen","plural":"Hydrogen","description":"A pressure container filled with pure hydrogen.","icon":"data/textures/icons/hydrogen.png","price":150,"size":1,"level":0,"importance":2,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":65},{"name":"Industrial Tesla Coil","plural":"Industrial Tesla Coils","description":"Tesla coil used for melting of metals in factories.","icon":"data/textures/icons/industrial-tesla-coil.png","price":10314,"size":5.5,"level":7,"importance":0,"illegal":false,"dangerous":true,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":66},{"name":"Iron Ore","plural":"Iron Ore","description":"Iron ore that can be refined into Iron.","icon":"data/textures/icons/rock.png","price":2,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":67},{"name":"Jewelry","plural":"Jewelry","description":"Beautiful and very expensive jewelry.","icon":"data/textures/icons/gem-chain.png","price":1260,"size":0.2,"level":1,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":68},{"name":"Laser Compressor","plural":"Laser Compressors","description":"A device that can bundle energy and emit a laser beam.","icon":"data/textures/icons/laser-compressor.png","price":6577,"size":1.5,"level":6,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":69},{"name":"Laser Head","plural":"Laser Heads","description":"A device used to focus laser beams.","icon":"data/textures/icons/laser-head.png","price":4690,"size":2,"level":5,"importance":1,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"technology":true},"id":70},{"name":"Laser Modulator","plural":"Laser Modulators","description":"A device that changes various properties of lasers beams passing through it.","icon":"data/textures/icons/laser-modulator.png","price":16742,"size":3,"level":6,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":71},{"name":"Lead","plural":"Lead","description":"A medium sized crate filled with lead bars.","icon":"data/textures/icons/lead.png","price":200,"size":1,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":72},{"name":"Leather","plural":"Leather","description":"Treated leather, made from various animal hides.","icon":"data/textures/icons/animal-hide.png","price":37,"size":0.5,"level":3,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":73},{"name":"Liquor","plural":"Liquor","description":"A box of high quality liquor.","icon":"data/textures/icons/martini.png","price":1867,"size":1.25,"level":2,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":74},{"name":"Luxury Food","plural":"Luxury Food","description":"Luxurious food, made for the rich only.","icon":"data/textures/icons/luxury-food.png","price":6452,"size":2.5,"level":6,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":75},{"name":"Meat","plural":"Meat","description":"A box full of fresh meat.","icon":"data/textures/icons/meat.png","price":37,"size":0.5,"level":3,"importance":2,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":76},{"name":"Medical Supplies","plural":"Medical Supplies","description":"A box with everyday medical supplies containing bandages, antibiotics and germicides.","icon":"data/textures/icons/medical-supplies.png","price":3006,"size":1,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true,"technology":true},"chains":{"consumer":true,"technology":true},"id":77},{"name":"Metal Plate","plural":"Metal Plates","description":"Big metal plates used for building platings of vehicles or ships.","icon":"data/textures/icons/metal-scales.png","price":792,"size":3,"level":4,"importance":5,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":78},{"name":"Microchip","plural":"Microchips","description":"Microchips are the most basic parts of computers.","icon":"data/textures/icons/microchip.png","price":896,"size":0.1,"level":5,"importance":7,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":79},{"name":"Military Tesla Coil","plural":"Military Tesla Coils","description":"A repurposed tesla coil that can shoot directed high-intensity beams of electricity.","icon":"data/textures/icons/industrial-tesla-coil.png","price":10314,"size":4.5,"level":7,"importance":0,"illegal":false,"dangerous":true,"tags":{"military":true},"chains":{"military":true},"id":80},{"name":"Mineral","plural":"Minerals","description":"A canister full of mineral powder.","icon":"data/textures/icons/spices.png","price":500,"size":1.5,"level":0,"importance":3,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":81},{"name":"Mining Robot","plural":"Mining Robots","description":"A big robot used for mining in asteroid shafts where human beings would not survive.","icon":"data/textures/icons/robot-golem.png","price":145977,"size":8,"level":9,"importance":0,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":82},{"name":"Morn Drug","plural":"Morn Drugs","description":"An addictive drug that gives the user strong hallucinations.","icon":"data/textures/icons/powder.png","price":5000,"size":0.1,"level":null,"importance":0,"illegal":true,"dangerous":false,"tags":{"consumer":true},"chains":{},"id":83},{"name":"Nanobot","plural":"Nanobots","description":"Tiny robots that are able to get into almost everything.","icon":"data/textures/icons/nanobots.png","price":1338,"size":0.5,"level":5,"importance":4,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":84},{"name":"Naonite Ore","plural":"Naonite Ore","description":"Naonite ore that can be refined into Naonite.","icon":"data/textures/icons/rock.png","price":4,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":85},{"name":"Neon","plural":"Neon","description":"A pressure container filled with pure neon.","icon":"data/textures/icons/neon.png","price":200,"size":1,"level":0,"importance":2,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":86},{"name":"Neutron Accelerator","plural":"Neutron Accelerators","description":"A device that accelerates neutrons to near light speed.","icon":"data/textures/icons/neutron-accelerator.png","price":125431,"size":15,"level":8,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":87},{"name":"Nitrogen","plural":"Nitrogen","description":"A pressure container filled with pure nitrogen.","icon":"data/textures/icons/nitrogen.png","price":40,"size":1,"level":0,"importance":2,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":88},{"name":"Ogonite Ore","plural":"Ogonite Ore","description":"Ogonite ore that can be refined into Ogonite.","icon":"data/textures/icons/rock.png","price":9,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":89},{"name":"Oil","plural":"Oil","description":"A barrel of refined oil.","icon":"data/textures/icons/oil-drum.png","price":490,"size":1,"level":1,"importance":4,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":90},{"name":"Ore","plural":"Ore","description":"Raw ore containing some kind of metal.","icon":"data/textures/icons/rock.png","price":70,"size":2,"level":0,"importance":2,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":91},{"name":"Oxygen","plural":"Oxygen","description":"A pressure container filled with pure oxygen.","icon":"data/textures/icons/oxygen.png","price":80,"size":1,"level":0,"importance":6,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":92},{"name":"Paint","plural":"Paint","description":"A container full of paint.","icon":"data/textures/icons/paint.png","price":481,"size":1,"level":4,"importance":1,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true},"id":93},{"name":"Paper","plural":"Paper","description":"A big stash of paper.","icon":"data/textures/icons/papers.png","price":46,"size":1,"level":2,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":94},{"name":"Plankton","plural":"Plankton","description":"A tank full of live plankton.","icon":"data/textures/icons/turtle-shell.png","price":50,"size":1,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true,"industrial":true},"id":95},{"name":"Plant","plural":"Plants","description":"A container with soil and a wide range of green plants.","icon":"data/textures/icons/plant.png","price":14,"size":1.5,"level":1,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":96},{"name":"Plasma Cell","plural":"Plasma Cells","description":"A battery that can emit a short but strong pulse of energy.","icon":"data/textures/icons/plasma-cell.png","price":174,"size":0.25,"level":4,"importance":8,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":97},{"name":"Plastic","plural":"Plastic","description":"A container with plastic. This is melted when used.","icon":"data/textures/icons/cargo-hold.png","price":137,"size":0.5,"level":2,"importance":9,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":98},{"name":"Platinum","plural":"Platinum","description":"A small box containing platinum bars.","icon":"data/textures/icons/metal-bar.png","price":750,"size":0.5,"level":0,"importance":7,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":99},{"name":"Potato","plural":"Potatoes","description":"A container full of potatoes.","icon":"data/textures/icons/potato.png","price":24,"size":1,"level":1,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":100},{"name":"Power Unit","plural":"Power Units","description":"A big device that can create a huge amount of energy over a long period of time.","icon":"data/textures/icons/power-unit.png","price":1211,"size":5,"level":5,"importance":8,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":101},{"name":"Processor","plural":"Processors","description":"The heart of a computer or any device that does some kind of calulcation.","icon":"data/textures/icons/processor.png","price":7858,"size":0.1,"level":6,"importance":8,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":102},{"name":"Protein","plural":"Protein","description":"Protein for quickly restoring one's energy.","icon":"data/textures/icons/bar.png","price":34,"size":0.1,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":103},{"name":"Proton Accelerator","plural":"Proton Accelerators","description":"A device that accelerates protons to near light speed.","icon":"data/textures/icons/proton-accelerator.png","price":125431,"size":15,"level":8,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":104},{"name":"Raw Oil","plural":"Raw Oil","description":"A barrel of unrefined oil.","icon":"data/textures/icons/oil-drum.png","price":150,"size":1,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":105},{"name":"Rice","plural":"Rice","description":"A container full of rice.","icon":"data/textures/icons/powder.png","price":15,"size":1,"level":1,"importance":2,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":106},{"name":"Rocket","plural":"Rockets","description":"Ammunition for rocket launchers.","icon":"data/textures/icons/rocket.png","price":11250,"size":4,"level":6,"importance":0,"illegal":false,"dangerous":true,"tags":{"military":true},"chains":{"military":true},"id":107},{"name":"Rubber","plural":"Rubber","description":"A bouncing block of rubber.","icon":"data/textures/icons/cubes.png","price":686,"size":1,"level":2,"importance":1,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true},"id":108},{"name":"Satellite","plural":"Satellites","description":"A satellite used for research or spying.","icon":"data/textures/icons/satellite.png","price":65714,"size":15,"level":7,"importance":0,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":109},{"name":"Scrap Avorion","plural":"Scrap Avorion","description":"Scrap Avorion that can be refined into Avorion.","icon":"data/textures/icons/rock.png","price":24,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":110},{"name":"Scrap Iron","plural":"Scrap Iron","description":"Scrap Iron that can be refined into Iron.","icon":"data/textures/icons/rock.png","price":4,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":111},{"name":"Scrap Metal","plural":"Scrap Metal","description":"A container full of metal junk.","icon":"data/textures/icons/scrap-metal.png","price":25,"size":3,"level":0,"importance":1,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":112},{"name":"Scrap Naonite","plural":"Scrap Naonite","description":"Scrap Naonite that can be refined into Naonite.","icon":"data/textures/icons/rock.png","price":7,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":113},{"name":"Scrap Ogonite","plural":"Scrap Ogonite","description":"Scrap Ogonite that can be refined into Ogonite.","icon":"data/textures/icons/rock.png","price":18,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":114},{"name":"Scrap Titanium","plural":"Scrap Titanium","description":"Scrap Titanium that can be refined into Titanium.","icon":"data/textures/icons/rock.png","price":5,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":115},{"name":"Scrap Trinium","plural":"Scrap Trinium","description":"Scrap Trinium that can be refined into Trinium.","icon":"data/textures/icons/rock.png","price":10,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":116},{"name":"Scrap Xanion","plural":"Scrap Xanion","description":"Scrap Xanion that can be refined into Xanion.","icon":"data/textures/icons/rock.png","price":13,"size":0.04,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":117},{"name":"Semi Conductor","plural":"Semi Conductors","description":"Used for building microchips and other sorts of electric things.","icon":"data/textures/icons/semi-conductor.png","price":129,"size":0.1,"level":4,"importance":5,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":118},{"name":"Servo","plural":"Servos","description":"Little multi-purpose machines that can be used in moving parts.","icon":"data/textures/icons/servo.png","price":1387,"size":0.25,"level":5,"importance":3,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":119},{"name":"Sheep","plural":"Sheep","description":"Sheep.","icon":"data/textures/icons/sheep.png","price":130,"size":1,"level":2,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true,"technology":true},"id":120},{"name":"Silicon","plural":"Silicon","description":"A box with shards of silicon.","icon":"data/textures/icons/silicium.png","price":500,"size":1,"level":0,"importance":3,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":121},{"name":"Silver","plural":"Silver","description":"A small box containing silver bars.","icon":"data/textures/icons/metal-bar.png","price":300,"size":0.5,"level":0,"importance":3,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":122},{"name":"Slave","plural":"Slaves","description":"An unfree life form forced to work for almost no food.","icon":"data/textures/icons/slave.png","price":15000,"size":1,"level":null,"importance":0,"illegal":true,"dangerous":false,"tags":{},"chains":{},"id":123},{"name":"Solar Cell","plural":"Solar Cells","description":"Electric cells for generating energy from sunlight.","icon":"data/textures/icons/solar-cell.png","price":469,"size":2,"level":1,"importance":1,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":124},{"name":"Solar Panel","plural":"Solar Panels","description":"Solar panels that can generate electricity from sunlight.","icon":"data/textures/icons/satellite.png","price":6858,"size":6,"level":5,"importance":1,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"technology":true},"id":125},{"name":"Solvent","plural":"Solvent","description":"A tank filled with a common industrial solvent, found all over the galaxy.","icon":"data/textures/icons/solvent.png","price":402,"size":1,"level":3,"importance":2,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"consumer":true,"industrial":true,"military":true},"id":126},{"name":"Spices","plural":"Spices","description":"A box with various little bags of spices.","icon":"data/textures/icons/spices.png","price":268,"size":0.3,"level":5,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":127},{"name":"Steel","plural":"Steel","description":"Raw steel.","icon":"data/textures/icons/i-beam.png","price":277,"size":1,"level":1,"importance":22,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":128},{"name":"Steel Tube","plural":"Steel Tubes","description":"Long multi-purpose steel tubes.","icon":"data/textures/icons/steel-tube.png","price":704,"size":3,"level":4,"importance":3,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true,"military":true,"technology":true},"id":129},{"name":"Targeting Card","plural":"Targeting Cards","description":"Multi-purpose chip with targeting software for missiles or turrets.","icon":"data/textures/icons/targeting-card.png","price":11873,"size":0.5,"level":6,"importance":1,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":130},{"name":"Targeting System","plural":"Targeting Systems","description":"Computer system that is able to track multiple targets.","icon":"data/textures/icons/targeting-system.png","price":29674,"size":0.75,"level":8,"importance":0,"illegal":false,"dangerous":false,"tags":{"military":true},"chains":{"military":true},"id":131},{"name":"Tea","plural":"Tea","description":"A bag of various dried teas.","icon":"data/textures/icons/tea.png","price":37,"size":0.2,"level":1,"importance":0,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":132},{"name":"Teleporter","plural":"Teleporters","description":"Short range one-man hyperspace teleporters.","icon":"data/textures/icons/teleport.png","price":39365,"size":12,"level":8,"importance":3,"illegal":false,"dangerous":false,"tags":{"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":133},{"name":"Titanium Ore","plural":"Titanium Ore","description":"Titanium ore that can be refined into Titanium.","icon":"data/textures/icons/rock.png","price":3,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":134},{"name":"Tools","plural":"Tools","description":"A set of tools used by mechanics.","icon":"data/textures/icons/tools.png","price":214,"size":0.4,"level":4,"importance":0,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":135},{"name":"Toxic Waste","plural":"Toxic Waste","description":"A tank full of some glowing liquid. Highly toxic.","icon":"data/textures/icons/toxic-waste.png","price":15,"size":4,"level":null,"importance":0,"illegal":false,"dangerous":true,"tags":{"basic":true},"chains":{},"id":136},{"name":"Transformator","plural":"Transformators","description":"A small item for transforming all kinds of energy.","icon":"data/textures/icons/grenade.png","price":209,"size":0.2,"level":4,"importance":11,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":137},{"name":"Trinium Ore","plural":"Trinium Ore","description":"Trinium ore that can be refined into Trinium.","icon":"data/textures/icons/rock.png","price":5,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":138},{"name":"Turbine","plural":"Turbines","description":"Multi-purpose turbine.","icon":"data/textures/icons/turbine.png","price":16729,"size":7.5,"level":6,"importance":1,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"technology":true},"id":139},{"name":"Vegetable","plural":"Vegetables","description":"A container with different sorts of vegetables.","icon":"data/textures/icons/vegetables.png","price":32,"size":1,"level":1,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":140},{"name":"Vehicle","plural":"Vehicles","description":"A vehicle used for planetary exploration missions.","icon":"data/textures/icons/apc.png","price":77087,"size":25,"level":8,"importance":0,"illegal":false,"dangerous":false,"tags":{"industrial":true},"chains":{"industrial":true},"id":141},{"name":"War Robot","plural":"War Robots","description":"A big robot that is highly armed and very deadly.","icon":"data/textures/icons/missile-mech.png","price":92186,"size":8,"level":9,"importance":0,"illegal":false,"dangerous":true,"tags":{"military":true},"chains":{"military":true},"id":142},{"name":"Warhead","plural":"Warheads","description":"Explosive heads for rockets.","icon":"data/textures/icons/warhead.png","price":5630,"size":3,"level":5,"importance":1,"illegal":false,"dangerous":true,"tags":{"military":true},"chains":{"military":true},"id":143},{"name":"Water","plural":"Water","description":"A tank full of clear water.","icon":"data/textures/icons/water.png","price":20,"size":0.35,"level":0,"importance":24,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":144},{"name":"Wheat","plural":"Wheat","description":"A container full of wheat.","icon":"data/textures/icons/wheat.png","price":23,"size":1,"level":1,"importance":9,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":145},{"name":"Wine","plural":"Wine","description":"A box of wine.","icon":"data/textures/icons/wine-glass.png","price":182,"size":0.5,"level":4,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":146},{"name":"Wire","plural":"Wires","description":"Around 100 meters of thin wire.","icon":"data/textures/icons/wire.png","price":95,"size":0.5,"level":4,"importance":6,"illegal":false,"dangerous":false,"tags":{"industrial":true,"technology":true},"chains":{"industrial":true,"military":true,"technology":true},"id":147},{"name":"Wood","plural":"Wood","description":"A big block of compressed wood.","icon":"data/textures/icons/log.png","price":350,"size":2.5,"level":1,"importance":1,"illegal":false,"dangerous":false,"tags":{"consumer":true},"chains":{"consumer":true},"id":148},{"name":"Xanion Ore","plural":"Xanion Ore","description":"Xanion ore that can be refined into Xanion.","icon":"data/textures/icons/rock.png","price":7,"size":0.015,"level":null,"importance":0,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{},"id":149},{"name":"Zinc","plural":"Zinc","description":"A medium sized crate filled with zinc fragments.","icon":"data/textures/icons/zinc.png","price":250,"size":1,"level":0,"importance":3,"illegal":false,"dangerous":false,"tags":{"basic":true},"chains":{"basic":true,"consumer":true,"industrial":true,"military":true,"technology":true},"id":150}]
+[
+  {
+    "name": "Acid",
+    "plural": "Acid",
+    "description": "A tank filled with vitriolic acid.",
+    "icon": "acid.png",
+    "price": 402,
+    "size": 1,
+    "level": 3,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true
+    },
+    "id": 2
+  },
+  {
+    "name": "Acron Drug",
+    "plural": "Acron Drugs",
+    "description": "A highly addictive drug.",
+    "icon": "powder.png",
+    "price": 6000,
+    "size": 0.1,
+    "level": null,
+    "importance": 0,
+    "illegal": true,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {},
+    "id": 3
+  },
+  {
+    "name": "Adhesive",
+    "plural": "Adhesive",
+    "description": "Common adhesive. Used on smaller parts where there's no space for screws.",
+    "icon": "adhesive.png",
+    "price": 402,
+    "size": 0.25,
+    "level": 3,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 4
+  },
+  {
+    "name": "Aluminum",
+    "plural": "Aluminum",
+    "description": "A container full of pure aluminum.",
+    "icon": "aluminium.png",
+    "price": 200,
+    "size": 1,
+    "level": 0,
+    "importance": 7,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 5
+  },
+  {
+    "name": "Ammunition",
+    "plural": "Ammunition",
+    "description": "Ammunition for projectile weapons.",
+    "icon": "ammo-box.png",
+    "price": 3786,
+    "size": 3,
+    "level": 5,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 6
+  },
+  {
+    "name": "Ammunition L",
+    "plural": "Ammunition L",
+    "description": "Ammunition for turrets.",
+    "icon": "ammunition-l.png",
+    "price": 422,
+    "size": 2.5,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 7
+  },
+  {
+    "name": "Ammunition M",
+    "plural": "Ammunition M",
+    "description": "Ammunition for large handheld guns.",
+    "icon": "ammunition-m.png",
+    "price": 422,
+    "size": 1.5,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 8
+  },
+  {
+    "name": "Ammunition S",
+    "plural": "Ammunition S",
+    "description": "Ammunition for small handguns.",
+    "icon": "ammunition-s.png",
+    "price": 422,
+    "size": 0.5,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 9
+  },
+  {
+    "name": "Antigrav Generator",
+    "plural": "Antigrav Generators",
+    "description": "A generator that creates a field where gravity has no effect.",
+    "icon": "anti-grav-generator.png",
+    "price": 71632,
+    "size": 2.5,
+    "level": 8,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 10
+  },
+  {
+    "name": "Antigrav Unit",
+    "plural": "Antigrav Units",
+    "description": "This device generates antigrav fields for easier transportation of objects.",
+    "icon": "antigrav-unit.png",
+    "price": 25391,
+    "size": 2.5,
+    "level": 7,
+    "importance": 4,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 11
+  },
+  {
+    "name": "Avorion Ore",
+    "plural": "Avorion Ore",
+    "description": "Avorion ore that can be refined into Avorion.",
+    "icon": "rock.png",
+    "price": 12,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 12
+  },
+  {
+    "name": "Beer",
+    "plural": "Beer",
+    "description": "A box of beer.",
+    "icon": "beer-stein.png",
+    "price": 216,
+    "size": 0.5,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 13
+  },
+  {
+    "name": "Bio Gas",
+    "plural": "Bio Gas",
+    "description": "Biological gas. Probably toxic.",
+    "icon": "bio-gas.png",
+    "price": 213,
+    "size": 1,
+    "level": 2,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 14
+  },
+  {
+    "name": "Body Armor",
+    "plural": "Body Armors",
+    "description": "Exoskeleton armor for elite soldiers.",
+    "icon": "kevlar-vest.png",
+    "price": 95906,
+    "size": 1.5,
+    "level": 9,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 15
+  },
+  {
+    "name": "Book",
+    "plural": "Books",
+    "description": "A book with an exciting, procedurally generated story.",
+    "icon": "open-book.png",
+    "price": 319,
+    "size": 0.2,
+    "level": 3,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 16
+  },
+  {
+    "name": "Carbon",
+    "plural": "Carbon",
+    "description": "A container of carbon.",
+    "icon": "carbon.png",
+    "price": 423,
+    "size": 1,
+    "level": 2,
+    "importance": 5,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 17
+  },
+  {
+    "name": "Cattle",
+    "plural": "Cattle",
+    "description": "Cattle.",
+    "icon": "cattle.png",
+    "price": 254,
+    "size": 1.5,
+    "level": 2,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 18
+  },
+  {
+    "name": "Chemicals",
+    "plural": "Chemicals",
+    "description": "Multitank containing all sorts of different chemicals, most of them toxic.",
+    "icon": "chemical.png",
+    "price": 402,
+    "size": 1,
+    "level": 3,
+    "importance": 6,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 19
+  },
+  {
+    "name": "Chlorine",
+    "plural": "Chlorine",
+    "description": "A pressure container filled with pure chlorine.",
+    "icon": "chlorine.png",
+    "price": 150,
+    "size": 1,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 20
+  },
+  {
+    "name": "Clothes",
+    "plural": "Clothes",
+    "description": "Normal looking clothing.",
+    "icon": "trousers.png",
+    "price": 102,
+    "size": 1,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 21
+  },
+  {
+    "name": "Coal",
+    "plural": "Coal",
+    "description": "Fossil fuel. Still used in some factories.",
+    "icon": "fossil-fuel.png",
+    "price": 200,
+    "size": 2,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 22
+  },
+  {
+    "name": "Cocoa",
+    "plural": "Cocoa",
+    "description": "A bag of roasted cocoa beans.",
+    "icon": "cocoa.png",
+    "price": 87,
+    "size": 0.2,
+    "level": 5,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 23
+  },
+  {
+    "name": "Coffee",
+    "plural": "Coffee",
+    "description": "A bag of roasted coffee beans.",
+    "icon": "coffee-beans.png",
+    "price": 187,
+    "size": 0.2,
+    "level": 5,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 24
+  },
+  {
+    "name": "Computation Mainframe",
+    "plural": "Computation Mainframes",
+    "description": "A high speed computer used as infrastructure for stations and ships.",
+    "icon": "computation-mainframe.png",
+    "price": 37940,
+    "size": 1,
+    "level": 7,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 25
+  },
+  {
+    "name": "Conductor",
+    "plural": "Conductors",
+    "description": "Thick cables used for transmitting electrical energy.",
+    "icon": "conductor.png",
+    "price": 168,
+    "size": 0.15,
+    "level": 4,
+    "importance": 9,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 26
+  },
+  {
+    "name": "Coolant",
+    "plural": "Coolant",
+    "description": "A canister full of coolant for the most common engines.",
+    "icon": "snowflake-2.png",
+    "price": 402,
+    "size": 0.5,
+    "level": 3,
+    "importance": 4,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 27
+  },
+  {
+    "name": "Copper",
+    "plural": "Copper",
+    "description": "A medium sized crate full of copper bars.",
+    "icon": "copper.png",
+    "price": 350,
+    "size": 1,
+    "level": 0,
+    "importance": 5,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 28
+  },
+  {
+    "name": "Corn",
+    "plural": "Corn",
+    "description": "A container full of corn.",
+    "icon": "corn.png",
+    "price": 28,
+    "size": 1,
+    "level": 1,
+    "importance": 5,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 29
+  },
+  {
+    "name": "Crystal",
+    "plural": "Crystals",
+    "description": "Naturally grown crystals.",
+    "icon": "crystal.png",
+    "price": 190,
+    "size": 1.5,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 30
+  },
+  {
+    "name": "Dairy",
+    "plural": "Dairy",
+    "description": "A tank full of dairy products, like yoghurt or butter.",
+    "icon": "udder.png",
+    "price": 19,
+    "size": 1,
+    "level": 3,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 31
+  },
+  {
+    "name": "Diamond",
+    "plural": "Diamonds",
+    "description": "A handful of diamonds. Useless unless you know where to sell them.",
+    "icon": "diamond.png",
+    "price": 750,
+    "size": 0.05,
+    "level": 0,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "consumer": true,
+      "industrial": true,
+      "technology": true
+    },
+    "id": 32
+  },
+  {
+    "name": "Display",
+    "plural": "Displays",
+    "description": "A touch display for computers.",
+    "icon": "checkbox-tree.png",
+    "price": 7858,
+    "size": 1,
+    "level": 6,
+    "importance": 5,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 33
+  },
+  {
+    "name": "Drill",
+    "plural": "Drills",
+    "description": "Mining drill, often used in asteroid mines.",
+    "icon": "drill.png",
+    "price": 20443,
+    "size": 20,
+    "level": 7,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 34
+  },
+  {
+    "name": "Drone",
+    "plural": "Drones",
+    "description": "Unmanned little ships for everyday purposes.",
+    "icon": "spoutnik.png",
+    "price": 7754,
+    "size": 10,
+    "level": 5,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 35
+  },
+  {
+    "name": "Electro Magnet",
+    "plural": "Electro Magnets",
+    "description": "High power multi-purpose electromagnets.",
+    "icon": "electro-magnet.png",
+    "price": 483,
+    "size": 0.75,
+    "level": 5,
+    "importance": 4,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 36
+  },
+  {
+    "name": "Electromagnetic Charge",
+    "plural": "Electromagnetic Charges",
+    "description": "One-time use charge that can set free a strong electromagnetic pulse.",
+    "icon": "electromagnetic-charge.png",
+    "price": 13985,
+    "size": 1,
+    "level": 6,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 37
+  },
+  {
+    "name": "Electron Accelerator",
+    "plural": "Electron Accelerators",
+    "description": "A device that accelerates electrons to near light speed.",
+    "icon": "electron-accelerator.png",
+    "price": 125431,
+    "size": 12,
+    "level": 8,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 38
+  },
+  {
+    "name": "Energy Cell",
+    "plural": "Energy Cells",
+    "description": "Small blue canisters with a high voltage charge inside them.",
+    "icon": "battery-pack-alt.png",
+    "price": 50,
+    "size": 1,
+    "level": 0,
+    "importance": 43,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 39
+  },
+  {
+    "name": "Energy Container",
+    "plural": "Energy Containers",
+    "description": "Bigger than energy cells, these devices can hold up to 1000x more energy.",
+    "icon": "electric.png",
+    "price": 1087,
+    "size": 4.5,
+    "level": 5,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 40
+  },
+  {
+    "name": "Energy Generator",
+    "plural": "Energy Generators",
+    "description": "A device that generates energy from an antimatter core.",
+    "icon": "energy-generator.png",
+    "price": 15957,
+    "size": 2,
+    "level": 6,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 41
+  },
+  {
+    "name": "Energy Inverter",
+    "plural": "Energy Inverters",
+    "description": "Converts electron flow into positron flow.",
+    "icon": "energy-inverter.png",
+    "price": 1277,
+    "size": 3,
+    "level": 6,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 42
+  },
+  {
+    "name": "Energy Tube",
+    "plural": "Energy Tubes",
+    "description": "Long tubes that are used to transport high amounts of energy.",
+    "icon": "energy-tube.png",
+    "price": 2895,
+    "size": 1.5,
+    "level": 5,
+    "importance": 7,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 43
+  },
+  {
+    "name": "Explosive Charge",
+    "plural": "Explosive Charges",
+    "description": "A military grade explosive.",
+    "icon": "explosive-charge.png",
+    "price": 1423,
+    "size": 1.5,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 44
+  },
+  {
+    "name": "Fabric",
+    "plural": "Fabric",
+    "description": "Raw fabric used for clothing or bandages.",
+    "icon": "fabric.png",
+    "price": 91,
+    "size": 1,
+    "level": 3,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true,
+      "technology": true
+    },
+    "id": 45
+  },
+  {
+    "name": "Fertilizer",
+    "plural": "Fertilizer",
+    "description": "A tank with fertilizer, important for more exotic plants.",
+    "icon": "fertilizer.png",
+    "price": 319,
+    "size": 1,
+    "level": 1,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "consumer": true,
+      "industrial": true
+    },
+    "id": 46
+  },
+  {
+    "name": "Fish",
+    "plural": "Fish",
+    "description": "A barrel full of fish.",
+    "icon": "fish.png",
+    "price": 152,
+    "size": 0.5,
+    "level": 2,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 47
+  },
+  {
+    "name": "Fluorine",
+    "plural": "Fluorine",
+    "description": "A pressure container filled with pure fluorine.",
+    "icon": "fluorine.png",
+    "price": 250,
+    "size": 1,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 48
+  },
+  {
+    "name": "Food",
+    "plural": "Food",
+    "description": "Healthy food packaged in one-man portions.",
+    "icon": "chicken-leg.png",
+    "price": 300,
+    "size": 0.5,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 49
+  },
+  {
+    "name": "Food Bar",
+    "plural": "Food Bars",
+    "description": "Bars of compressed food.",
+    "icon": "bar.png",
+    "price": 223,
+    "size": 0.5,
+    "level": 2,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 50
+  },
+  {
+    "name": "Force Generator",
+    "plural": "Force Generators",
+    "description": "A generator that creates a force field that pushes or pulls objects.",
+    "icon": "force-generator.png",
+    "price": 49576,
+    "size": 4,
+    "level": 7,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 51
+  },
+  {
+    "name": "Fruit",
+    "plural": "Fruits",
+    "description": "A specially engineered fruit, containing a wide range of important vitamins.",
+    "icon": "shiny-apple.png",
+    "price": 56,
+    "size": 0.5,
+    "level": 1,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 52
+  },
+  {
+    "name": "Fuel",
+    "plural": "Fuel",
+    "description": "A tank with fuel for vehicles or space ships.",
+    "icon": "fuel.png",
+    "price": 1232,
+    "size": 1,
+    "level": 2,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 53
+  },
+  {
+    "name": "Fungus",
+    "plural": "Fungi",
+    "description": "A container with fungus, used for making alcohol.",
+    "icon": "mushroom.png",
+    "price": 46,
+    "size": 1,
+    "level": 3,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 54
+  },
+  {
+    "name": "Fusion Core",
+    "plural": "Fusion Cores",
+    "description": "Highly advanced portable fusion generator.",
+    "icon": "fusion-core.png",
+    "price": 5114,
+    "size": 2.5,
+    "level": 6,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 55
+  },
+  {
+    "name": "Fusion Generator",
+    "plural": "Fusion Generators",
+    "description": "The bigger, better and more advanced variant of the fusion core.",
+    "icon": "fusion-generator.png",
+    "price": 39553,
+    "size": 2.5,
+    "level": 7,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 56
+  },
+  {
+    "name": "Gauss Rail",
+    "plural": "Gauss Rail",
+    "description": "A rail for immense acceleration of projectiles with magnetic fields.",
+    "icon": "gauss-rail.png",
+    "price": 7735,
+    "size": 2,
+    "level": 6,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true,
+      "technology": true
+    },
+    "id": 57
+  },
+  {
+    "name": "Gem",
+    "plural": "Gems",
+    "description": "A big gem. It's worth a lot, but you have to sell it first.",
+    "icon": "saphir.png",
+    "price": 400,
+    "size": 0.05,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 58
+  },
+  {
+    "name": "Glass",
+    "plural": "Glass",
+    "description": "A box containing several plates of glass.",
+    "icon": "metal-disc.png",
+    "price": 182,
+    "size": 1,
+    "level": 1,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 59
+  },
+  {
+    "name": "Gold",
+    "plural": "Gold",
+    "description": "A small box containing gold bars.",
+    "icon": "metal-bar.png",
+    "price": 600,
+    "size": 0.5,
+    "level": 0,
+    "importance": 8,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 60
+  },
+  {
+    "name": "Gun",
+    "plural": "Guns",
+    "description": "Hand guns. Used by robots and living beings.",
+    "icon": "bolter-gun.png",
+    "price": 1232,
+    "size": 0.5,
+    "level": 6,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 61
+  },
+  {
+    "name": "Helium",
+    "plural": "Helium",
+    "description": "A pressure container filled with pure helium gas.",
+    "icon": "helium.png",
+    "price": 50,
+    "size": 1,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 62
+  },
+  {
+    "name": "High Capacity Lens",
+    "plural": "High Capacity Lenses",
+    "description": "A focal lens designed for high capacity lasers.",
+    "icon": "high-capacity-lens.png",
+    "price": 4689,
+    "size": 1,
+    "level": 3,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 63
+  },
+  {
+    "name": "High Pressure Tube",
+    "plural": "High Pressure Tubes",
+    "description": "Tubes that can sustain extremely high pressure. Most commonly used in factories or weapons.",
+    "icon": "high-pressure-tube.png",
+    "price": 1650,
+    "size": 2,
+    "level": 5,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 64
+  },
+  {
+    "name": "Hydrogen",
+    "plural": "Hydrogen",
+    "description": "A pressure container filled with pure hydrogen.",
+    "icon": "hydrogen.png",
+    "price": 150,
+    "size": 1,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 65
+  },
+  {
+    "name": "Industrial Tesla Coil",
+    "plural": "Industrial Tesla Coils",
+    "description": "Tesla coil used for melting of metals in factories.",
+    "icon": "industrial-tesla-coil.png",
+    "price": 10314,
+    "size": 5.5,
+    "level": 7,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 66
+  },
+  {
+    "name": "Iron Ore",
+    "plural": "Iron Ore",
+    "description": "Iron ore that can be refined into Iron.",
+    "icon": "rock.png",
+    "price": 2,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 67
+  },
+  {
+    "name": "Jewelry",
+    "plural": "Jewelry",
+    "description": "Beautiful and very expensive jewelry.",
+    "icon": "gem-chain.png",
+    "price": 1260,
+    "size": 0.2,
+    "level": 1,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 68
+  },
+  {
+    "name": "Laser Compressor",
+    "plural": "Laser Compressors",
+    "description": "A device that can bundle energy and emit a laser beam.",
+    "icon": "laser-compressor.png",
+    "price": 6577,
+    "size": 1.5,
+    "level": 6,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 69
+  },
+  {
+    "name": "Laser Head",
+    "plural": "Laser Heads",
+    "description": "A device used to focus laser beams.",
+    "icon": "laser-head.png",
+    "price": 4690,
+    "size": 2,
+    "level": 5,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 70
+  },
+  {
+    "name": "Laser Modulator",
+    "plural": "Laser Modulators",
+    "description": "A device that changes various properties of lasers beams passing through it.",
+    "icon": "laser-modulator.png",
+    "price": 16742,
+    "size": 3,
+    "level": 6,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 71
+  },
+  {
+    "name": "Lead",
+    "plural": "Lead",
+    "description": "A medium sized crate filled with lead bars.",
+    "icon": "lead.png",
+    "price": 200,
+    "size": 1,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 72
+  },
+  {
+    "name": "Leather",
+    "plural": "Leather",
+    "description": "Treated leather, made from various animal hides.",
+    "icon": "animal-hide.png",
+    "price": 37,
+    "size": 0.5,
+    "level": 3,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 73
+  },
+  {
+    "name": "Liquor",
+    "plural": "Liquor",
+    "description": "A box of high quality liquor.",
+    "icon": "martini.png",
+    "price": 1867,
+    "size": 1.25,
+    "level": 2,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 74
+  },
+  {
+    "name": "Luxury Food",
+    "plural": "Luxury Food",
+    "description": "Luxurious food, made for the rich only.",
+    "icon": "luxury-food.png",
+    "price": 6452,
+    "size": 2.5,
+    "level": 6,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 75
+  },
+  {
+    "name": "Meat",
+    "plural": "Meat",
+    "description": "A box full of fresh meat.",
+    "icon": "meat.png",
+    "price": 37,
+    "size": 0.5,
+    "level": 3,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 76
+  },
+  {
+    "name": "Medical Supplies",
+    "plural": "Medical Supplies",
+    "description": "A box with everyday medical supplies containing bandages, antibiotics and germicides.",
+    "icon": "medical-supplies.png",
+    "price": 3006,
+    "size": 1,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true,
+      "technology": true
+    },
+    "chains": {
+      "consumer": true,
+      "technology": true
+    },
+    "id": 77
+  },
+  {
+    "name": "Metal Plate",
+    "plural": "Metal Plates",
+    "description": "Big metal plates used for building platings of vehicles or ships.",
+    "icon": "metal-scales.png",
+    "price": 792,
+    "size": 3,
+    "level": 4,
+    "importance": 5,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 78
+  },
+  {
+    "name": "Microchip",
+    "plural": "Microchips",
+    "description": "Microchips are the most basic parts of computers.",
+    "icon": "microchip.png",
+    "price": 896,
+    "size": 0.1,
+    "level": 5,
+    "importance": 7,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 79
+  },
+  {
+    "name": "Military Tesla Coil",
+    "plural": "Military Tesla Coils",
+    "description": "A repurposed tesla coil that can shoot directed high-intensity beams of electricity.",
+    "icon": "industrial-tesla-coil.png",
+    "price": 10314,
+    "size": 4.5,
+    "level": 7,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 80
+  },
+  {
+    "name": "Mineral",
+    "plural": "Minerals",
+    "description": "A canister full of mineral powder.",
+    "icon": "spices.png",
+    "price": 500,
+    "size": 1.5,
+    "level": 0,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 81
+  },
+  {
+    "name": "Mining Robot",
+    "plural": "Mining Robots",
+    "description": "A big robot used for mining in asteroid shafts where human beings would not survive.",
+    "icon": "robot-golem.png",
+    "price": 145977,
+    "size": 8,
+    "level": 9,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 82
+  },
+  {
+    "name": "Morn Drug",
+    "plural": "Morn Drugs",
+    "description": "An addictive drug that gives the user strong hallucinations.",
+    "icon": "powder.png",
+    "price": 5000,
+    "size": 0.1,
+    "level": null,
+    "importance": 0,
+    "illegal": true,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {},
+    "id": 83
+  },
+  {
+    "name": "Nanobot",
+    "plural": "Nanobots",
+    "description": "Tiny robots that are able to get into almost everything.",
+    "icon": "nanobots.png",
+    "price": 1338,
+    "size": 0.5,
+    "level": 5,
+    "importance": 4,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 84
+  },
+  {
+    "name": "Naonite Ore",
+    "plural": "Naonite Ore",
+    "description": "Naonite ore that can be refined into Naonite.",
+    "icon": "rock.png",
+    "price": 4,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 85
+  },
+  {
+    "name": "Neon",
+    "plural": "Neon",
+    "description": "A pressure container filled with pure neon.",
+    "icon": "neon.png",
+    "price": 200,
+    "size": 1,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 86
+  },
+  {
+    "name": "Neutron Accelerator",
+    "plural": "Neutron Accelerators",
+    "description": "A device that accelerates neutrons to near light speed.",
+    "icon": "neutron-accelerator.png",
+    "price": 125431,
+    "size": 15,
+    "level": 8,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 87
+  },
+  {
+    "name": "Nitrogen",
+    "plural": "Nitrogen",
+    "description": "A pressure container filled with pure nitrogen.",
+    "icon": "nitrogen.png",
+    "price": 40,
+    "size": 1,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 88
+  },
+  {
+    "name": "Ogonite Ore",
+    "plural": "Ogonite Ore",
+    "description": "Ogonite ore that can be refined into Ogonite.",
+    "icon": "rock.png",
+    "price": 9,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 89
+  },
+  {
+    "name": "Oil",
+    "plural": "Oil",
+    "description": "A barrel of refined oil.",
+    "icon": "oil-drum.png",
+    "price": 490,
+    "size": 1,
+    "level": 1,
+    "importance": 4,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 90
+  },
+  {
+    "name": "Ore",
+    "plural": "Ore",
+    "description": "Raw ore containing some kind of metal.",
+    "icon": "rock.png",
+    "price": 70,
+    "size": 2,
+    "level": 0,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 91
+  },
+  {
+    "name": "Oxygen",
+    "plural": "Oxygen",
+    "description": "A pressure container filled with pure oxygen.",
+    "icon": "oxygen.png",
+    "price": 80,
+    "size": 1,
+    "level": 0,
+    "importance": 6,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 92
+  },
+  {
+    "name": "Paint",
+    "plural": "Paint",
+    "description": "A container full of paint.",
+    "icon": "paint.png",
+    "price": 481,
+    "size": 1,
+    "level": 4,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true
+    },
+    "id": 93
+  },
+  {
+    "name": "Paper",
+    "plural": "Paper",
+    "description": "A big stash of paper.",
+    "icon": "papers.png",
+    "price": 46,
+    "size": 1,
+    "level": 2,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 94
+  },
+  {
+    "name": "Plankton",
+    "plural": "Plankton",
+    "description": "A tank full of live plankton.",
+    "icon": "turtle-shell.png",
+    "price": 50,
+    "size": 1,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true,
+      "industrial": true
+    },
+    "id": 95
+  },
+  {
+    "name": "Plant",
+    "plural": "Plants",
+    "description": "A container with soil and a wide range of green plants.",
+    "icon": "plant.png",
+    "price": 14,
+    "size": 1.5,
+    "level": 1,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 96
+  },
+  {
+    "name": "Plasma Cell",
+    "plural": "Plasma Cells",
+    "description": "A battery that can emit a short but strong pulse of energy.",
+    "icon": "plasma-cell.png",
+    "price": 174,
+    "size": 0.25,
+    "level": 4,
+    "importance": 8,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 97
+  },
+  {
+    "name": "Plastic",
+    "plural": "Plastic",
+    "description": "A container with plastic. This is melted when used.",
+    "icon": "cargo-hold.png",
+    "price": 137,
+    "size": 0.5,
+    "level": 2,
+    "importance": 9,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 98
+  },
+  {
+    "name": "Platinum",
+    "plural": "Platinum",
+    "description": "A small box containing platinum bars.",
+    "icon": "metal-bar.png",
+    "price": 750,
+    "size": 0.5,
+    "level": 0,
+    "importance": 7,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 99
+  },
+  {
+    "name": "Potato",
+    "plural": "Potatoes",
+    "description": "A container full of potatoes.",
+    "icon": "potato.png",
+    "price": 24,
+    "size": 1,
+    "level": 1,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 100
+  },
+  {
+    "name": "Power Unit",
+    "plural": "Power Units",
+    "description": "A big device that can create a huge amount of energy over a long period of time.",
+    "icon": "power-unit.png",
+    "price": 1211,
+    "size": 5,
+    "level": 5,
+    "importance": 8,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 101
+  },
+  {
+    "name": "Processor",
+    "plural": "Processors",
+    "description": "The heart of a computer or any device that does some kind of calulcation.",
+    "icon": "processor.png",
+    "price": 7858,
+    "size": 0.1,
+    "level": 6,
+    "importance": 8,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 102
+  },
+  {
+    "name": "Protein",
+    "plural": "Protein",
+    "description": "Protein for quickly restoring one's energy.",
+    "icon": "bar.png",
+    "price": 34,
+    "size": 0.1,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 103
+  },
+  {
+    "name": "Proton Accelerator",
+    "plural": "Proton Accelerators",
+    "description": "A device that accelerates protons to near light speed.",
+    "icon": "proton-accelerator.png",
+    "price": 125431,
+    "size": 15,
+    "level": 8,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 104
+  },
+  {
+    "name": "Raw Oil",
+    "plural": "Raw Oil",
+    "description": "A barrel of unrefined oil.",
+    "icon": "oil-drum.png",
+    "price": 150,
+    "size": 1,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 105
+  },
+  {
+    "name": "Rice",
+    "plural": "Rice",
+    "description": "A container full of rice.",
+    "icon": "powder.png",
+    "price": 15,
+    "size": 1,
+    "level": 1,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 106
+  },
+  {
+    "name": "Rocket",
+    "plural": "Rockets",
+    "description": "Ammunition for rocket launchers.",
+    "icon": "rocket.png",
+    "price": 11250,
+    "size": 4,
+    "level": 6,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 107
+  },
+  {
+    "name": "Rubber",
+    "plural": "Rubber",
+    "description": "A bouncing block of rubber.",
+    "icon": "cubes.png",
+    "price": 686,
+    "size": 1,
+    "level": 2,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true
+    },
+    "id": 108
+  },
+  {
+    "name": "Satellite",
+    "plural": "Satellites",
+    "description": "A satellite used for research or spying.",
+    "icon": "satellite.png",
+    "price": 65714,
+    "size": 15,
+    "level": 7,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 109
+  },
+  {
+    "name": "Scrap Avorion",
+    "plural": "Scrap Avorion",
+    "description": "Scrap Avorion that can be refined into Avorion.",
+    "icon": "rock.png",
+    "price": 24,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 110
+  },
+  {
+    "name": "Scrap Iron",
+    "plural": "Scrap Iron",
+    "description": "Scrap Iron that can be refined into Iron.",
+    "icon": "rock.png",
+    "price": 4,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 111
+  },
+  {
+    "name": "Scrap Metal",
+    "plural": "Scrap Metal",
+    "description": "A container full of metal junk.",
+    "icon": "scrap-metal.png",
+    "price": 25,
+    "size": 3,
+    "level": 0,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 112
+  },
+  {
+    "name": "Scrap Naonite",
+    "plural": "Scrap Naonite",
+    "description": "Scrap Naonite that can be refined into Naonite.",
+    "icon": "rock.png",
+    "price": 7,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 113
+  },
+  {
+    "name": "Scrap Ogonite",
+    "plural": "Scrap Ogonite",
+    "description": "Scrap Ogonite that can be refined into Ogonite.",
+    "icon": "rock.png",
+    "price": 18,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 114
+  },
+  {
+    "name": "Scrap Titanium",
+    "plural": "Scrap Titanium",
+    "description": "Scrap Titanium that can be refined into Titanium.",
+    "icon": "rock.png",
+    "price": 5,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 115
+  },
+  {
+    "name": "Scrap Trinium",
+    "plural": "Scrap Trinium",
+    "description": "Scrap Trinium that can be refined into Trinium.",
+    "icon": "rock.png",
+    "price": 10,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 116
+  },
+  {
+    "name": "Scrap Xanion",
+    "plural": "Scrap Xanion",
+    "description": "Scrap Xanion that can be refined into Xanion.",
+    "icon": "rock.png",
+    "price": 13,
+    "size": 0.04,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 117
+  },
+  {
+    "name": "Semi Conductor",
+    "plural": "Semi Conductors",
+    "description": "Used for building microchips and other sorts of electric things.",
+    "icon": "semi-conductor.png",
+    "price": 129,
+    "size": 0.1,
+    "level": 4,
+    "importance": 5,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 118
+  },
+  {
+    "name": "Servo",
+    "plural": "Servos",
+    "description": "Little multi-purpose machines that can be used in moving parts.",
+    "icon": "servo.png",
+    "price": 1387,
+    "size": 0.25,
+    "level": 5,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 119
+  },
+  {
+    "name": "Sheep",
+    "plural": "Sheep",
+    "description": "Sheep.",
+    "icon": "sheep.png",
+    "price": 130,
+    "size": 1,
+    "level": 2,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true,
+      "technology": true
+    },
+    "id": 120
+  },
+  {
+    "name": "Silicon",
+    "plural": "Silicon",
+    "description": "A box with shards of silicon.",
+    "icon": "silicium.png",
+    "price": 500,
+    "size": 1,
+    "level": 0,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 121
+  },
+  {
+    "name": "Silver",
+    "plural": "Silver",
+    "description": "A small box containing silver bars.",
+    "icon": "metal-bar.png",
+    "price": 300,
+    "size": 0.5,
+    "level": 0,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 122
+  },
+  {
+    "name": "Slave",
+    "plural": "Slaves",
+    "description": "An unfree life form forced to work for almost no food.",
+    "icon": "slave.png",
+    "price": 15000,
+    "size": 1,
+    "level": null,
+    "importance": 0,
+    "illegal": true,
+    "dangerous": false,
+    "tags": {},
+    "chains": {},
+    "id": 123
+  },
+  {
+    "name": "Solar Cell",
+    "plural": "Solar Cells",
+    "description": "Electric cells for generating energy from sunlight.",
+    "icon": "solar-cell.png",
+    "price": 469,
+    "size": 2,
+    "level": 1,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 124
+  },
+  {
+    "name": "Solar Panel",
+    "plural": "Solar Panels",
+    "description": "Solar panels that can generate electricity from sunlight.",
+    "icon": "satellite.png",
+    "price": 6858,
+    "size": 6,
+    "level": 5,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "technology": true
+    },
+    "id": 125
+  },
+  {
+    "name": "Solvent",
+    "plural": "Solvent",
+    "description": "A tank filled with a common industrial solvent, found all over the galaxy.",
+    "icon": "solvent.png",
+    "price": 402,
+    "size": 1,
+    "level": 3,
+    "importance": 2,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "consumer": true,
+      "industrial": true,
+      "military": true
+    },
+    "id": 126
+  },
+  {
+    "name": "Spices",
+    "plural": "Spices",
+    "description": "A box with various little bags of spices.",
+    "icon": "spices.png",
+    "price": 268,
+    "size": 0.3,
+    "level": 5,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 127
+  },
+  {
+    "name": "Steel",
+    "plural": "Steel",
+    "description": "Raw steel.",
+    "icon": "i-beam.png",
+    "price": 277,
+    "size": 1,
+    "level": 1,
+    "importance": 22,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 128
+  },
+  {
+    "name": "Steel Tube",
+    "plural": "Steel Tubes",
+    "description": "Long multi-purpose steel tubes.",
+    "icon": "steel-tube.png",
+    "price": 704,
+    "size": 3,
+    "level": 4,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 129
+  },
+  {
+    "name": "Targeting Card",
+    "plural": "Targeting Cards",
+    "description": "Multi-purpose chip with targeting software for missiles or turrets.",
+    "icon": "targeting-card.png",
+    "price": 11873,
+    "size": 0.5,
+    "level": 6,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 130
+  },
+  {
+    "name": "Targeting System",
+    "plural": "Targeting Systems",
+    "description": "Computer system that is able to track multiple targets.",
+    "icon": "targeting-system.png",
+    "price": 29674,
+    "size": 0.75,
+    "level": 8,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 131
+  },
+  {
+    "name": "Tea",
+    "plural": "Tea",
+    "description": "A bag of various dried teas.",
+    "icon": "tea.png",
+    "price": 37,
+    "size": 0.2,
+    "level": 1,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 132
+  },
+  {
+    "name": "Teleporter",
+    "plural": "Teleporters",
+    "description": "Short range one-man hyperspace teleporters.",
+    "icon": "teleport.png",
+    "price": 39365,
+    "size": 12,
+    "level": 8,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 133
+  },
+  {
+    "name": "Titanium Ore",
+    "plural": "Titanium Ore",
+    "description": "Titanium ore that can be refined into Titanium.",
+    "icon": "rock.png",
+    "price": 3,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 134
+  },
+  {
+    "name": "Tools",
+    "plural": "Tools",
+    "description": "A set of tools used by mechanics.",
+    "icon": "tools.png",
+    "price": 214,
+    "size": 0.4,
+    "level": 4,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 135
+  },
+  {
+    "name": "Toxic Waste",
+    "plural": "Toxic Waste",
+    "description": "A tank full of some glowing liquid. Highly toxic.",
+    "icon": "toxic-waste.png",
+    "price": 15,
+    "size": 4,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 136
+  },
+  {
+    "name": "Transformator",
+    "plural": "Transformators",
+    "description": "A small item for transforming all kinds of energy.",
+    "icon": "grenade.png",
+    "price": 209,
+    "size": 0.2,
+    "level": 4,
+    "importance": 11,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 137
+  },
+  {
+    "name": "Trinium Ore",
+    "plural": "Trinium Ore",
+    "description": "Trinium ore that can be refined into Trinium.",
+    "icon": "rock.png",
+    "price": 5,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 138
+  },
+  {
+    "name": "Turbine",
+    "plural": "Turbines",
+    "description": "Multi-purpose turbine.",
+    "icon": "turbine.png",
+    "price": 16729,
+    "size": 7.5,
+    "level": 6,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "technology": true
+    },
+    "id": 139
+  },
+  {
+    "name": "Vegetable",
+    "plural": "Vegetables",
+    "description": "A container with different sorts of vegetables.",
+    "icon": "vegetables.png",
+    "price": 32,
+    "size": 1,
+    "level": 1,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 140
+  },
+  {
+    "name": "Vehicle",
+    "plural": "Vehicles",
+    "description": "A vehicle used for planetary exploration missions.",
+    "icon": "apc.png",
+    "price": 77087,
+    "size": 25,
+    "level": 8,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true
+    },
+    "chains": {
+      "industrial": true
+    },
+    "id": 141
+  },
+  {
+    "name": "War Robot",
+    "plural": "War Robots",
+    "description": "A big robot that is highly armed and very deadly.",
+    "icon": "missile-mech.png",
+    "price": 92186,
+    "size": 8,
+    "level": 9,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 142
+  },
+  {
+    "name": "Warhead",
+    "plural": "Warheads",
+    "description": "Explosive heads for rockets.",
+    "icon": "warhead.png",
+    "price": 5630,
+    "size": 3,
+    "level": 5,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": true,
+    "tags": {
+      "military": true
+    },
+    "chains": {
+      "military": true
+    },
+    "id": 143
+  },
+  {
+    "name": "Water",
+    "plural": "Water",
+    "description": "A tank full of clear water.",
+    "icon": "water.png",
+    "price": 20,
+    "size": 0.35,
+    "level": 0,
+    "importance": 24,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 144
+  },
+  {
+    "name": "Wheat",
+    "plural": "Wheat",
+    "description": "A container full of wheat.",
+    "icon": "wheat.png",
+    "price": 23,
+    "size": 1,
+    "level": 1,
+    "importance": 9,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 145
+  },
+  {
+    "name": "Wine",
+    "plural": "Wine",
+    "description": "A box of wine.",
+    "icon": "wine-glass.png",
+    "price": 182,
+    "size": 0.5,
+    "level": 4,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 146
+  },
+  {
+    "name": "Wire",
+    "plural": "Wires",
+    "description": "Around 100 meters of thin wire.",
+    "icon": "wire.png",
+    "price": 95,
+    "size": 0.5,
+    "level": 4,
+    "importance": 6,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "industrial": true,
+      "technology": true
+    },
+    "chains": {
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 147
+  },
+  {
+    "name": "Wood",
+    "plural": "Wood",
+    "description": "A big block of compressed wood.",
+    "icon": "log.png",
+    "price": 350,
+    "size": 2.5,
+    "level": 1,
+    "importance": 1,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "consumer": true
+    },
+    "chains": {
+      "consumer": true
+    },
+    "id": 148
+  },
+  {
+    "name": "Xanion Ore",
+    "plural": "Xanion Ore",
+    "description": "Xanion ore that can be refined into Xanion.",
+    "icon": "rock.png",
+    "price": 7,
+    "size": 0.015,
+    "level": null,
+    "importance": 0,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {},
+    "id": 149
+  },
+  {
+    "name": "Zinc",
+    "plural": "Zinc",
+    "description": "A medium sized crate filled with zinc fragments.",
+    "icon": "zinc.png",
+    "price": 250,
+    "size": 1,
+    "level": 0,
+    "importance": 3,
+    "illegal": false,
+    "dangerous": false,
+    "tags": {
+      "basic": true
+    },
+    "chains": {
+      "basic": true,
+      "consumer": true,
+      "industrial": true,
+      "military": true,
+      "technology": true
+    },
+    "id": 150
+  }
+]

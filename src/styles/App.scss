@@ -63,17 +63,20 @@ body {
   max-width: 400px;
   flex-direction: column;
 
-  .factory-row {
-    background: grey;
-    cursor: pointer;
-    margin: 4px;
-    padding: 4px;
-    border: 1px solid transparent;
+  .MuiListItemText-root {
+    margin: 0;
   }
 
-  .factory-row:hover {
-    background: white;
-    border: 1px solid black;
+  .MuiListItem-root {
+    padding: 0;
+  }
+
+  .MuiListItem-gutters {
+    padding-left: 0;
+  }
+
+  .game-icon {
+    margin: 0;
   }
 
 }
@@ -134,5 +137,33 @@ body {
       margin-right: 50px;
     }
 
+  }
+}
+
+.game-icon {
+  border-radius: 4px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &.icon-size-sm {
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+  }
+
+  &.icon-size-med {
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+  }
+
+  &.icon-size-lg {
+    width: 64px;
+    height: 64px;
+    margin: 12px;
   }
 }

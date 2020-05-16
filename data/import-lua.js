@@ -113,6 +113,7 @@ function processGoodsLuaLine(line, index) {
     line = line.replace('nil,', 'null,');
 
     const data = JSON.parse(line);
+    data.icon = data.icon.split('\\').pop().split('/').pop();
     data.id = index;
     return data;
 }
