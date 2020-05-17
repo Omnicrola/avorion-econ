@@ -59,9 +59,11 @@ function transformFactory(data, index, goods) {
     factory.outputs = convertInputs(data.results, goods);
     factory.garbages = convertInputs(data.garbages, goods);
 
-    const {cost, upgradeCost} = getFactoryCosts(factory, goods);
+    const {cost, upgradeCost, inputTotal, outputTotal} = getFactoryCosts(factory, goods);
     factory.cost = cost;
     factory.upgradeCost = upgradeCost;
+    factory.inputCost = inputTotal;
+    factory.outputCost = outputTotal;
 
     return factory;
 }
@@ -93,7 +95,7 @@ function getFactoryCosts(factory, goods) {
     const cost = FACTORY_BASE_COST + (profitMargin * FACTORY_COST_MULTIPLER);
     const upgradeCost = profitMargin * FACTORY_UPGRADE_MULTIPLER; // should also be multiplied by size later
 
-    return {cost, upgradeCost};
+    return {cost, upgradeCost, inputTotal, outputTotal};
 }
 
 function findPriceForGood(input, goods) {

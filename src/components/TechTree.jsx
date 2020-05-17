@@ -2,6 +2,8 @@ import React from "react";
 import factories from '../data/factories.json';
 import {findTotalTechTreeBuildCost} from '../util/Calculator';
 import {Credits} from "./Credits";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 
 function findChildFactoriesFor(goodsToProduce) {
     const childFactories = [];
@@ -33,11 +35,15 @@ export function TechTree({factory, onSelect}) {
     const totalInvestment = findTotalTechTreeBuildCost(tree);
 
     return (
-        <div className="build-list">
-            <h2>Total Build Cost: <Credits amount={totalInvestment}/></h2>
-            <div className="list">
-                {tree.children.map((c, idx) => <TreeNode key={tree.id * idx} onSelect={onSelect} node={c} level={0}/>)}
-            </div>
-        </div>
+        <Card className="build-list">
+            <CardContent>
+                <h2>Complete Tech Tree</h2>
+                <h3>Total Build Cost: <Credits amount={totalInvestment}/></h3>
+                <div className="list">
+                    {tree.children.map((c, idx) => <TreeNode key={tree.id * idx} onSelect={onSelect} node={c}
+                                                             level={0}/>)}
+                </div>
+            </CardContent>
+        </Card>
     );
 }

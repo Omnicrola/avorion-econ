@@ -8,9 +8,9 @@ import {GameIcon} from "./GameIcon";
 
 const FactoryListItem = ({factory, selected, onClick}) => {
     return (
-        <ListItem button key={factory.id} selected onClick={() => onClick(factory)}>
+        <ListItem button key={factory.id} selected={selected} onClick={() => onClick(factory)}>
             <GameIcon size="sm"
-                      src={FactoryTypeIcons.factory}/>
+                      src={FactoryTypeIcons[factory.type.toLowerCase()]}/>
             <ListItemText primary={factory.name}/>
         </ListItem>
     );
@@ -30,18 +30,21 @@ export const FactoryList = ({onSelect}) => {
         return factoryName.toLowerCase().includes(filter);
     }
 
-    return (<div className="factory-list">
-        <Input type="text" className="search" placeholder="search..."
-               onChange={e => setFilter((e.target.value || '').toLowerCase())}/>
-        <List>
-            {factories
-                .filter(f => filterList(f.name))
-                .sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase())
-                .map((f, index) => <FactoryListItem
-                    key={f.id}
-                    factory={f}
-                    selected={index === selectedId}
-                    onClick={onClickItem}/>)}
-        </List>
-    </div>);
+    return (
+        <div className="factory-list">
+            <h2>Factories</h2>
+            <Input type="text" className="search" placeholder="search..."
+                   onChange={e => setFilter((e.target.value || '').toLowerCase())}/>
+            <List className="list-container">
+                {factories
+                    .filter(f => filterList(f.name))
+                    .sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase())
+                    .map((f, index) => <FactoryListItem
+                        key={f.id}
+                        factory={f}
+                        selected={index === selectedId}
+                        onClick={onClickItem}/>)}
+            </List>
+        </div>
+    );
 }

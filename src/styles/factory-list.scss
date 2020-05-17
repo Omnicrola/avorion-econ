@@ -1,0 +1,31 @@
+.factory-list {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  padding-right: 20px;
+  border-right: 2px solid lightgrey;
+
+  .list-container {
+    height: 70vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+  }
+
+  .MuiListItemText-root {
+    margin: 0;
+  }
+
+  .MuiListItem-root {
+    padding: 0;
+  }
+
+  .MuiListItem-gutters {
+    padding-left: 0;
+  }
+
+  .game-icon {
+    margin: 0;
+  }
+
+}

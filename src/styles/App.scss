@@ -4,8 +4,26 @@ body {
   background-attachment: fixed;
 }
 
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
 .app {
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@import './tech-tree';
+@import './factory-list';
+@import './factory';
+@import './game-icon';
 
 .title {
   color: white;
@@ -17,153 +35,18 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 1100px;
-  margin: 50px auto auto;
+  margin: 40px auto auto;
   background: white;
   padding: 20px;
   border-radius: 10px;
 }
 
-.tech-tree {
-  flex-grow: 1;
-  margin: 0 40px;
-
-  .build-list {
-    * {
-      margin-top: 8px;
-    }
-
-    .indent-0 {
-      margin: 0
-    }
-
-    .indent-1 {
-      margin-left: 2em
-    }
-
-    .indent-2 {
-      margin-left: 4em
-    }
-
-    .indent-3 {
-      margin-left: 6em
-    }
-
-    .indent-4 {
-      margin-left: 8em
-    }
-
-    .indent-5 {
-      margin-left: 16em
-    }
-  }
-}
-
-.factory-list {
+.footer {
+  max-width: 1100px;
+  margin: 10px auto auto;
+  background: white;
+  padding: 20px;
+  border-Radius: 10px;
   display: flex;
-  max-width: 400px;
-  flex-direction: column;
-
-  .MuiListItemText-root {
-    margin: 0;
-  }
-
-  .MuiListItem-root {
-    padding: 0;
-  }
-
-  .MuiListItem-gutters {
-    padding-left: 0;
-  }
-
-  .game-icon {
-    margin: 0;
-  }
-
-}
-
-.factory {
-  width: auto;
-  flex: 3;
-  flex-grow: 1;
-
-
-  .name {
-    font-size: 1.1em;
-    font-weight: bold;
-  }
-
-  .wrapper {
-    display: flex;
-    justify-content: space-between;
-
-    .icon {
-      width: 32px;
-      height: 32px;
-    }
-  }
-
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-
-    .label {
-      font-weight: bold;
-    }
-  }
-
-  .production {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-
-    h4 {
-      font-size: 1.1em;
-      margin-bottom: 20px;
-    }
-
-    .resource {
-      margin-left: 10px;
-    }
-
-    .divider {
-      margin: 0 20px;
-      padding-top: 50px;
-      font-size: 2em;
-      font-weight: bolder;
-    }
-
-    .inputs {
-      margin-right: 50px;
-    }
-
-  }
-}
-
-.game-icon {
-  border-radius: 4px;
-  overflow: hidden;
-
-  img {
-    width: 100%;
-    height: 100%;
-  }
-
-  &.icon-size-sm {
-    width: 16px;
-    height: 16px;
-    margin: 4px;
-  }
-
-  &.icon-size-med {
-    width: 32px;
-    height: 32px;
-    margin: 8px;
-  }
-
-  &.icon-size-lg {
-    width: 64px;
-    height: 64px;
-    margin: 12px;
-  }
+  justify-content: space-around
 }
