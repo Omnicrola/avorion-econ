@@ -4,6 +4,8 @@ import {findTotalTechTreeBuildCost} from '../util/Calculator';
 import {Credits} from "./Credits";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
+import {GameIcon} from "./GameIcon";
+import {FactoryTypeIcons} from "../constants/FactoryTypeIcons";
 
 function findChildFactoriesFor(goodsToProduce) {
     const childFactories = [];
@@ -19,7 +21,7 @@ function findChildFactoriesFor(goodsToProduce) {
 function TreeNode({node, onSelect, level = 0}) {
     return (
         <React.Fragment>
-            <div className={'indent-' + level} onClick={() => onSelect(node)}>&#x2514; {node.name}</div>
+            <div className={'tree-node indent-' + level} onClick={() => onSelect(node)}>&#x2514;<GameIcon size="sm" src={FactoryTypeIcons[node.type.toLowerCase()]}/> {node.name}</div>
             {node.children.map((c, idx) => <TreeNode key={node.id * idx}
                                                      node={c}
                                                      level={level + 1}

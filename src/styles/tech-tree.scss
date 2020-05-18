@@ -5,8 +5,9 @@
   .build-list {
     margin-top: 20px;
 
-    * {
+    .tree-node {
       margin-top: 8px;
+      display: flex;
     }
 
     .indent-0 {
