@@ -35,7 +35,7 @@ export function Factory({factory}) {
 
         <Card className="production">
             <CardContent>
-                <h3 class>Production</h3>
+                <h3>Production</h3>
                 <div className="input-output">
                     <div className="inputs">
                         <h4>Inputs</h4>

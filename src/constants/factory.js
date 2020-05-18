@@ -1,0 +1,12 @@
+export const UNKNOWN_FACTORY = {
+    id: -1,
+    name: "No known factory",
+    type: "Factory",
+    inputs: [],
+    outputs: [],
+    garbages: [],
+    cost: 0,
+    upgradeCost: 0,
+    inputCost: 0,
+    outputCost: 0
+};

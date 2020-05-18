@@ -1,1 +1,4878 @@
-[{"id":1,"name":"Silicon Mine","type":"Mine","inputs":[],"outputs":[{"name":"Silicon","amount":4,"id":121}],"garbages":[],"cost":12000000,"upgradeCost":2000000,"inputCost":0,"outputCost":2000},{"id":2,"name":"Gas Collector","type":"Collector","inputs":[],"outputs":[{"name":"Helium","amount":3,"id":62},{"name":"Hydrogen","amount":3,"id":65},{"name":"Neon","amount":3,"id":86},{"name":"Chlorine","amount":3,"id":20}],"garbages":[],"cost":10425000,"upgradeCost":1650000,"inputCost":0,"outputCost":1650},{"id":3,"name":"Gas Collector","type":"Collector","inputs":[],"outputs":[{"name":"Helium","amount":3,"id":62},{"name":"Nitrogen","amount":3,"id":88},{"name":"Neon","amount":3,"id":86},{"name":"Chlorine","amount":3,"id":20},{"name":"Fluorine","amount":3,"id":48}],"garbages":[],"cost":12315000,"upgradeCost":2070000,"inputCost":0,"outputCost":2070},{"id":4,"name":"Gas Collector","type":"Collector","inputs":[],"outputs":[{"name":"Oxygen","amount":8,"id":92},{"name":"Hydrogen","amount":8,"id":65},{"name":"Nitrogen","amount":8,"id":88}],"garbages":[],"cost":12720000,"upgradeCost":2160000,"inputCost":0,"outputCost":2160},{"id":5,"name":"Gas Collector","type":"Collector","inputs":[],"outputs":[{"name":"Helium","amount":3,"id":62},{"name":"Hydrogen","amount":3,"id":65},{"name":"Chlorine","amount":3,"id":20},{"name":"Fluorine","amount":3,"id":48}],"garbages":[],"cost":11100000,"upgradeCost":1800000,"inputCost":0,"outputCost":1800},{"id":6,"name":"Ore Mine","type":"Mine","inputs":[],"outputs":[{"name":"Ore","amount":30,"id":91}],"garbages":[],"cost":12450000,"upgradeCost":2100000,"inputCost":0,"outputCost":2100},{"id":7,"name":"Coal Mine","type":"Mine","inputs":[],"outputs":[{"name":"Coal","amount":4,"id":22}],"garbages":[],"cost":6600000,"upgradeCost":800000,"inputCost":0,"outputCost":800},{"id":8,"name":"Oil Rig","type":"Mine","inputs":[],"outputs":[{"name":"Raw Oil","amount":5,"id":105}],"garbages":[],"cost":6375000,"upgradeCost":750000,"inputCost":0,"outputCost":750},{"id":9,"name":"Crystal Farm","type":"Factory","inputs":[],"outputs":[{"name":"Crystal","amount":10,"id":30}],"garbages":[],"cost":11550000,"upgradeCost":1900000,"inputCost":0,"outputCost":1900},{"id":10,"name":"Mineral Extractor","type":"Factory","inputs":[],"outputs":[{"name":"Mineral","amount":4,"id":81}],"garbages":[],"cost":12000000,"upgradeCost":2000000,"inputCost":0,"outputCost":2000},{"id":11,"name":"Scrap Metal Trader","type":"Factory","inputs":[],"outputs":[{"name":"Scrap Metal","amount":60,"id":112}],"garbages":[],"cost":9750000,"upgradeCost":1500000,"inputCost":0,"outputCost":1500},{"id":12,"name":"Oil Refinery","type":"Factory","inputs":[{"name":"Energy Cell","amount":5,"optional":0,"id":39},{"name":"Raw Oil","amount":10,"optional":0,"id":105}],"outputs":[{"name":"Oil","amount":5,"id":90}],"garbages":[],"cost":6150000,"upgradeCost":700000,"inputCost":1750,"outputCost":2450},{"id":13,"name":"Noble Metal Mine","type":"Mine","inputs":[],"outputs":[{"name":"Gold","amount":1,"id":60},{"name":"Platinum","amount":1,"id":99}],"garbages":[],"cost":9075000,"upgradeCost":1350000,"inputCost":0,"outputCost":1350},{"id":14,"name":"Noble Metal Mine","type":"Mine","inputs":[],"outputs":[{"name":"Silver","amount":1,"id":122},{"name":"Platinum","amount":1,"id":99}],"garbages":[],"cost":7725000,"upgradeCost":1050000,"inputCost":0,"outputCost":1050},{"id":15,"name":"Noble Metal Mine","type":"Mine","inputs":[],"outputs":[{"name":"Silver","amount":1,"id":122},{"name":"Gold","amount":1,"id":60}],"garbages":[],"cost":7050000,"upgradeCost":900000,"inputCost":0,"outputCost":900},{"id":16,"name":"Zinc Mine","type":"Mine","inputs":[],"outputs":[{"name":"Zinc","amount":10,"id":150}],"garbages":[],"cost":14250000,"upgradeCost":2500000,"inputCost":0,"outputCost":2500},{"id":17,"name":"Copper Mine","type":"Mine","inputs":[],"outputs":[{"name":"Copper","amount":5,"id":28}],"garbages":[],"cost":10875000,"upgradeCost":1750000,"inputCost":0,"outputCost":1750},{"id":18,"name":"Lead Mine","type":"Mine","inputs":[],"outputs":[{"name":"Lead","amount":10,"id":72}],"garbages":[],"cost":12000000,"upgradeCost":2000000,"inputCost":0,"outputCost":2000},{"id":19,"name":"Aluminum Mine","type":"Mine","inputs":[],"outputs":[{"name":"Aluminum","amount":10,"id":5}],"garbages":[],"cost":12000000,"upgradeCost":2000000,"inputCost":0,"outputCost":2000},{"id":20,"name":"Ice Mine","type":"Mine","inputs":[],"outputs":[{"name":"Water","amount":75,"id":144}],"garbages":[],"cost":9750000,"upgradeCost":1500000,"inputCost":0,"outputCost":1500},{"id":21,"name":"Solar Power Plant","type":"SolarPowerPlant","inputs":[],"outputs":[{"name":"Energy Cell","amount":25,"id":39}],"garbages":[],"cost":8625000,"upgradeCost":1250000,"inputCost":0,"outputCost":1250},{"id":22,"name":"Carbon Extractor","type":"Factory","inputs":[{"name":"Corn","amount":52,"optional":0,"id":29}],"outputs":[{"name":"Carbon","amount":5,"id":17}],"garbages":[],"cost":5965500,"upgradeCost":659000,"inputCost":1456,"outputCost":2115},{"id":23,"name":"Carbon Extractor","type":"Factory","inputs":[{"name":"Rice","amount":95,"optional":0,"id":106}],"outputs":[{"name":"Carbon","amount":5,"id":17}],"garbages":[],"cost":6105000,"upgradeCost":690000,"inputCost":1425,"outputCost":2115},{"id":24,"name":"Carbon Extractor","type":"Factory","inputs":[{"name":"Wheat","amount":64,"optional":0,"id":145}],"outputs":[{"name":"Carbon","amount":5,"id":17}],"garbages":[],"cost":5893500,"upgradeCost":643000,"inputCost":1472,"outputCost":2115},{"id":25,"name":"Carbon Extractor","type":"Factory","inputs":[{"name":"Potato","amount":63,"optional":0,"id":100}],"outputs":[{"name":"Carbon","amount":5,"id":17}],"garbages":[],"cost":5713500,"upgradeCost":603000,"inputCost":1512,"outputCost":2115},{"id":26,"name":"Electro Magnet Factory","type":"Factory","inputs":[{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Copper","amount":1,"optional":0,"id":28},{"name":"Conductor","amount":2,"optional":0,"id":26},{"name":"Transformator","amount":2,"optional":0,"id":137}],"outputs":[{"name":"Electro Magnet","amount":4,"id":36}],"garbages":[],"cost":5479500,"upgradeCost":551000,"inputCost":1381,"outputCost":1932},{"id":27,"name":"Energy Inverter Factory","type":"Factory","inputs":[{"name":"Energy Tube","amount":1,"optional":0,"id":43},{"name":"Conductor","amount":2,"optional":0,"id":26},{"name":"Transformator","amount":2,"optional":0,"id":137}],"outputs":[{"name":"Energy Inverter","amount":4,"id":42}],"garbages":[],"cost":9565500,"upgradeCost":1459000,"inputCost":3649,"outputCost":5108},{"id":28,"name":"Servo Factory","type":"Factory","inputs":[{"name":"Steel","amount":4,"optional":0,"id":128},{"name":"Aluminum","amount":2,"optional":0,"id":5},{"name":"Conductor","amount":2,"optional":0,"id":26},{"name":"Plastic","amount":1,"optional":0,"id":98}],"outputs":[{"name":"Servo","amount":2,"id":119}],"garbages":[],"cost":6568500,"upgradeCost":793000,"inputCost":1981,"outputCost":2774},{"id":29,"name":"Steel Tube Factory","type":"Factory","inputs":[{"name":"Steel","amount":4,"optional":0,"id":128},{"name":"Aluminum","amount":2,"optional":0,"id":5}],"outputs":[{"name":"Steel Tube","amount":3,"id":129}],"garbages":[],"cost":5718000,"upgradeCost":604000,"inputCost":1508,"outputCost":2112},{"id":30,"name":"Rubber Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Oil","amount":3,"optional":0,"id":90}],"outputs":[{"name":"Rubber","amount":3,"id":108}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136},{"name":"Acid","amount":1,"id":2}],"cost":5421000,"upgradeCost":538000,"inputCost":1520,"outputCost":2058},{"id":31,"name":"Conductor Factory","type":"Factory","inputs":[{"name":"Zinc","amount":2,"optional":0,"id":150},{"name":"Steel","amount":2,"optional":0,"id":128},{"name":"Platinum","amount":1,"optional":0,"id":99},{"name":"Gold","amount":1,"optional":0,"id":60},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Conductor","amount":20,"id":26}],"garbages":[],"cost":7077000,"upgradeCost":906000,"inputCost":2454,"outputCost":3360},{"id":32,"name":"Transformator Factory","type":"Factory","inputs":[{"name":"Steel","amount":2,"optional":0,"id":128},{"name":"Plastic","amount":1,"optional":0,"id":98},{"name":"Silicon","amount":1,"optional":0,"id":121},{"name":"Silver","amount":1,"optional":0,"id":122},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Transformator","amount":10,"id":137}],"garbages":[],"cost":5470500,"upgradeCost":549000,"inputCost":1541,"outputCost":2090},{"id":33,"name":"Plastic Manufacturer","type":"Factory","inputs":[{"name":"Oil","amount":3,"optional":0,"id":90},{"name":"Energy Cell","amount":3,"optional":1,"id":39}],"outputs":[{"name":"Plastic","amount":15,"id":98}],"garbages":[],"cost":4957500,"upgradeCost":435000,"inputCost":1620,"outputCost":2055},{"id":34,"name":"Solar Cell Factory","type":"Factory","inputs":[{"name":"Zinc","amount":1,"optional":0,"id":150},{"name":"Silicon","amount":2,"optional":0,"id":121},{"name":"Platinum","amount":2,"optional":0,"id":99},{"name":"Gold","amount":1,"optional":0,"id":60},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Solar Cell","amount":10,"id":124}],"garbages":[],"cost":8805000,"upgradeCost":1290000,"inputCost":3400,"outputCost":4690},{"id":35,"name":"Tools Factory","type":"Factory","inputs":[{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Platinum","amount":1,"optional":0,"id":99},{"name":"Silver","amount":1,"optional":0,"id":122},{"name":"Aluminum","amount":1,"optional":0,"id":5},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Tools","amount":10,"id":135}],"garbages":[],"cost":5533500,"upgradeCost":563000,"inputCost":1577,"outputCost":2140},{"id":36,"name":"Semi Conductor Manufacturer","type":"Factory","inputs":[{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Silicon","amount":1,"optional":0,"id":121},{"name":"Gold","amount":1,"optional":0,"id":60},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Semi Conductor","amount":15,"id":118}],"garbages":[],"cost":5286000,"upgradeCost":508000,"inputCost":1427,"outputCost":1935},{"id":37,"name":"Microchip Factory","type":"Factory","inputs":[{"name":"Wire","amount":4,"optional":0,"id":147},{"name":"Semi Conductor","amount":12,"optional":0,"id":118},{"name":"Energy Cell","amount":4,"optional":1,"id":39}],"outputs":[{"name":"Microchip","amount":3,"id":79}],"garbages":[],"cost":5520000,"upgradeCost":560000,"inputCost":2128,"outputCost":2688},{"id":38,"name":"Energy Tube Factory","type":"Factory","inputs":[{"name":"Plastic","amount":1,"optional":0,"id":98},{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Platinum","amount":1,"optional":0,"id":99},{"name":"Neon","amount":1,"optional":0,"id":86},{"name":"Steel Tube","amount":1,"optional":0,"id":129},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Energy Tube","amount":1,"id":43}],"garbages":[],"cost":6496500,"upgradeCost":777000,"inputCost":2118,"outputCost":2895},{"id":39,"name":"Steel Factory","type":"Factory","inputs":[{"name":"Ore","amount":8,"optional":0,"id":91},{"name":"Coal","amount":3,"optional":0,"id":22},{"name":"Carbon","amount":1,"optional":0,"id":17}],"outputs":[{"name":"Steel","amount":8,"id":128}],"garbages":[],"cost":5848500,"upgradeCost":633000,"inputCost":1583,"outputCost":2216},{"id":40,"name":"Steel Factory","type":"Factory","inputs":[{"name":"Scrap Metal","amount":12,"optional":0,"id":112},{"name":"Coal","amount":4,"optional":0,"id":22}],"outputs":[{"name":"Steel","amount":6,"id":128}],"garbages":[],"cost":5529000,"upgradeCost":562000,"inputCost":1100,"outputCost":1662},{"id":41,"name":"Plasma Cell Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":10,"optional":0,"id":39},{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Bio Gas","amount":1,"optional":0,"id":14},{"name":"Neon","amount":1,"optional":0,"id":86},{"name":"Helium","amount":1,"optional":0,"id":62}],"outputs":[{"name":"Plasma Cell","amount":10,"id":97}],"garbages":[],"cost":5250000,"upgradeCost":500000,"inputCost":1240,"outputCost":1740},{"id":42,"name":"Fuel Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":2,"optional":0,"id":39},{"name":"Oil","amount":1,"optional":0,"id":90},{"name":"Nitrogen","amount":1,"optional":0,"id":88},{"name":"Fluorine","amount":1,"optional":0,"id":48}],"outputs":[{"name":"Fuel","amount":1,"id":53}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":4584000,"upgradeCost":352000,"inputCost":880,"outputCost":1232},{"id":43,"name":"Glass Manufacturer","type":"Factory","inputs":[{"name":"Ore","amount":4,"optional":0,"id":91},{"name":"Crystal","amount":4,"optional":0,"id":30}],"outputs":[{"name":"Glass","amount":8,"id":59}],"garbages":[],"cost":4872000,"upgradeCost":416000,"inputCost":1040,"outputCost":1456},{"id":44,"name":"Chemical Factory","type":"Factory","inputs":[{"name":"Water","amount":5,"optional":0,"id":144},{"name":"Nitrogen","amount":5,"optional":0,"id":88},{"name":"Hydrogen","amount":5,"optional":0,"id":65},{"name":"Oxygen","amount":5,"optional":0,"id":92},{"name":"Bio Gas","amount":1,"optional":0,"id":14},{"name":"Carbon","amount":1,"optional":0,"id":17},{"name":"Energy Cell","amount":10,"optional":0,"id":39}],"outputs":[{"name":"Chemicals","amount":2,"id":19},{"name":"Adhesive","amount":1,"id":4},{"name":"Coolant","amount":2,"id":27},{"name":"Solvent","amount":2,"id":126},{"name":"Acid","amount":2,"id":2}],"garbages":[],"cost":7644000,"upgradeCost":1032000,"inputCost":2586,"outputCost":3618},{"id":45,"name":"Wire Manufacturer","type":"Factory","inputs":[{"name":"Plastic","amount":1,"optional":0,"id":98},{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Gold","amount":1,"optional":0,"id":60}],"outputs":[{"name":"Wire","amount":15,"id":147}],"garbages":[],"cost":4849500,"upgradeCost":411000,"inputCost":1014,"outputCost":1425},{"id":46,"name":"Metal Plate Factory","type":"Factory","inputs":[{"name":"Steel","amount":3,"optional":0,"id":128},{"name":"Silver","amount":1,"optional":0,"id":122}],"outputs":[{"name":"Metal Plate","amount":2,"id":78}],"garbages":[],"cost":5038500,"upgradeCost":453000,"inputCost":1131,"outputCost":1584},{"id":47,"name":"Paint Manufacturer","type":"Factory","inputs":[{"name":"Oil","amount":1,"optional":0,"id":90},{"name":"Water","amount":1,"optional":0,"id":144},{"name":"Chemicals","amount":1,"optional":0,"id":19},{"name":"Solvent","amount":1,"optional":0,"id":126},{"name":"Acid","amount":1,"optional":0,"id":2}],"outputs":[{"name":"Paint","amount":5,"id":93}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":6100500,"upgradeCost":689000,"inputCost":1716,"outputCost":2405},{"id":48,"name":"Fertilizer Factory","type":"Factory","inputs":[{"name":"Chemicals","amount":2,"optional":0,"id":19},{"name":"Mineral","amount":3,"optional":0,"id":81},{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Solvent","amount":1,"optional":1,"id":126}],"outputs":[{"name":"Fertilizer","amount":11,"id":46}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":6388500,"upgradeCost":753000,"inputCost":2756,"outputCost":3509},{"id":49,"name":"Fertilizer Factory","type":"Factory","inputs":[{"name":"Plankton","amount":1,"optional":0,"id":95},{"name":"Mineral","amount":4,"optional":0,"id":81},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Fertilizer","amount":9,"id":46}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":6469500,"upgradeCost":771000,"inputCost":2100,"outputCost":2871},{"id":50,"name":"Explosive Charge Factory","type":"Factory","inputs":[{"name":"Fluorine","amount":4,"optional":0,"id":48},{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Energy Cell","amount":2,"optional":0,"id":39},{"name":"Plastic","amount":2,"optional":0,"id":98},{"name":"Chemicals","amount":2,"optional":0,"id":19},{"name":"Acid","amount":2,"optional":0,"id":2},{"name":"Adhesive","amount":2,"optional":0,"id":4}],"outputs":[{"name":"Explosive Charge","amount":4,"id":44}],"garbages":[],"cost":10330500,"upgradeCost":1629000,"inputCost":4063,"outputCost":5692},{"id":51,"name":"Fusion Core Factory","type":"Factory","inputs":[{"name":"Hydrogen","amount":1,"optional":0,"id":65},{"name":"Gold","amount":1,"optional":0,"id":60},{"name":"Plasma Cell","amount":2,"optional":0,"id":97},{"name":"Transformator","amount":2,"optional":0,"id":137},{"name":"Energy Tube","amount":2,"optional":0,"id":43}],"outputs":[{"name":"Fusion Core","amount":2,"id":55}],"garbages":[],"cost":16149000,"upgradeCost":2922000,"inputCost":7306,"outputCost":10228},{"id":52,"name":"High Pressure Tube Factory","type":"Factory","inputs":[{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Aluminum","amount":1,"optional":0,"id":5},{"name":"Carbon","amount":2,"optional":0,"id":17},{"name":"Adhesive","amount":2,"optional":0,"id":4},{"name":"Steel Tube","amount":2,"optional":0,"id":129}],"outputs":[{"name":"High Pressure Tube","amount":3,"id":64}],"garbages":[],"cost":9367500,"upgradeCost":1415000,"inputCost":3535,"outputCost":4950},{"id":53,"name":"Targeting Card Factory","type":"Factory","inputs":[{"name":"Microchip","amount":1,"optional":0,"id":79},{"name":"Copper","amount":1,"optional":0,"id":28},{"name":"Processor","amount":2,"optional":0,"id":102}],"outputs":[{"name":"Targeting Card","amount":2,"id":130}],"garbages":[],"cost":33528000,"upgradeCost":6784000,"inputCost":16962,"outputCost":23746},{"id":54,"name":"Electromagnetic Charge Factory","type":"Factory","inputs":[{"name":"Energy Container","amount":10,"optional":0,"id":40},{"name":"Electro Magnet","amount":6,"optional":0,"id":36},{"name":"Energy Tube","amount":2,"optional":0,"id":43},{"name":"Transformator","amount":2,"optional":0,"id":137}],"outputs":[{"name":"Electromagnetic Charge","amount":2,"id":37}],"garbages":[],"cost":38973000,"upgradeCost":7994000,"inputCost":19976,"outputCost":27970},{"id":55,"name":"Gauss Rail Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":10,"optional":0,"id":39},{"name":"Electro Magnet","amount":6,"optional":0,"id":36},{"name":"Energy Tube","amount":2,"optional":0,"id":43},{"name":"High Pressure Tube","amount":1,"optional":0,"id":64},{"name":"Transformator","amount":1,"optional":0,"id":137}],"outputs":[{"name":"Gauss Rail","amount":2,"id":57}],"garbages":[],"cost":22903500,"upgradeCost":4423000,"inputCost":11047,"outputCost":15470},{"id":56,"name":"Energy Generator Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":15,"optional":0,"id":39},{"name":"Microchip","amount":10,"optional":0,"id":79},{"name":"Conductor","amount":10,"optional":0,"id":26}],"outputs":[{"name":"Energy Generator","amount":1,"id":41}],"garbages":[],"cost":23551500,"upgradeCost":4567000,"inputCost":11390,"outputCost":15957},{"id":57,"name":"Display Factory","type":"Factory","inputs":[{"name":"Glass","amount":1,"optional":0,"id":59},{"name":"Microchip","amount":5,"optional":0,"id":79},{"name":"Semi Conductor","amount":3,"optional":0,"id":118},{"name":"Plasma Cell","amount":1,"optional":0,"id":97}],"outputs":[{"name":"Display","amount":1,"id":33}],"garbages":[],"cost":14857500,"upgradeCost":2635000,"inputCost":5223,"outputCost":7858},{"id":58,"name":"Processor Factory","type":"Factory","inputs":[{"name":"Microchip","amount":7,"optional":0,"id":79},{"name":"Semi Conductor","amount":5,"optional":0,"id":118},{"name":"Copper","amount":5,"optional":0,"id":28},{"name":"Platinum","amount":5,"optional":0,"id":99},{"name":"Gold","amount":5,"optional":0,"id":60}],"outputs":[{"name":"Processor","amount":3,"id":102}],"garbages":[],"cost":39706500,"upgradeCost":8157000,"inputCost":15417,"outputCost":23574},{"id":59,"name":"Computer Component Factory","type":"Factory","inputs":[{"name":"Wire","amount":15,"optional":0,"id":147},{"name":"Microchip","amount":7,"optional":0,"id":79},{"name":"Semi Conductor","amount":5,"optional":0,"id":118},{"name":"Copper","amount":5,"optional":0,"id":28},{"name":"Platinum","amount":5,"optional":0,"id":99},{"name":"Gold","amount":5,"optional":0,"id":60}],"outputs":[{"name":"Display","amount":1,"id":33},{"name":"Targeting Card","amount":1,"id":130},{"name":"Processor","amount":1,"id":102}],"garbages":[],"cost":51361500,"upgradeCost":10747000,"inputCost":16842,"outputCost":27589},{"id":60,"name":"Nanobot Factory","type":"Factory","inputs":[{"name":"Crystal","amount":15,"optional":0,"id":30},{"name":"Semi Conductor","amount":15,"optional":0,"id":118}],"outputs":[{"name":"Nanobot","amount":5,"id":84}],"garbages":[],"cost":11572500,"upgradeCost":1905000,"inputCost":4785,"outputCost":6690},{"id":61,"name":"Laser Compressor Factory","type":"Factory","inputs":[{"name":"Plasma Cell","amount":1,"optional":0,"id":97},{"name":"Transformator","amount":1,"optional":0,"id":137},{"name":"Energy Tube","amount":1,"optional":0,"id":43},{"name":"Wire","amount":15,"optional":0,"id":147}],"outputs":[{"name":"Laser Compressor","amount":1,"id":69}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":11433000,"upgradeCost":1874000,"inputCost":4703,"outputCost":6577},{"id":62,"name":"Laser Head Factory","type":"Factory","inputs":[{"name":"Glass","amount":1,"optional":0,"id":59},{"name":"Conductor","amount":1,"optional":0,"id":26},{"name":"Aluminum","amount":15,"optional":0,"id":5},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Laser Head","amount":1,"id":70}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":8805000,"upgradeCost":1290000,"inputCost":3400,"outputCost":4690},{"id":63,"name":"Drone Factory","type":"Factory","inputs":[{"name":"Fuel","amount":1,"optional":0,"id":53},{"name":"Plasma Cell","amount":2,"optional":0,"id":97},{"name":"Metal Plate","amount":5,"optional":0,"id":78}],"outputs":[{"name":"Drone","amount":1,"id":35}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":12963000,"upgradeCost":2214000,"inputCost":5540,"outputCost":7754},{"id":64,"name":"Warhead Factory","type":"Factory","inputs":[{"name":"Conductor","amount":5,"optional":0,"id":26},{"name":"Chemicals","amount":2,"optional":0,"id":19},{"name":"Metal Plate","amount":3,"optional":0,"id":78}],"outputs":[{"name":"Warhead","amount":1,"id":143}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":10245000,"upgradeCost":1610000,"inputCost":4020,"outputCost":5630},{"id":65,"name":"Power Unit Factory","type":"Factory","inputs":[{"name":"Transformator","amount":2,"optional":0,"id":137},{"name":"Energy Cell","amount":2,"optional":0,"id":39},{"name":"Plasma Cell","amount":2,"optional":0,"id":97}],"outputs":[{"name":"Power Unit","amount":1,"id":101}],"garbages":[],"cost":4552500,"upgradeCost":345000,"inputCost":866,"outputCost":1211},{"id":66,"name":"Antigrav Unit Factory","type":"Factory","inputs":[{"name":"Power Unit","amount":2,"optional":0,"id":101},{"name":"Processor","amount":2,"optional":0,"id":102},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Antigrav Unit","amount":1,"id":11}],"garbages":[],"cost":35413500,"upgradeCost":7203000,"inputCost":18188,"outputCost":25391},{"id":67,"name":"Energy Container Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":9,"optional":0,"id":39},{"name":"Transformator","amount":9,"optional":0,"id":137}],"outputs":[{"name":"Energy Container","amount":3,"id":40}],"garbages":[],"cost":7185000,"upgradeCost":930000,"inputCost":2331,"outputCost":3261},{"id":68,"name":"Solar Panel Factory","type":"Factory","inputs":[{"name":"Solar Cell","amount":10,"optional":0,"id":124},{"name":"Transformator","amount":1,"optional":0,"id":137}],"outputs":[{"name":"Solar Panel","amount":1,"id":125}],"garbages":[],"cost":11815500,"upgradeCost":1959000,"inputCost":4899,"outputCost":6858},{"id":69,"name":"Accelerator Factory","type":"Factory","inputs":[{"name":"Turbine","amount":3,"optional":0,"id":139},{"name":"Plasma Cell","amount":3,"optional":0,"id":97},{"name":"Fusion Generator","amount":3,"optional":0,"id":56},{"name":"Energy Tube","amount":6,"optional":0,"id":43},{"name":"High Pressure Tube","amount":6,"optional":0,"id":64},{"name":"Conductor","amount":15,"optional":0,"id":26},{"name":"Gauss Rail","amount":9,"optional":0,"id":57}],"outputs":[{"name":"Neutron Accelerator","amount":1,"id":87},{"name":"Proton Accelerator","amount":1,"id":104},{"name":"Electron Accelerator","amount":1,"id":38}],"garbages":[],"cost":486840000,"upgradeCost":107520000,"inputCost":268773,"outputCost":376293},{"id":70,"name":"Targeting System Factory","type":"Factory","inputs":[{"name":"Targeting Card","amount":1,"optional":0,"id":130},{"name":"Processor","amount":1,"optional":0,"id":102},{"name":"Energy Cell","amount":3,"optional":0,"id":39},{"name":"Conductor","amount":5,"optional":0,"id":26},{"name":"Wire","amount":5,"optional":0,"id":147}],"outputs":[{"name":"Targeting System","amount":1,"id":131}],"garbages":[],"cost":41151000,"upgradeCost":8478000,"inputCost":21196,"outputCost":29674},{"id":71,"name":"Ammunition Factory","type":"Factory","inputs":[{"name":"Lead","amount":10,"optional":0,"id":72},{"name":"Aluminum","amount":10,"optional":0,"id":5},{"name":"Steel","amount":10,"optional":0,"id":128},{"name":"Adhesive","amount":5,"optional":0,"id":4},{"name":"Energy Cell","amount":5,"optional":0,"id":39}],"outputs":[{"name":"Ammunition S","amount":15,"id":9},{"name":"Ammunition M","amount":10,"id":8},{"name":"Ammunition L","amount":5,"id":7}],"garbages":[],"cost":19335000,"upgradeCost":3630000,"inputCost":9030,"outputCost":12660},{"id":72,"name":"High Capacity Lens Factory","type":"Factory","inputs":[{"name":"Glass","amount":4,"optional":0,"id":59},{"name":"Carbon","amount":2,"optional":0,"id":17},{"name":"Plastic","amount":2,"optional":0,"id":98},{"name":"Diamond","amount":2,"optional":0,"id":32}],"outputs":[{"name":"High Capacity Lens","amount":1,"id":63}],"garbages":[],"cost":9034500,"upgradeCost":1341000,"inputCost":3348,"outputCost":4689},{"id":73,"name":"Laser Modulator Factory","type":"Factory","inputs":[{"name":"Servo","amount":4,"optional":0,"id":119},{"name":"Energy Tube","amount":2,"optional":0,"id":43},{"name":"Transformator","amount":2,"optional":0,"id":137},{"name":"Energy Cell","amount":4,"optional":0,"id":39}],"outputs":[{"name":"Laser Modulator","amount":1,"id":71}],"garbages":[],"cost":24537000,"upgradeCost":4786000,"inputCost":11956,"outputCost":16742},{"id":74,"name":"Force Generator Factory","type":"Factory","inputs":[{"name":"Electro Magnet","amount":4,"optional":0,"id":36},{"name":"Steel","amount":10,"optional":0,"id":128},{"name":"Plastic","amount":10,"optional":0,"id":98},{"name":"Nanobot","amount":10,"optional":0,"id":84},{"name":"Energy Generator","amount":1,"optional":0,"id":41}],"outputs":[{"name":"Force Generator","amount":1,"id":51}],"garbages":[],"cost":66751500,"upgradeCost":14167000,"inputCost":35409,"outputCost":49576},{"id":75,"name":"Antigrav Generator Factory","type":"Factory","inputs":[{"name":"Electro Magnet","amount":4,"optional":0,"id":36},{"name":"Servo","amount":5,"optional":0,"id":119},{"name":"Wire","amount":10,"optional":0,"id":147},{"name":"Antigrav Unit","amount":1,"optional":0,"id":11},{"name":"Energy Generator","amount":1,"optional":0,"id":41}],"outputs":[{"name":"Antigrav Generator","amount":1,"id":10}],"garbages":[],"cost":95101500,"upgradeCost":20467000,"inputCost":51165,"outputCost":71632},{"id":76,"name":"Fusion Generator Factory","type":"Factory","inputs":[{"name":"Fusion Core","amount":4,"optional":0,"id":55},{"name":"Steel","amount":10,"optional":0,"id":128},{"name":"Plasma Cell","amount":15,"optional":0,"id":97},{"name":"Power Unit","amount":2,"optional":0,"id":101}],"outputs":[{"name":"Fusion Generator","amount":1,"id":56}],"garbages":[],"cost":53827500,"upgradeCost":11295000,"inputCost":28258,"outputCost":39553},{"id":77,"name":"Turbine Factory","type":"Factory","inputs":[{"name":"Servo","amount":4,"optional":0,"id":119},{"name":"Steel","amount":10,"optional":0,"id":128},{"name":"Coolant","amount":3,"optional":0,"id":27},{"name":"Power Unit","amount":2,"optional":0,"id":101}],"outputs":[{"name":"Turbine","amount":1,"id":139}],"garbages":[],"cost":24523500,"upgradeCost":4783000,"inputCost":11946,"outputCost":16729},{"id":78,"name":"Tesla Coil Factory","type":"Factory","inputs":[{"name":"Steel","amount":10,"optional":0,"id":128},{"name":"Copper","amount":3,"optional":0,"id":28},{"name":"Fusion Core","amount":2,"optional":0,"id":55},{"name":"Plastic","amount":5,"optional":0,"id":98}],"outputs":[{"name":"Military Tesla Coil","amount":1,"id":80},{"name":"Industrial Tesla Coil","amount":1,"id":66}],"garbages":[],"cost":29527500,"upgradeCost":5895000,"inputCost":14733,"outputCost":20628},{"id":79,"name":"Medical Supplies Factory","type":"Factory","inputs":[{"name":"Water","amount":5,"optional":0,"id":144},{"name":"Chemicals","amount":15,"optional":0,"id":19},{"name":"Fabric","amount":5,"optional":0,"id":45},{"name":"Zinc","amount":5,"optional":0,"id":150},{"name":"Chlorine","amount":5,"optional":0,"id":20}],"outputs":[{"name":"Medical Supplies","amount":4,"id":77}],"garbages":[],"cost":18475500,"upgradeCost":3439000,"inputCost":8585,"outputCost":12024},{"id":80,"name":"Satellite Factory","type":"Factory","inputs":[{"name":"Solar Panel","amount":2,"optional":0,"id":125},{"name":"Processor","amount":2,"optional":0,"id":102},{"name":"Display","amount":2,"optional":0,"id":33},{"name":"Energy Container","amount":1,"optional":0,"id":40},{"name":"Steel Tube","amount":1,"optional":0,"id":129}],"outputs":[{"name":"Satellite","amount":1,"id":109}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":87487500,"upgradeCost":18775000,"inputCost":46939,"outputCost":65714},{"id":81,"name":"Drill Factory","type":"Factory","inputs":[{"name":"Laser Head","amount":1,"optional":0,"id":70},{"name":"Processor","amount":1,"optional":0,"id":102},{"name":"Steel","amount":2,"optional":0,"id":128},{"name":"Diamond","amount":2,"optional":0,"id":32}],"outputs":[{"name":"Drill","amount":1,"id":34}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":29284500,"upgradeCost":5841000,"inputCost":14602,"outputCost":20443},{"id":82,"name":"Ammunition Factory","type":"Factory","inputs":[{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Chemicals","amount":15,"optional":0,"id":19},{"name":"Paint","amount":15,"optional":0,"id":93}],"outputs":[{"name":"Ammunition","amount":5,"id":6}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":27336000,"upgradeCost":5408000,"inputCost":13522,"outputCost":18930},{"id":83,"name":"Teleporter Factory","type":"Factory","inputs":[{"name":"Metal Plate","amount":1,"optional":0,"id":78},{"name":"Power Unit","amount":1,"optional":0,"id":101},{"name":"Antigrav Unit","amount":1,"optional":0,"id":11},{"name":"Plasma Cell","amount":2,"optional":0,"id":97},{"name":"Conductor","amount":1,"optional":0,"id":26},{"name":"Transformator","amount":1,"optional":0,"id":137}],"outputs":[{"name":"Teleporter","amount":1,"id":133}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":53607000,"upgradeCost":11246000,"inputCost":28119,"outputCost":39365},{"id":84,"name":"Computation Mainframe Factory","type":"Factory","inputs":[{"name":"Processor","amount":2,"optional":0,"id":102},{"name":"Power Unit","amount":1,"optional":0,"id":101},{"name":"Microchip","amount":1,"optional":0,"id":79},{"name":"Display","amount":1,"optional":0,"id":33},{"name":"Wire","amount":15,"optional":0,"id":147}],"outputs":[{"name":"Computation Mainframe","amount":1,"id":25}],"garbages":[],"cost":51753000,"upgradeCost":10834000,"inputCost":27106,"outputCost":37940},{"id":85,"name":"Vehicle Factory","type":"Factory","inputs":[{"name":"Rubber","amount":1,"optional":0,"id":108},{"name":"Power Unit","amount":1,"optional":0,"id":101},{"name":"Energy Generator","amount":1,"optional":0,"id":41},{"name":"Metal Plate","amount":5,"optional":0,"id":78},{"name":"Antigrav Unit","amount":1,"optional":0,"id":11},{"name":"Display","amount":1,"optional":0,"id":33}],"outputs":[{"name":"Vehicle","amount":1,"id":141}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":102108000,"upgradeCost":22024000,"inputCost":55063,"outputCost":77087},{"id":86,"name":"Gun Factory","type":"Factory","inputs":[{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Ammunition","amount":1,"optional":0,"id":6},{"name":"Aluminum","amount":1,"optional":0,"id":5},{"name":"Plastic","amount":1,"optional":0,"id":98}],"outputs":[{"name":"Gun","amount":5,"id":61}],"garbages":[],"cost":10920000,"upgradeCost":1760000,"inputCost":4400,"outputCost":6160},{"id":87,"name":"Rocket Factory","type":"Factory","inputs":[{"name":"Warhead","amount":1,"optional":0,"id":143},{"name":"Fuel","amount":1,"optional":0,"id":53},{"name":"Steel","amount":1,"optional":0,"id":128},{"name":"Microchip","amount":1,"optional":0,"id":79}],"outputs":[{"name":"Rocket","amount":1,"id":107}],"garbages":[],"cost":17467500,"upgradeCost":3215000,"inputCost":8035,"outputCost":11250},{"id":88,"name":"Mining Robot Factory","type":"Factory","inputs":[{"name":"Power Unit","amount":1,"optional":0,"id":101},{"name":"Processor","amount":1,"optional":0,"id":102},{"name":"Display","amount":1,"optional":0,"id":33},{"name":"Nanobot","amount":5,"optional":0,"id":84},{"name":"Drill","amount":2,"optional":0,"id":34},{"name":"Coolant","amount":1,"optional":0,"id":27},{"name":"Teleporter","amount":1,"optional":0,"id":133}],"outputs":[{"name":"Mining Robot","amount":1,"id":82}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":190681500,"upgradeCost":41707000,"inputCost":104270,"outputCost":145977},{"id":89,"name":"War Robot Factory","type":"Factory","inputs":[{"name":"Power Unit","amount":1,"optional":0,"id":101},{"name":"Processor","amount":1,"optional":0,"id":102},{"name":"Display","amount":1,"optional":0,"id":33},{"name":"Nanobot","amount":5,"optional":0,"id":84},{"name":"Gun","amount":2,"optional":0,"id":61},{"name":"Teleporter","amount":1,"optional":0,"id":133},{"name":"Coolant","amount":1,"optional":0,"id":27}],"outputs":[{"name":"War Robot","amount":1,"id":142}],"garbages":[{"name":"Scrap Metal","amount":1,"id":112}],"cost":121521000,"upgradeCost":26338000,"inputCost":65848,"outputCost":92186},{"id":90,"name":"Body Armor Factory","type":"Factory","inputs":[{"name":"Metal Plate","amount":2,"optional":0,"id":78},{"name":"Coolant","amount":1,"optional":0,"id":27},{"name":"Teleporter","amount":1,"optional":0,"id":133},{"name":"Antigrav Unit","amount":1,"optional":0,"id":11},{"name":"Carbon","amount":1,"optional":0,"id":17},{"name":"Nanobot","amount":1,"optional":0,"id":84}],"outputs":[{"name":"Body Armor","amount":1,"id":15}],"garbages":[],"cost":126313500,"upgradeCost":27403000,"inputCost":68503,"outputCost":95906},{"id":91,"name":"Water Collector","type":"Collector","inputs":[],"outputs":[{"name":"Water","amount":75,"id":144}],"garbages":[],"cost":9750000,"upgradeCost":1500000,"inputCost":0,"outputCost":1500},{"id":92,"name":"Plankton Collector","type":"Collector","inputs":[],"outputs":[{"name":"Plankton","amount":35,"id":95}],"garbages":[],"cost":10875000,"upgradeCost":1750000,"inputCost":0,"outputCost":1750},{"id":93,"name":"Fish Farm","type":"Factory","inputs":[{"name":"Water","amount":23,"optional":0,"id":144},{"name":"Wheat","amount":5,"optional":0,"id":145},{"name":"Oxygen","amount":5,"optional":0,"id":92}],"outputs":[{"name":"Fish","amount":8,"id":47},{"name":"Bio Gas","amount":1,"id":14}],"garbages":[{"name":"Plankton","amount":1,"id":95}],"cost":5043000,"upgradeCost":454000,"inputCost":975,"outputCost":1429},{"id":94,"name":"Plant Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":6,"optional":1,"id":39},{"name":"Water","amount":30,"optional":0,"id":144}],"outputs":[{"name":"Plant","amount":60,"id":96}],"garbages":[{"name":"Oxygen","amount":6,"id":92}],"cost":2730000,"upgradeCost":-60000,"inputCost":900,"outputCost":840},{"id":95,"name":"Rice Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":4,"optional":1,"id":39},{"name":"Water","amount":40,"optional":0,"id":144}],"outputs":[{"name":"Rice","amount":76,"id":106}],"garbages":[{"name":"Oxygen","amount":4,"id":92}],"cost":3630000,"upgradeCost":140000,"inputCost":1000,"outputCost":1140},{"id":96,"name":"Potato Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":6,"optional":1,"id":39},{"name":"Water","amount":30,"optional":0,"id":144}],"outputs":[{"name":"Potato","amount":35,"id":100}],"garbages":[{"name":"Oxygen","amount":8,"id":92}],"cost":2730000,"upgradeCost":-60000,"inputCost":900,"outputCost":840},{"id":97,"name":"Wheat Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":4,"optional":1,"id":39},{"name":"Water","amount":40,"optional":0,"id":144}],"outputs":[{"name":"Wheat","amount":48,"id":145}],"garbages":[{"name":"Oxygen","amount":4,"id":92}],"cost":3468000,"upgradeCost":104000,"inputCost":1000,"outputCost":1104},{"id":98,"name":"Corn Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":4,"optional":1,"id":39},{"name":"Water","amount":60,"optional":0,"id":144}],"outputs":[{"name":"Corn","amount":60,"id":29}],"garbages":[{"name":"Oxygen","amount":4,"id":92}],"cost":4260000,"upgradeCost":280000,"inputCost":1400,"outputCost":1680},{"id":99,"name":"Wood Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":3,"optional":1,"id":39},{"name":"Water","amount":75,"optional":0,"id":144}],"outputs":[{"name":"Wood","amount":6,"id":148}],"garbages":[{"name":"Oxygen","amount":3,"id":92}],"cost":5025000,"upgradeCost":450000,"inputCost":1650,"outputCost":2100},{"id":100,"name":"Fruit Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":4,"optional":1,"id":39},{"name":"Water","amount":80,"optional":0,"id":144}],"outputs":[{"name":"Fruit","amount":40,"id":52}],"garbages":[{"name":"Oxygen","amount":4,"id":92}],"cost":4980000,"upgradeCost":440000,"inputCost":1800,"outputCost":2240},{"id":101,"name":"Coffee Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Water","amount":35,"optional":0,"id":144},{"name":"Fertilizer","amount":2,"optional":0,"id":46}],"outputs":[{"name":"Coffee","amount":10,"id":24}],"garbages":[{"name":"Oxygen","amount":1,"id":92}],"cost":5169000,"upgradeCost":482000,"inputCost":1388,"outputCost":1870},{"id":102,"name":"Cocoa Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Water","amount":30,"optional":0,"id":144},{"name":"Fertilizer","amount":2,"optional":0,"id":46}],"outputs":[{"name":"Cocoa","amount":20,"id":23}],"garbages":[{"name":"Oxygen","amount":1,"id":92}],"cost":5034000,"upgradeCost":452000,"inputCost":1288,"outputCost":1740},{"id":103,"name":"Tea Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":4,"optional":1,"id":39},{"name":"Water","amount":100,"optional":0,"id":144}],"outputs":[{"name":"Tea","amount":75,"id":132}],"garbages":[{"name":"Oxygen","amount":4,"id":92}],"cost":5587500,"upgradeCost":575000,"inputCost":2200,"outputCost":2775},{"id":104,"name":"Vegetable Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":4,"optional":1,"id":39},{"name":"Water","amount":40,"optional":0,"id":144}],"outputs":[{"name":"Vegetable","amount":35,"id":140}],"garbages":[{"name":"Oxygen","amount":4,"id":92}],"cost":3540000,"upgradeCost":120000,"inputCost":1000,"outputCost":1120},{"id":105,"name":"Spices Farm","type":"Farm","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Water","amount":35,"optional":0,"id":144},{"name":"Fertilizer","amount":5,"optional":0,"id":46}],"outputs":[{"name":"Spices","amount":12,"id":127}],"garbages":[{"name":"Oxygen","amount":1,"id":92}],"cost":6919500,"upgradeCost":871000,"inputCost":2345,"outputCost":3216},{"id":106,"name":"Sheep Ranch","type":"Ranch","inputs":[{"name":"Energy Cell","amount":2,"optional":1,"id":39},{"name":"Oxygen","amount":10,"optional":0,"id":92},{"name":"Wheat","amount":18,"optional":0,"id":145},{"name":"Water","amount":12,"optional":0,"id":144}],"outputs":[{"name":"Sheep","amount":15,"id":120},{"name":"Bio Gas","amount":1,"id":14}],"garbages":[{"name":"Fabric","amount":2,"id":45}],"cost":5740500,"upgradeCost":609000,"inputCost":1554,"outputCost":2163},{"id":107,"name":"Sheep Ranch","type":"Ranch","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Corn","amount":10,"optional":0,"id":29},{"name":"Oxygen","amount":10,"optional":0,"id":92},{"name":"Water","amount":20,"optional":0,"id":144}],"outputs":[{"name":"Sheep","amount":15,"id":120},{"name":"Bio Gas","amount":1,"id":14}],"garbages":[{"name":"Fabric","amount":2,"id":45}],"cost":5848500,"upgradeCost":633000,"inputCost":1530,"outputCost":2163},{"id":108,"name":"Fungus Farm","type":"Farm","inputs":[{"name":"Bio Gas","amount":1,"optional":0,"id":14},{"name":"Water","amount":5,"optional":0,"id":144},{"name":"Mineral","amount":1,"optional":0,"id":81}],"outputs":[{"name":"Fungus","amount":25,"id":54}],"garbages":[{"name":"Toxic Waste","amount":1,"id":136}],"cost":4516500,"upgradeCost":337000,"inputCost":813,"outputCost":1150},{"id":109,"name":"Cattle Ranch","type":"Ranch","inputs":[{"name":"Wheat","amount":15,"optional":0,"id":145},{"name":"Oxygen","amount":10,"optional":0,"id":92},{"name":"Water","amount":15,"optional":0,"id":144}],"outputs":[{"name":"Cattle","amount":8,"id":18}],"garbages":[{"name":"Bio Gas","amount":1,"id":14}],"cost":5641500,"upgradeCost":587000,"inputCost":1445,"outputCost":2032},{"id":110,"name":"Cattle Ranch","type":"Ranch","inputs":[{"name":"Corn","amount":15,"optional":0,"id":29},{"name":"Oxygen","amount":10,"optional":0,"id":92},{"name":"Water","amount":15,"optional":0,"id":144}],"outputs":[{"name":"Cattle","amount":8,"id":18},{"name":"Bio Gas","amount":2,"id":14}],"garbages":[],"cost":7221000,"upgradeCost":938000,"inputCost":1520,"outputCost":2458},{"id":111,"name":"Protein Factory","type":"Factory","inputs":[{"name":"Meat","amount":25,"optional":0,"id":76},{"name":"Dairy","amount":80,"optional":0,"id":31}],"outputs":[{"name":"Protein","amount":100,"id":103}],"garbages":[],"cost":7297500,"upgradeCost":955000,"inputCost":2445,"outputCost":3400},{"id":112,"name":"Meat Factory","type":"Factory","inputs":[{"name":"Cattle","amount":10,"optional":0,"id":18}],"outputs":[{"name":"Meat","amount":85,"id":76},{"name":"Leather","amount":10,"id":73}],"garbages":[],"cost":7387500,"upgradeCost":975000,"inputCost":2540,"outputCost":3515},{"id":113,"name":"Dairy Farm","type":"Farm","inputs":[{"name":"Cattle","amount":10,"optional":0,"id":18}],"outputs":[{"name":"Dairy","amount":180,"id":31},{"name":"Leather","amount":10,"id":73}],"garbages":[],"cost":8625000,"upgradeCost":1250000,"inputCost":2540,"outputCost":3790},{"id":114,"name":"Fabric Factory","type":"Factory","inputs":[{"name":"Sheep","amount":15,"optional":0,"id":120}],"outputs":[{"name":"Fabric","amount":30,"id":45}],"garbages":[],"cost":6510000,"upgradeCost":780000,"inputCost":1950,"outputCost":2730},{"id":115,"name":"Clothes Factory","type":"Factory","inputs":[{"name":"Fabric","amount":80,"optional":0,"id":45}],"outputs":[{"name":"Clothes","amount":100,"id":21}],"garbages":[],"cost":16140000,"upgradeCost":2920000,"inputCost":7280,"outputCost":10200},{"id":116,"name":"Paper Factory","type":"Factory","inputs":[{"name":"Water","amount":30,"optional":0,"id":144},{"name":"Wood","amount":2,"optional":0,"id":148}],"outputs":[{"name":"Paper","amount":40,"id":94}],"garbages":[],"cost":5430000,"upgradeCost":540000,"inputCost":1300,"outputCost":1840},{"id":117,"name":"Brewery","type":"Factory","inputs":[{"name":"Water","amount":150,"optional":0,"id":144},{"name":"Wheat","amount":50,"optional":0,"id":145},{"name":"Fungus","amount":10,"optional":0,"id":54}],"outputs":[{"name":"Beer","amount":30,"id":13}],"garbages":[],"cost":11415000,"upgradeCost":1870000,"inputCost":4610,"outputCost":6480},{"id":118,"name":"Wine Factory","type":"Factory","inputs":[{"name":"Fruit","amount":50,"optional":0,"id":52},{"name":"Fungus","amount":10,"optional":0,"id":54}],"outputs":[{"name":"Wine","amount":25,"id":146}],"garbages":[],"cost":8805000,"upgradeCost":1290000,"inputCost":3260,"outputCost":4550},{"id":119,"name":"Distillery","type":"Factory","inputs":[{"name":"Energy Cell","amount":10,"optional":0,"id":39},{"name":"Wheat","amount":50,"optional":0,"id":145},{"name":"Water","amount":250,"optional":0,"id":144}],"outputs":[{"name":"Liquor","amount":5,"id":74}],"garbages":[],"cost":15082500,"upgradeCost":2685000,"inputCost":6650,"outputCost":9335},{"id":120,"name":"Food Factory","type":"Factory","inputs":[{"name":"Wheat","amount":50,"optional":0,"id":145},{"name":"Meat","amount":10,"optional":0,"id":76},{"name":"Corn","amount":10,"optional":0,"id":29},{"name":"Vegetable","amount":10,"optional":0,"id":140}],"outputs":[{"name":"Food","amount":10,"id":49}],"garbages":[],"cost":6960000,"upgradeCost":880000,"inputCost":2120,"outputCost":3000},{"id":121,"name":"Food Bar Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Wheat","amount":50,"optional":0,"id":145},{"name":"Corn","amount":10,"optional":0,"id":29},{"name":"Rice","amount":10,"optional":0,"id":106}],"outputs":[{"name":"Food Bar","amount":10,"id":50}],"garbages":[],"cost":5700000,"upgradeCost":600000,"inputCost":1630,"outputCost":2230},{"id":122,"name":"Luxury Food Factory","type":"Factory","inputs":[{"name":"Energy Cell","amount":1,"optional":1,"id":39},{"name":"Wheat","amount":50,"optional":0,"id":145},{"name":"Fruit","amount":10,"optional":0,"id":52},{"name":"Spices","amount":6,"optional":0,"id":127},{"name":"Wine","amount":7,"optional":0,"id":146}],"outputs":[{"name":"Luxury Food","amount":1,"id":75}],"garbages":[],"cost":11145000,"upgradeCost":1810000,"inputCost":4642,"outputCost":6452},{"id":123,"name":"Book Factory","type":"Factory","inputs":[{"name":"Paper","amount":20,"optional":0,"id":94},{"name":"Energy Cell","amount":1,"optional":1,"id":39}],"outputs":[{"name":"Book","amount":4,"id":16}],"garbages":[],"cost":4377000,"upgradeCost":306000,"inputCost":970,"outputCost":1276},{"id":124,"name":"Jewelry Manufacturer","type":"Factory","inputs":[{"name":"Platinum","amount":2,"optional":0,"id":99},{"name":"Gem","amount":5,"optional":0,"id":58}],"outputs":[{"name":"Jewelry","amount":4,"id":68}],"garbages":[],"cost":9930000,"upgradeCost":1540000,"inputCost":3500,"outputCost":5040},{"id":125,"name":"Jewelry Manufacturer","type":"Factory","inputs":[{"name":"Gold","amount":1,"optional":0,"id":60},{"name":"Diamond","amount":4,"optional":0,"id":32}],"outputs":[{"name":"Jewelry","amount":4,"id":68}],"garbages":[],"cost":9480000,"upgradeCost":1440000,"inputCost":3600,"outputCost":5040}]
+[
+  {
+    "id": 1,
+    "name": "Silicon Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Silicon",
+        "amount": 4,
+        "id": 121
+      }
+    ],
+    "garbages": [],
+    "cost": 12000000,
+    "upgradeCost": 2000000,
+    "inputCost": 0,
+    "outputCost": 2000
+  },
+  {
+    "id": 2,
+    "name": "Gas Collector",
+    "type": "Collector",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Helium",
+        "amount": 3,
+        "id": 62
+      },
+      {
+        "name": "Hydrogen",
+        "amount": 3,
+        "id": 65
+      },
+      {
+        "name": "Neon",
+        "amount": 3,
+        "id": 86
+      },
+      {
+        "name": "Chlorine",
+        "amount": 3,
+        "id": 20
+      }
+    ],
+    "garbages": [],
+    "cost": 10425000,
+    "upgradeCost": 1650000,
+    "inputCost": 0,
+    "outputCost": 1650
+  },
+  {
+    "id": 3,
+    "name": "Gas Collector",
+    "type": "Collector",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Helium",
+        "amount": 3,
+        "id": 62
+      },
+      {
+        "name": "Nitrogen",
+        "amount": 3,
+        "id": 88
+      },
+      {
+        "name": "Neon",
+        "amount": 3,
+        "id": 86
+      },
+      {
+        "name": "Chlorine",
+        "amount": 3,
+        "id": 20
+      },
+      {
+        "name": "Fluorine",
+        "amount": 3,
+        "id": 48
+      }
+    ],
+    "garbages": [],
+    "cost": 12315000,
+    "upgradeCost": 2070000,
+    "inputCost": 0,
+    "outputCost": 2070
+  },
+  {
+    "id": 4,
+    "name": "Gas Collector",
+    "type": "Collector",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Oxygen",
+        "amount": 8,
+        "id": 92
+      },
+      {
+        "name": "Hydrogen",
+        "amount": 8,
+        "id": 65
+      },
+      {
+        "name": "Nitrogen",
+        "amount": 8,
+        "id": 88
+      }
+    ],
+    "garbages": [],
+    "cost": 12720000,
+    "upgradeCost": 2160000,
+    "inputCost": 0,
+    "outputCost": 2160
+  },
+  {
+    "id": 5,
+    "name": "Gas Collector",
+    "type": "Collector",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Helium",
+        "amount": 3,
+        "id": 62
+      },
+      {
+        "name": "Hydrogen",
+        "amount": 3,
+        "id": 65
+      },
+      {
+        "name": "Chlorine",
+        "amount": 3,
+        "id": 20
+      },
+      {
+        "name": "Fluorine",
+        "amount": 3,
+        "id": 48
+      }
+    ],
+    "garbages": [],
+    "cost": 11100000,
+    "upgradeCost": 1800000,
+    "inputCost": 0,
+    "outputCost": 1800
+  },
+  {
+    "id": 6,
+    "name": "Ore Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Ore",
+        "amount": 30,
+        "id": 91
+      }
+    ],
+    "garbages": [],
+    "cost": 12450000,
+    "upgradeCost": 2100000,
+    "inputCost": 0,
+    "outputCost": 2100
+  },
+  {
+    "id": 7,
+    "name": "Coal Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Coal",
+        "amount": 4,
+        "id": 22
+      }
+    ],
+    "garbages": [],
+    "cost": 6600000,
+    "upgradeCost": 800000,
+    "inputCost": 0,
+    "outputCost": 800
+  },
+  {
+    "id": 8,
+    "name": "Oil Rig",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Raw Oil",
+        "amount": 5,
+        "id": 105
+      }
+    ],
+    "garbages": [],
+    "cost": 6375000,
+    "upgradeCost": 750000,
+    "inputCost": 0,
+    "outputCost": 750
+  },
+  {
+    "id": 9,
+    "name": "Crystal Farm",
+    "type": "Factory",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Crystal",
+        "amount": 10,
+        "id": 30
+      }
+    ],
+    "garbages": [],
+    "cost": 11550000,
+    "upgradeCost": 1900000,
+    "inputCost": 0,
+    "outputCost": 1900
+  },
+  {
+    "id": 10,
+    "name": "Mineral Extractor",
+    "type": "Factory",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Mineral",
+        "amount": 4,
+        "id": 81
+      }
+    ],
+    "garbages": [],
+    "cost": 12000000,
+    "upgradeCost": 2000000,
+    "inputCost": 0,
+    "outputCost": 2000
+  },
+  {
+    "id": 11,
+    "name": "Scrap Metal Trader",
+    "type": "Factory",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Scrap Metal",
+        "amount": 60,
+        "id": 112
+      }
+    ],
+    "garbages": [],
+    "cost": 9750000,
+    "upgradeCost": 1500000,
+    "inputCost": 0,
+    "outputCost": 1500
+  },
+  {
+    "id": 12,
+    "name": "Oil Refinery",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 5,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Raw Oil",
+        "amount": 10,
+        "optional": 0,
+        "id": 105
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Oil",
+        "amount": 5,
+        "id": 90
+      }
+    ],
+    "garbages": [],
+    "cost": 6150000,
+    "upgradeCost": 700000,
+    "inputCost": 1750,
+    "outputCost": 2450
+  },
+  {
+    "id": 13,
+    "name": "Noble Metal Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Gold",
+        "amount": 1,
+        "id": 60
+      },
+      {
+        "name": "Platinum",
+        "amount": 1,
+        "id": 99
+      }
+    ],
+    "garbages": [],
+    "cost": 9075000,
+    "upgradeCost": 1350000,
+    "inputCost": 0,
+    "outputCost": 1350
+  },
+  {
+    "id": 14,
+    "name": "Noble Metal Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Silver",
+        "amount": 1,
+        "id": 122
+      },
+      {
+        "name": "Platinum",
+        "amount": 1,
+        "id": 99
+      }
+    ],
+    "garbages": [],
+    "cost": 7725000,
+    "upgradeCost": 1050000,
+    "inputCost": 0,
+    "outputCost": 1050
+  },
+  {
+    "id": 15,
+    "name": "Noble Metal Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Silver",
+        "amount": 1,
+        "id": 122
+      },
+      {
+        "name": "Gold",
+        "amount": 1,
+        "id": 60
+      }
+    ],
+    "garbages": [],
+    "cost": 7050000,
+    "upgradeCost": 900000,
+    "inputCost": 0,
+    "outputCost": 900
+  },
+  {
+    "id": 16,
+    "name": "Zinc Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Zinc",
+        "amount": 10,
+        "id": 150
+      }
+    ],
+    "garbages": [],
+    "cost": 14250000,
+    "upgradeCost": 2500000,
+    "inputCost": 0,
+    "outputCost": 2500
+  },
+  {
+    "id": 17,
+    "name": "Copper Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Copper",
+        "amount": 5,
+        "id": 28
+      }
+    ],
+    "garbages": [],
+    "cost": 10875000,
+    "upgradeCost": 1750000,
+    "inputCost": 0,
+    "outputCost": 1750
+  },
+  {
+    "id": 18,
+    "name": "Lead Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Lead",
+        "amount": 10,
+        "id": 72
+      }
+    ],
+    "garbages": [],
+    "cost": 12000000,
+    "upgradeCost": 2000000,
+    "inputCost": 0,
+    "outputCost": 2000
+  },
+  {
+    "id": 19,
+    "name": "Aluminum Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Aluminum",
+        "amount": 10,
+        "id": 5
+      }
+    ],
+    "garbages": [],
+    "cost": 12000000,
+    "upgradeCost": 2000000,
+    "inputCost": 0,
+    "outputCost": 2000
+  },
+  {
+    "id": 20,
+    "name": "Ice Mine",
+    "type": "Mine",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Water",
+        "amount": 75,
+        "id": 144
+      }
+    ],
+    "garbages": [],
+    "cost": 9750000,
+    "upgradeCost": 1500000,
+    "inputCost": 0,
+    "outputCost": 1500
+  },
+  {
+    "id": 21,
+    "name": "Solar Power Plant",
+    "type": "SolarPowerPlant",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 25,
+        "id": 39
+      }
+    ],
+    "garbages": [],
+    "cost": 8625000,
+    "upgradeCost": 1250000,
+    "inputCost": 0,
+    "outputCost": 1250
+  },
+  {
+    "id": 22,
+    "name": "Carbon Extractor",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Corn",
+        "amount": 52,
+        "optional": 0,
+        "id": 29
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Carbon",
+        "amount": 5,
+        "id": 17
+      }
+    ],
+    "garbages": [],
+    "cost": 5965500,
+    "upgradeCost": 659000,
+    "inputCost": 1456,
+    "outputCost": 2115
+  },
+  {
+    "id": 23,
+    "name": "Carbon Extractor",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Rice",
+        "amount": 95,
+        "optional": 0,
+        "id": 106
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Carbon",
+        "amount": 5,
+        "id": 17
+      }
+    ],
+    "garbages": [],
+    "cost": 6105000,
+    "upgradeCost": 690000,
+    "inputCost": 1425,
+    "outputCost": 2115
+  },
+  {
+    "id": 24,
+    "name": "Carbon Extractor",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Wheat",
+        "amount": 64,
+        "optional": 0,
+        "id": 145
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Carbon",
+        "amount": 5,
+        "id": 17
+      }
+    ],
+    "garbages": [],
+    "cost": 5893500,
+    "upgradeCost": 643000,
+    "inputCost": 1472,
+    "outputCost": 2115
+  },
+  {
+    "id": 25,
+    "name": "Carbon Extractor",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Potato",
+        "amount": 63,
+        "optional": 0,
+        "id": 100
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Carbon",
+        "amount": 5,
+        "id": 17
+      }
+    ],
+    "garbages": [],
+    "cost": 5713500,
+    "upgradeCost": 603000,
+    "inputCost": 1512,
+    "outputCost": 2115
+  },
+  {
+    "id": 26,
+    "name": "Electro Magnet Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Copper",
+        "amount": 1,
+        "optional": 0,
+        "id": 28
+      },
+      {
+        "name": "Conductor",
+        "amount": 2,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Transformator",
+        "amount": 2,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Electro Magnet",
+        "amount": 4,
+        "id": 36
+      }
+    ],
+    "garbages": [],
+    "cost": 5479500,
+    "upgradeCost": 551000,
+    "inputCost": 1381,
+    "outputCost": 1932
+  },
+  {
+    "id": 27,
+    "name": "Energy Inverter Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Tube",
+        "amount": 1,
+        "optional": 0,
+        "id": 43
+      },
+      {
+        "name": "Conductor",
+        "amount": 2,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Transformator",
+        "amount": 2,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Energy Inverter",
+        "amount": 4,
+        "id": 42
+      }
+    ],
+    "garbages": [],
+    "cost": 9565500,
+    "upgradeCost": 1459000,
+    "inputCost": 3649,
+    "outputCost": 5108
+  },
+  {
+    "id": 28,
+    "name": "Servo Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 4,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Aluminum",
+        "amount": 2,
+        "optional": 0,
+        "id": 5
+      },
+      {
+        "name": "Conductor",
+        "amount": 2,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Plastic",
+        "amount": 1,
+        "optional": 0,
+        "id": 98
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Servo",
+        "amount": 2,
+        "id": 119
+      }
+    ],
+    "garbages": [],
+    "cost": 6568500,
+    "upgradeCost": 793000,
+    "inputCost": 1981,
+    "outputCost": 2774
+  },
+  {
+    "id": 29,
+    "name": "Steel Tube Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 4,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Aluminum",
+        "amount": 2,
+        "optional": 0,
+        "id": 5
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Steel Tube",
+        "amount": 3,
+        "id": 129
+      }
+    ],
+    "garbages": [],
+    "cost": 5718000,
+    "upgradeCost": 604000,
+    "inputCost": 1508,
+    "outputCost": 2112
+  },
+  {
+    "id": 30,
+    "name": "Rubber Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Oil",
+        "amount": 3,
+        "optional": 0,
+        "id": 90
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Rubber",
+        "amount": 3,
+        "id": 108
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      },
+      {
+        "name": "Acid",
+        "amount": 1,
+        "id": 2
+      }
+    ],
+    "cost": 5421000,
+    "upgradeCost": 538000,
+    "inputCost": 1520,
+    "outputCost": 2058
+  },
+  {
+    "id": 31,
+    "name": "Conductor Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Zinc",
+        "amount": 2,
+        "optional": 0,
+        "id": 150
+      },
+      {
+        "name": "Steel",
+        "amount": 2,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Platinum",
+        "amount": 1,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Gold",
+        "amount": 1,
+        "optional": 0,
+        "id": 60
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Conductor",
+        "amount": 20,
+        "id": 26
+      }
+    ],
+    "garbages": [],
+    "cost": 7077000,
+    "upgradeCost": 906000,
+    "inputCost": 2454,
+    "outputCost": 3360
+  },
+  {
+    "id": 32,
+    "name": "Transformator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 2,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Plastic",
+        "amount": 1,
+        "optional": 0,
+        "id": 98
+      },
+      {
+        "name": "Silicon",
+        "amount": 1,
+        "optional": 0,
+        "id": 121
+      },
+      {
+        "name": "Silver",
+        "amount": 1,
+        "optional": 0,
+        "id": 122
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Transformator",
+        "amount": 10,
+        "id": 137
+      }
+    ],
+    "garbages": [],
+    "cost": 5470500,
+    "upgradeCost": 549000,
+    "inputCost": 1541,
+    "outputCost": 2090
+  },
+  {
+    "id": 33,
+    "name": "Plastic Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Oil",
+        "amount": 3,
+        "optional": 0,
+        "id": 90
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 3,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Plastic",
+        "amount": 15,
+        "id": 98
+      }
+    ],
+    "garbages": [],
+    "cost": 4957500,
+    "upgradeCost": 435000,
+    "inputCost": 1620,
+    "outputCost": 2055
+  },
+  {
+    "id": 34,
+    "name": "Solar Cell Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Zinc",
+        "amount": 1,
+        "optional": 0,
+        "id": 150
+      },
+      {
+        "name": "Silicon",
+        "amount": 2,
+        "optional": 0,
+        "id": 121
+      },
+      {
+        "name": "Platinum",
+        "amount": 2,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Gold",
+        "amount": 1,
+        "optional": 0,
+        "id": 60
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Solar Cell",
+        "amount": 10,
+        "id": 124
+      }
+    ],
+    "garbages": [],
+    "cost": 8805000,
+    "upgradeCost": 1290000,
+    "inputCost": 3400,
+    "outputCost": 4690
+  },
+  {
+    "id": 35,
+    "name": "Tools Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Platinum",
+        "amount": 1,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Silver",
+        "amount": 1,
+        "optional": 0,
+        "id": 122
+      },
+      {
+        "name": "Aluminum",
+        "amount": 1,
+        "optional": 0,
+        "id": 5
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Tools",
+        "amount": 10,
+        "id": 135
+      }
+    ],
+    "garbages": [],
+    "cost": 5533500,
+    "upgradeCost": 563000,
+    "inputCost": 1577,
+    "outputCost": 2140
+  },
+  {
+    "id": 36,
+    "name": "Semi Conductor Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Silicon",
+        "amount": 1,
+        "optional": 0,
+        "id": 121
+      },
+      {
+        "name": "Gold",
+        "amount": 1,
+        "optional": 0,
+        "id": 60
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Semi Conductor",
+        "amount": 15,
+        "id": 118
+      }
+    ],
+    "garbages": [],
+    "cost": 5286000,
+    "upgradeCost": 508000,
+    "inputCost": 1427,
+    "outputCost": 1935
+  },
+  {
+    "id": 37,
+    "name": "Microchip Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Wire",
+        "amount": 4,
+        "optional": 0,
+        "id": 147
+      },
+      {
+        "name": "Semi Conductor",
+        "amount": 12,
+        "optional": 0,
+        "id": 118
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Microchip",
+        "amount": 3,
+        "id": 79
+      }
+    ],
+    "garbages": [],
+    "cost": 5520000,
+    "upgradeCost": 560000,
+    "inputCost": 2128,
+    "outputCost": 2688
+  },
+  {
+    "id": 38,
+    "name": "Energy Tube Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Plastic",
+        "amount": 1,
+        "optional": 0,
+        "id": 98
+      },
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Platinum",
+        "amount": 1,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Neon",
+        "amount": 1,
+        "optional": 0,
+        "id": 86
+      },
+      {
+        "name": "Steel Tube",
+        "amount": 1,
+        "optional": 0,
+        "id": 129
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Energy Tube",
+        "amount": 1,
+        "id": 43
+      }
+    ],
+    "garbages": [],
+    "cost": 6496500,
+    "upgradeCost": 777000,
+    "inputCost": 2118,
+    "outputCost": 2895
+  },
+  {
+    "id": 39,
+    "name": "Steel Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Ore",
+        "amount": 8,
+        "optional": 0,
+        "id": 91
+      },
+      {
+        "name": "Coal",
+        "amount": 3,
+        "optional": 0,
+        "id": 22
+      },
+      {
+        "name": "Carbon",
+        "amount": 1,
+        "optional": 0,
+        "id": 17
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Steel",
+        "amount": 8,
+        "id": 128
+      }
+    ],
+    "garbages": [],
+    "cost": 5848500,
+    "upgradeCost": 633000,
+    "inputCost": 1583,
+    "outputCost": 2216
+  },
+  {
+    "id": 40,
+    "name": "Steel Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Scrap Metal",
+        "amount": 12,
+        "optional": 0,
+        "id": 112
+      },
+      {
+        "name": "Coal",
+        "amount": 4,
+        "optional": 0,
+        "id": 22
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Steel",
+        "amount": 6,
+        "id": 128
+      }
+    ],
+    "garbages": [],
+    "cost": 5529000,
+    "upgradeCost": 562000,
+    "inputCost": 1100,
+    "outputCost": 1662
+  },
+  {
+    "id": 41,
+    "name": "Plasma Cell Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 10,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "optional": 0,
+        "id": 14
+      },
+      {
+        "name": "Neon",
+        "amount": 1,
+        "optional": 0,
+        "id": 86
+      },
+      {
+        "name": "Helium",
+        "amount": 1,
+        "optional": 0,
+        "id": 62
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Plasma Cell",
+        "amount": 10,
+        "id": 97
+      }
+    ],
+    "garbages": [],
+    "cost": 5250000,
+    "upgradeCost": 500000,
+    "inputCost": 1240,
+    "outputCost": 1740
+  },
+  {
+    "id": 42,
+    "name": "Fuel Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Oil",
+        "amount": 1,
+        "optional": 0,
+        "id": 90
+      },
+      {
+        "name": "Nitrogen",
+        "amount": 1,
+        "optional": 0,
+        "id": 88
+      },
+      {
+        "name": "Fluorine",
+        "amount": 1,
+        "optional": 0,
+        "id": 48
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fuel",
+        "amount": 1,
+        "id": 53
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 4584000,
+    "upgradeCost": 352000,
+    "inputCost": 880,
+    "outputCost": 1232
+  },
+  {
+    "id": 43,
+    "name": "Glass Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Ore",
+        "amount": 4,
+        "optional": 0,
+        "id": 91
+      },
+      {
+        "name": "Crystal",
+        "amount": 4,
+        "optional": 0,
+        "id": 30
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Glass",
+        "amount": 8,
+        "id": 59
+      }
+    ],
+    "garbages": [],
+    "cost": 4872000,
+    "upgradeCost": 416000,
+    "inputCost": 1040,
+    "outputCost": 1456
+  },
+  {
+    "id": 44,
+    "name": "Chemical Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Water",
+        "amount": 5,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Nitrogen",
+        "amount": 5,
+        "optional": 0,
+        "id": 88
+      },
+      {
+        "name": "Hydrogen",
+        "amount": 5,
+        "optional": 0,
+        "id": 65
+      },
+      {
+        "name": "Oxygen",
+        "amount": 5,
+        "optional": 0,
+        "id": 92
+      },
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "optional": 0,
+        "id": 14
+      },
+      {
+        "name": "Carbon",
+        "amount": 1,
+        "optional": 0,
+        "id": 17
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 10,
+        "optional": 0,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Chemicals",
+        "amount": 2,
+        "id": 19
+      },
+      {
+        "name": "Adhesive",
+        "amount": 1,
+        "id": 4
+      },
+      {
+        "name": "Coolant",
+        "amount": 2,
+        "id": 27
+      },
+      {
+        "name": "Solvent",
+        "amount": 2,
+        "id": 126
+      },
+      {
+        "name": "Acid",
+        "amount": 2,
+        "id": 2
+      }
+    ],
+    "garbages": [],
+    "cost": 7644000,
+    "upgradeCost": 1032000,
+    "inputCost": 2586,
+    "outputCost": 3618
+  },
+  {
+    "id": 45,
+    "name": "Wire Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Plastic",
+        "amount": 1,
+        "optional": 0,
+        "id": 98
+      },
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Gold",
+        "amount": 1,
+        "optional": 0,
+        "id": 60
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Wire",
+        "amount": 15,
+        "id": 147
+      }
+    ],
+    "garbages": [],
+    "cost": 4849500,
+    "upgradeCost": 411000,
+    "inputCost": 1014,
+    "outputCost": 1425
+  },
+  {
+    "id": 46,
+    "name": "Metal Plate Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 3,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Silver",
+        "amount": 1,
+        "optional": 0,
+        "id": 122
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Metal Plate",
+        "amount": 2,
+        "id": 78
+      }
+    ],
+    "garbages": [],
+    "cost": 5038500,
+    "upgradeCost": 453000,
+    "inputCost": 1131,
+    "outputCost": 1584
+  },
+  {
+    "id": 47,
+    "name": "Paint Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Oil",
+        "amount": 1,
+        "optional": 0,
+        "id": 90
+      },
+      {
+        "name": "Water",
+        "amount": 1,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Chemicals",
+        "amount": 1,
+        "optional": 0,
+        "id": 19
+      },
+      {
+        "name": "Solvent",
+        "amount": 1,
+        "optional": 0,
+        "id": 126
+      },
+      {
+        "name": "Acid",
+        "amount": 1,
+        "optional": 0,
+        "id": 2
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Paint",
+        "amount": 5,
+        "id": 93
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 6100500,
+    "upgradeCost": 689000,
+    "inputCost": 1716,
+    "outputCost": 2405
+  },
+  {
+    "id": 48,
+    "name": "Fertilizer Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Chemicals",
+        "amount": 2,
+        "optional": 0,
+        "id": 19
+      },
+      {
+        "name": "Mineral",
+        "amount": 3,
+        "optional": 0,
+        "id": 81
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Solvent",
+        "amount": 1,
+        "optional": 1,
+        "id": 126
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fertilizer",
+        "amount": 11,
+        "id": 46
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 6388500,
+    "upgradeCost": 753000,
+    "inputCost": 2756,
+    "outputCost": 3509
+  },
+  {
+    "id": 49,
+    "name": "Fertilizer Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Plankton",
+        "amount": 1,
+        "optional": 0,
+        "id": 95
+      },
+      {
+        "name": "Mineral",
+        "amount": 4,
+        "optional": 0,
+        "id": 81
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fertilizer",
+        "amount": 9,
+        "id": 46
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 6469500,
+    "upgradeCost": 771000,
+    "inputCost": 2100,
+    "outputCost": 2871
+  },
+  {
+    "id": 50,
+    "name": "Explosive Charge Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Fluorine",
+        "amount": 4,
+        "optional": 0,
+        "id": 48
+      },
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Plastic",
+        "amount": 2,
+        "optional": 0,
+        "id": 98
+      },
+      {
+        "name": "Chemicals",
+        "amount": 2,
+        "optional": 0,
+        "id": 19
+      },
+      {
+        "name": "Acid",
+        "amount": 2,
+        "optional": 0,
+        "id": 2
+      },
+      {
+        "name": "Adhesive",
+        "amount": 2,
+        "optional": 0,
+        "id": 4
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Explosive Charge",
+        "amount": 4,
+        "id": 44
+      }
+    ],
+    "garbages": [],
+    "cost": 10330500,
+    "upgradeCost": 1629000,
+    "inputCost": 4063,
+    "outputCost": 5692
+  },
+  {
+    "id": 51,
+    "name": "Fusion Core Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Hydrogen",
+        "amount": 1,
+        "optional": 0,
+        "id": 65
+      },
+      {
+        "name": "Gold",
+        "amount": 1,
+        "optional": 0,
+        "id": 60
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 97
+      },
+      {
+        "name": "Transformator",
+        "amount": 2,
+        "optional": 0,
+        "id": 137
+      },
+      {
+        "name": "Energy Tube",
+        "amount": 2,
+        "optional": 0,
+        "id": 43
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fusion Core",
+        "amount": 2,
+        "id": 55
+      }
+    ],
+    "garbages": [],
+    "cost": 16149000,
+    "upgradeCost": 2922000,
+    "inputCost": 7306,
+    "outputCost": 10228
+  },
+  {
+    "id": 52,
+    "name": "High Pressure Tube Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Aluminum",
+        "amount": 1,
+        "optional": 0,
+        "id": 5
+      },
+      {
+        "name": "Carbon",
+        "amount": 2,
+        "optional": 0,
+        "id": 17
+      },
+      {
+        "name": "Adhesive",
+        "amount": 2,
+        "optional": 0,
+        "id": 4
+      },
+      {
+        "name": "Steel Tube",
+        "amount": 2,
+        "optional": 0,
+        "id": 129
+      }
+    ],
+    "outputs": [
+      {
+        "name": "High Pressure Tube",
+        "amount": 3,
+        "id": 64
+      }
+    ],
+    "garbages": [],
+    "cost": 9367500,
+    "upgradeCost": 1415000,
+    "inputCost": 3535,
+    "outputCost": 4950
+  },
+  {
+    "id": 53,
+    "name": "Targeting Card Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Microchip",
+        "amount": 1,
+        "optional": 0,
+        "id": 79
+      },
+      {
+        "name": "Copper",
+        "amount": 1,
+        "optional": 0,
+        "id": 28
+      },
+      {
+        "name": "Processor",
+        "amount": 2,
+        "optional": 0,
+        "id": 102
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Targeting Card",
+        "amount": 2,
+        "id": 130
+      }
+    ],
+    "garbages": [],
+    "cost": 33528000,
+    "upgradeCost": 6784000,
+    "inputCost": 16962,
+    "outputCost": 23746
+  },
+  {
+    "id": 54,
+    "name": "Electromagnetic Charge Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Container",
+        "amount": 10,
+        "optional": 0,
+        "id": 40
+      },
+      {
+        "name": "Electro Magnet",
+        "amount": 6,
+        "optional": 0,
+        "id": 36
+      },
+      {
+        "name": "Energy Tube",
+        "amount": 2,
+        "optional": 0,
+        "id": 43
+      },
+      {
+        "name": "Transformator",
+        "amount": 2,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Electromagnetic Charge",
+        "amount": 2,
+        "id": 37
+      }
+    ],
+    "garbages": [],
+    "cost": 38973000,
+    "upgradeCost": 7994000,
+    "inputCost": 19976,
+    "outputCost": 27970
+  },
+  {
+    "id": 55,
+    "name": "Gauss Rail Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 10,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Electro Magnet",
+        "amount": 6,
+        "optional": 0,
+        "id": 36
+      },
+      {
+        "name": "Energy Tube",
+        "amount": 2,
+        "optional": 0,
+        "id": 43
+      },
+      {
+        "name": "High Pressure Tube",
+        "amount": 1,
+        "optional": 0,
+        "id": 64
+      },
+      {
+        "name": "Transformator",
+        "amount": 1,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Gauss Rail",
+        "amount": 2,
+        "id": 57
+      }
+    ],
+    "garbages": [],
+    "cost": 22903500,
+    "upgradeCost": 4423000,
+    "inputCost": 11047,
+    "outputCost": 15470
+  },
+  {
+    "id": 56,
+    "name": "Energy Generator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 15,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Microchip",
+        "amount": 10,
+        "optional": 0,
+        "id": 79
+      },
+      {
+        "name": "Conductor",
+        "amount": 10,
+        "optional": 0,
+        "id": 26
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Energy Generator",
+        "amount": 1,
+        "id": 41
+      }
+    ],
+    "garbages": [],
+    "cost": 23551500,
+    "upgradeCost": 4567000,
+    "inputCost": 11390,
+    "outputCost": 15957
+  },
+  {
+    "id": 57,
+    "name": "Display Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Glass",
+        "amount": 1,
+        "optional": 0,
+        "id": 59
+      },
+      {
+        "name": "Microchip",
+        "amount": 5,
+        "optional": 0,
+        "id": 79
+      },
+      {
+        "name": "Semi Conductor",
+        "amount": 3,
+        "optional": 0,
+        "id": 118
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 1,
+        "optional": 0,
+        "id": 97
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Display",
+        "amount": 1,
+        "id": 33
+      }
+    ],
+    "garbages": [],
+    "cost": 14857500,
+    "upgradeCost": 2635000,
+    "inputCost": 5223,
+    "outputCost": 7858
+  },
+  {
+    "id": 58,
+    "name": "Processor Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Microchip",
+        "amount": 7,
+        "optional": 0,
+        "id": 79
+      },
+      {
+        "name": "Semi Conductor",
+        "amount": 5,
+        "optional": 0,
+        "id": 118
+      },
+      {
+        "name": "Copper",
+        "amount": 5,
+        "optional": 0,
+        "id": 28
+      },
+      {
+        "name": "Platinum",
+        "amount": 5,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Gold",
+        "amount": 5,
+        "optional": 0,
+        "id": 60
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Processor",
+        "amount": 3,
+        "id": 102
+      }
+    ],
+    "garbages": [],
+    "cost": 39706500,
+    "upgradeCost": 8157000,
+    "inputCost": 15417,
+    "outputCost": 23574
+  },
+  {
+    "id": 59,
+    "name": "Computer Component Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Wire",
+        "amount": 15,
+        "optional": 0,
+        "id": 147
+      },
+      {
+        "name": "Microchip",
+        "amount": 7,
+        "optional": 0,
+        "id": 79
+      },
+      {
+        "name": "Semi Conductor",
+        "amount": 5,
+        "optional": 0,
+        "id": 118
+      },
+      {
+        "name": "Copper",
+        "amount": 5,
+        "optional": 0,
+        "id": 28
+      },
+      {
+        "name": "Platinum",
+        "amount": 5,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Gold",
+        "amount": 5,
+        "optional": 0,
+        "id": 60
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Display",
+        "amount": 1,
+        "id": 33
+      },
+      {
+        "name": "Targeting Card",
+        "amount": 1,
+        "id": 130
+      },
+      {
+        "name": "Processor",
+        "amount": 1,
+        "id": 102
+      }
+    ],
+    "garbages": [],
+    "cost": 51361500,
+    "upgradeCost": 10747000,
+    "inputCost": 16842,
+    "outputCost": 27589
+  },
+  {
+    "id": 60,
+    "name": "Nanobot Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Crystal",
+        "amount": 15,
+        "optional": 0,
+        "id": 30
+      },
+      {
+        "name": "Semi Conductor",
+        "amount": 15,
+        "optional": 0,
+        "id": 118
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Nanobot",
+        "amount": 5,
+        "id": 84
+      }
+    ],
+    "garbages": [],
+    "cost": 11572500,
+    "upgradeCost": 1905000,
+    "inputCost": 4785,
+    "outputCost": 6690
+  },
+  {
+    "id": 61,
+    "name": "Laser Compressor Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Plasma Cell",
+        "amount": 1,
+        "optional": 0,
+        "id": 97
+      },
+      {
+        "name": "Transformator",
+        "amount": 1,
+        "optional": 0,
+        "id": 137
+      },
+      {
+        "name": "Energy Tube",
+        "amount": 1,
+        "optional": 0,
+        "id": 43
+      },
+      {
+        "name": "Wire",
+        "amount": 15,
+        "optional": 0,
+        "id": 147
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Laser Compressor",
+        "amount": 1,
+        "id": 69
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 11433000,
+    "upgradeCost": 1874000,
+    "inputCost": 4703,
+    "outputCost": 6577
+  },
+  {
+    "id": 62,
+    "name": "Laser Head Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Glass",
+        "amount": 1,
+        "optional": 0,
+        "id": 59
+      },
+      {
+        "name": "Conductor",
+        "amount": 1,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Aluminum",
+        "amount": 15,
+        "optional": 0,
+        "id": 5
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Laser Head",
+        "amount": 1,
+        "id": 70
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 8805000,
+    "upgradeCost": 1290000,
+    "inputCost": 3400,
+    "outputCost": 4690
+  },
+  {
+    "id": 63,
+    "name": "Drone Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Fuel",
+        "amount": 1,
+        "optional": 0,
+        "id": 53
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 97
+      },
+      {
+        "name": "Metal Plate",
+        "amount": 5,
+        "optional": 0,
+        "id": 78
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Drone",
+        "amount": 1,
+        "id": 35
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 12963000,
+    "upgradeCost": 2214000,
+    "inputCost": 5540,
+    "outputCost": 7754
+  },
+  {
+    "id": 64,
+    "name": "Warhead Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Conductor",
+        "amount": 5,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Chemicals",
+        "amount": 2,
+        "optional": 0,
+        "id": 19
+      },
+      {
+        "name": "Metal Plate",
+        "amount": 3,
+        "optional": 0,
+        "id": 78
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Warhead",
+        "amount": 1,
+        "id": 143
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 10245000,
+    "upgradeCost": 1610000,
+    "inputCost": 4020,
+    "outputCost": 5630
+  },
+  {
+    "id": 65,
+    "name": "Power Unit Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Transformator",
+        "amount": 2,
+        "optional": 0,
+        "id": 137
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 97
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Power Unit",
+        "amount": 1,
+        "id": 101
+      }
+    ],
+    "garbages": [],
+    "cost": 4552500,
+    "upgradeCost": 345000,
+    "inputCost": 866,
+    "outputCost": 1211
+  },
+  {
+    "id": 66,
+    "name": "Antigrav Unit Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Power Unit",
+        "amount": 2,
+        "optional": 0,
+        "id": 101
+      },
+      {
+        "name": "Processor",
+        "amount": 2,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Antigrav Unit",
+        "amount": 1,
+        "id": 11
+      }
+    ],
+    "garbages": [],
+    "cost": 35413500,
+    "upgradeCost": 7203000,
+    "inputCost": 18188,
+    "outputCost": 25391
+  },
+  {
+    "id": 67,
+    "name": "Energy Container Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 9,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Transformator",
+        "amount": 9,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Energy Container",
+        "amount": 3,
+        "id": 40
+      }
+    ],
+    "garbages": [],
+    "cost": 7185000,
+    "upgradeCost": 930000,
+    "inputCost": 2331,
+    "outputCost": 3261
+  },
+  {
+    "id": 68,
+    "name": "Solar Panel Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Solar Cell",
+        "amount": 10,
+        "optional": 0,
+        "id": 124
+      },
+      {
+        "name": "Transformator",
+        "amount": 1,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Solar Panel",
+        "amount": 1,
+        "id": 125
+      }
+    ],
+    "garbages": [],
+    "cost": 11815500,
+    "upgradeCost": 1959000,
+    "inputCost": 4899,
+    "outputCost": 6858
+  },
+  {
+    "id": 69,
+    "name": "Accelerator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Turbine",
+        "amount": 3,
+        "optional": 0,
+        "id": 139
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 3,
+        "optional": 0,
+        "id": 97
+      },
+      {
+        "name": "Fusion Generator",
+        "amount": 3,
+        "optional": 0,
+        "id": 56
+      },
+      {
+        "name": "Energy Tube",
+        "amount": 6,
+        "optional": 0,
+        "id": 43
+      },
+      {
+        "name": "High Pressure Tube",
+        "amount": 6,
+        "optional": 0,
+        "id": 64
+      },
+      {
+        "name": "Conductor",
+        "amount": 15,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Gauss Rail",
+        "amount": 9,
+        "optional": 0,
+        "id": 57
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Neutron Accelerator",
+        "amount": 1,
+        "id": 87
+      },
+      {
+        "name": "Proton Accelerator",
+        "amount": 1,
+        "id": 104
+      },
+      {
+        "name": "Electron Accelerator",
+        "amount": 1,
+        "id": 38
+      }
+    ],
+    "garbages": [],
+    "cost": 486840000,
+    "upgradeCost": 107520000,
+    "inputCost": 268773,
+    "outputCost": 376293
+  },
+  {
+    "id": 70,
+    "name": "Targeting System Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Targeting Card",
+        "amount": 1,
+        "optional": 0,
+        "id": 130
+      },
+      {
+        "name": "Processor",
+        "amount": 1,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 3,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Conductor",
+        "amount": 5,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Wire",
+        "amount": 5,
+        "optional": 0,
+        "id": 147
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Targeting System",
+        "amount": 1,
+        "id": 131
+      }
+    ],
+    "garbages": [],
+    "cost": 41151000,
+    "upgradeCost": 8478000,
+    "inputCost": 21196,
+    "outputCost": 29674
+  },
+  {
+    "id": 71,
+    "name": "Ammunition Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Lead",
+        "amount": 10,
+        "optional": 0,
+        "id": 72
+      },
+      {
+        "name": "Aluminum",
+        "amount": 10,
+        "optional": 0,
+        "id": 5
+      },
+      {
+        "name": "Steel",
+        "amount": 10,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Adhesive",
+        "amount": 5,
+        "optional": 0,
+        "id": 4
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 5,
+        "optional": 0,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Ammunition S",
+        "amount": 15,
+        "id": 9
+      },
+      {
+        "name": "Ammunition M",
+        "amount": 10,
+        "id": 8
+      },
+      {
+        "name": "Ammunition L",
+        "amount": 5,
+        "id": 7
+      }
+    ],
+    "garbages": [],
+    "cost": 19335000,
+    "upgradeCost": 3630000,
+    "inputCost": 9030,
+    "outputCost": 12660
+  },
+  {
+    "id": 72,
+    "name": "High Capacity Lens Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Glass",
+        "amount": 4,
+        "optional": 0,
+        "id": 59
+      },
+      {
+        "name": "Carbon",
+        "amount": 2,
+        "optional": 0,
+        "id": 17
+      },
+      {
+        "name": "Plastic",
+        "amount": 2,
+        "optional": 0,
+        "id": 98
+      },
+      {
+        "name": "Diamond",
+        "amount": 2,
+        "optional": 0,
+        "id": 32
+      }
+    ],
+    "outputs": [
+      {
+        "name": "High Capacity Lens",
+        "amount": 1,
+        "id": 63
+      }
+    ],
+    "garbages": [],
+    "cost": 9034500,
+    "upgradeCost": 1341000,
+    "inputCost": 3348,
+    "outputCost": 4689
+  },
+  {
+    "id": 73,
+    "name": "Laser Modulator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Servo",
+        "amount": 4,
+        "optional": 0,
+        "id": 119
+      },
+      {
+        "name": "Energy Tube",
+        "amount": 2,
+        "optional": 0,
+        "id": 43
+      },
+      {
+        "name": "Transformator",
+        "amount": 2,
+        "optional": 0,
+        "id": 137
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 0,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Laser Modulator",
+        "amount": 1,
+        "id": 71
+      }
+    ],
+    "garbages": [],
+    "cost": 24537000,
+    "upgradeCost": 4786000,
+    "inputCost": 11956,
+    "outputCost": 16742
+  },
+  {
+    "id": 74,
+    "name": "Force Generator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Electro Magnet",
+        "amount": 4,
+        "optional": 0,
+        "id": 36
+      },
+      {
+        "name": "Steel",
+        "amount": 10,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Plastic",
+        "amount": 10,
+        "optional": 0,
+        "id": 98
+      },
+      {
+        "name": "Nanobot",
+        "amount": 10,
+        "optional": 0,
+        "id": 84
+      },
+      {
+        "name": "Energy Generator",
+        "amount": 1,
+        "optional": 0,
+        "id": 41
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Force Generator",
+        "amount": 1,
+        "id": 51
+      }
+    ],
+    "garbages": [],
+    "cost": 66751500,
+    "upgradeCost": 14167000,
+    "inputCost": 35409,
+    "outputCost": 49576
+  },
+  {
+    "id": 75,
+    "name": "Antigrav Generator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Electro Magnet",
+        "amount": 4,
+        "optional": 0,
+        "id": 36
+      },
+      {
+        "name": "Servo",
+        "amount": 5,
+        "optional": 0,
+        "id": 119
+      },
+      {
+        "name": "Wire",
+        "amount": 10,
+        "optional": 0,
+        "id": 147
+      },
+      {
+        "name": "Antigrav Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 11
+      },
+      {
+        "name": "Energy Generator",
+        "amount": 1,
+        "optional": 0,
+        "id": 41
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Antigrav Generator",
+        "amount": 1,
+        "id": 10
+      }
+    ],
+    "garbages": [],
+    "cost": 95101500,
+    "upgradeCost": 20467000,
+    "inputCost": 51165,
+    "outputCost": 71632
+  },
+  {
+    "id": 76,
+    "name": "Fusion Generator Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Fusion Core",
+        "amount": 4,
+        "optional": 0,
+        "id": 55
+      },
+      {
+        "name": "Steel",
+        "amount": 10,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 15,
+        "optional": 0,
+        "id": 97
+      },
+      {
+        "name": "Power Unit",
+        "amount": 2,
+        "optional": 0,
+        "id": 101
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fusion Generator",
+        "amount": 1,
+        "id": 56
+      }
+    ],
+    "garbages": [],
+    "cost": 53827500,
+    "upgradeCost": 11295000,
+    "inputCost": 28258,
+    "outputCost": 39553
+  },
+  {
+    "id": 77,
+    "name": "Turbine Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Servo",
+        "amount": 4,
+        "optional": 0,
+        "id": 119
+      },
+      {
+        "name": "Steel",
+        "amount": 10,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Coolant",
+        "amount": 3,
+        "optional": 0,
+        "id": 27
+      },
+      {
+        "name": "Power Unit",
+        "amount": 2,
+        "optional": 0,
+        "id": 101
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Turbine",
+        "amount": 1,
+        "id": 139
+      }
+    ],
+    "garbages": [],
+    "cost": 24523500,
+    "upgradeCost": 4783000,
+    "inputCost": 11946,
+    "outputCost": 16729
+  },
+  {
+    "id": 78,
+    "name": "Tesla Coil Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 10,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Copper",
+        "amount": 3,
+        "optional": 0,
+        "id": 28
+      },
+      {
+        "name": "Fusion Core",
+        "amount": 2,
+        "optional": 0,
+        "id": 55
+      },
+      {
+        "name": "Plastic",
+        "amount": 5,
+        "optional": 0,
+        "id": 98
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Military Tesla Coil",
+        "amount": 1,
+        "id": 80
+      },
+      {
+        "name": "Industrial Tesla Coil",
+        "amount": 1,
+        "id": 66
+      }
+    ],
+    "garbages": [],
+    "cost": 29527500,
+    "upgradeCost": 5895000,
+    "inputCost": 14733,
+    "outputCost": 20628
+  },
+  {
+    "id": 79,
+    "name": "Medical Supplies Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Water",
+        "amount": 5,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Chemicals",
+        "amount": 15,
+        "optional": 0,
+        "id": 19
+      },
+      {
+        "name": "Fabric",
+        "amount": 5,
+        "optional": 0,
+        "id": 45
+      },
+      {
+        "name": "Zinc",
+        "amount": 5,
+        "optional": 0,
+        "id": 150
+      },
+      {
+        "name": "Chlorine",
+        "amount": 5,
+        "optional": 0,
+        "id": 20
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Medical Supplies",
+        "amount": 4,
+        "id": 77
+      }
+    ],
+    "garbages": [],
+    "cost": 18475500,
+    "upgradeCost": 3439000,
+    "inputCost": 8585,
+    "outputCost": 12024
+  },
+  {
+    "id": 80,
+    "name": "Satellite Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Solar Panel",
+        "amount": 2,
+        "optional": 0,
+        "id": 125
+      },
+      {
+        "name": "Processor",
+        "amount": 2,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Display",
+        "amount": 2,
+        "optional": 0,
+        "id": 33
+      },
+      {
+        "name": "Energy Container",
+        "amount": 1,
+        "optional": 0,
+        "id": 40
+      },
+      {
+        "name": "Steel Tube",
+        "amount": 1,
+        "optional": 0,
+        "id": 129
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Satellite",
+        "amount": 1,
+        "id": 109
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 87487500,
+    "upgradeCost": 18775000,
+    "inputCost": 46939,
+    "outputCost": 65714
+  },
+  {
+    "id": 81,
+    "name": "Drill Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Laser Head",
+        "amount": 1,
+        "optional": 0,
+        "id": 70
+      },
+      {
+        "name": "Processor",
+        "amount": 1,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Steel",
+        "amount": 2,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Diamond",
+        "amount": 2,
+        "optional": 0,
+        "id": 32
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Drill",
+        "amount": 1,
+        "id": 34
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 29284500,
+    "upgradeCost": 5841000,
+    "inputCost": 14602,
+    "outputCost": 20443
+  },
+  {
+    "id": 82,
+    "name": "Ammunition Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Chemicals",
+        "amount": 15,
+        "optional": 0,
+        "id": 19
+      },
+      {
+        "name": "Paint",
+        "amount": 15,
+        "optional": 0,
+        "id": 93
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Ammunition",
+        "amount": 5,
+        "id": 6
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 27336000,
+    "upgradeCost": 5408000,
+    "inputCost": 13522,
+    "outputCost": 18930
+  },
+  {
+    "id": 83,
+    "name": "Teleporter Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Metal Plate",
+        "amount": 1,
+        "optional": 0,
+        "id": 78
+      },
+      {
+        "name": "Power Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 101
+      },
+      {
+        "name": "Antigrav Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 11
+      },
+      {
+        "name": "Plasma Cell",
+        "amount": 2,
+        "optional": 0,
+        "id": 97
+      },
+      {
+        "name": "Conductor",
+        "amount": 1,
+        "optional": 0,
+        "id": 26
+      },
+      {
+        "name": "Transformator",
+        "amount": 1,
+        "optional": 0,
+        "id": 137
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Teleporter",
+        "amount": 1,
+        "id": 133
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 53607000,
+    "upgradeCost": 11246000,
+    "inputCost": 28119,
+    "outputCost": 39365
+  },
+  {
+    "id": 84,
+    "name": "Computation Mainframe Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Processor",
+        "amount": 2,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Power Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 101
+      },
+      {
+        "name": "Microchip",
+        "amount": 1,
+        "optional": 0,
+        "id": 79
+      },
+      {
+        "name": "Display",
+        "amount": 1,
+        "optional": 0,
+        "id": 33
+      },
+      {
+        "name": "Wire",
+        "amount": 15,
+        "optional": 0,
+        "id": 147
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Computation Mainframe",
+        "amount": 1,
+        "id": 25
+      }
+    ],
+    "garbages": [],
+    "cost": 51753000,
+    "upgradeCost": 10834000,
+    "inputCost": 27106,
+    "outputCost": 37940
+  },
+  {
+    "id": 85,
+    "name": "Vehicle Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Rubber",
+        "amount": 1,
+        "optional": 0,
+        "id": 108
+      },
+      {
+        "name": "Power Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 101
+      },
+      {
+        "name": "Energy Generator",
+        "amount": 1,
+        "optional": 0,
+        "id": 41
+      },
+      {
+        "name": "Metal Plate",
+        "amount": 5,
+        "optional": 0,
+        "id": 78
+      },
+      {
+        "name": "Antigrav Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 11
+      },
+      {
+        "name": "Display",
+        "amount": 1,
+        "optional": 0,
+        "id": 33
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Vehicle",
+        "amount": 1,
+        "id": 141
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 102108000,
+    "upgradeCost": 22024000,
+    "inputCost": 55063,
+    "outputCost": 77087
+  },
+  {
+    "id": 86,
+    "name": "Gun Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Ammunition",
+        "amount": 1,
+        "optional": 0,
+        "id": 6
+      },
+      {
+        "name": "Aluminum",
+        "amount": 1,
+        "optional": 0,
+        "id": 5
+      },
+      {
+        "name": "Plastic",
+        "amount": 1,
+        "optional": 0,
+        "id": 98
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Gun",
+        "amount": 5,
+        "id": 61
+      }
+    ],
+    "garbages": [],
+    "cost": 10920000,
+    "upgradeCost": 1760000,
+    "inputCost": 4400,
+    "outputCost": 6160
+  },
+  {
+    "id": 87,
+    "name": "Rocket Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Warhead",
+        "amount": 1,
+        "optional": 0,
+        "id": 143
+      },
+      {
+        "name": "Fuel",
+        "amount": 1,
+        "optional": 0,
+        "id": 53
+      },
+      {
+        "name": "Steel",
+        "amount": 1,
+        "optional": 0,
+        "id": 128
+      },
+      {
+        "name": "Microchip",
+        "amount": 1,
+        "optional": 0,
+        "id": 79
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Rocket",
+        "amount": 1,
+        "id": 107
+      }
+    ],
+    "garbages": [],
+    "cost": 17467500,
+    "upgradeCost": 3215000,
+    "inputCost": 8035,
+    "outputCost": 11250
+  },
+  {
+    "id": 88,
+    "name": "Mining Robot Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Power Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 101
+      },
+      {
+        "name": "Processor",
+        "amount": 1,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Display",
+        "amount": 1,
+        "optional": 0,
+        "id": 33
+      },
+      {
+        "name": "Nanobot",
+        "amount": 5,
+        "optional": 0,
+        "id": 84
+      },
+      {
+        "name": "Drill",
+        "amount": 2,
+        "optional": 0,
+        "id": 34
+      },
+      {
+        "name": "Coolant",
+        "amount": 1,
+        "optional": 0,
+        "id": 27
+      },
+      {
+        "name": "Teleporter",
+        "amount": 1,
+        "optional": 0,
+        "id": 133
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Mining Robot",
+        "amount": 1,
+        "id": 82
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 190681500,
+    "upgradeCost": 41707000,
+    "inputCost": 104270,
+    "outputCost": 145977
+  },
+  {
+    "id": 89,
+    "name": "War Robot Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Power Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 101
+      },
+      {
+        "name": "Processor",
+        "amount": 1,
+        "optional": 0,
+        "id": 102
+      },
+      {
+        "name": "Display",
+        "amount": 1,
+        "optional": 0,
+        "id": 33
+      },
+      {
+        "name": "Nanobot",
+        "amount": 5,
+        "optional": 0,
+        "id": 84
+      },
+      {
+        "name": "Gun",
+        "amount": 2,
+        "optional": 0,
+        "id": 61
+      },
+      {
+        "name": "Teleporter",
+        "amount": 1,
+        "optional": 0,
+        "id": 133
+      },
+      {
+        "name": "Coolant",
+        "amount": 1,
+        "optional": 0,
+        "id": 27
+      }
+    ],
+    "outputs": [
+      {
+        "name": "War Robot",
+        "amount": 1,
+        "id": 142
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Scrap Metal",
+        "amount": 1,
+        "id": 112
+      }
+    ],
+    "cost": 121521000,
+    "upgradeCost": 26338000,
+    "inputCost": 65848,
+    "outputCost": 92186
+  },
+  {
+    "id": 90,
+    "name": "Body Armor Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Metal Plate",
+        "amount": 2,
+        "optional": 0,
+        "id": 78
+      },
+      {
+        "name": "Coolant",
+        "amount": 1,
+        "optional": 0,
+        "id": 27
+      },
+      {
+        "name": "Teleporter",
+        "amount": 1,
+        "optional": 0,
+        "id": 133
+      },
+      {
+        "name": "Antigrav Unit",
+        "amount": 1,
+        "optional": 0,
+        "id": 11
+      },
+      {
+        "name": "Carbon",
+        "amount": 1,
+        "optional": 0,
+        "id": 17
+      },
+      {
+        "name": "Nanobot",
+        "amount": 1,
+        "optional": 0,
+        "id": 84
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Body Armor",
+        "amount": 1,
+        "id": 15
+      }
+    ],
+    "garbages": [],
+    "cost": 126313500,
+    "upgradeCost": 27403000,
+    "inputCost": 68503,
+    "outputCost": 95906
+  },
+  {
+    "id": 91,
+    "name": "Water Collector",
+    "type": "Collector",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Water",
+        "amount": 75,
+        "id": 144
+      }
+    ],
+    "garbages": [],
+    "cost": 9750000,
+    "upgradeCost": 1500000,
+    "inputCost": 0,
+    "outputCost": 1500
+  },
+  {
+    "id": 92,
+    "name": "Plankton Collector",
+    "type": "Collector",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "Plankton",
+        "amount": 35,
+        "id": 95
+      }
+    ],
+    "garbages": [],
+    "cost": 10875000,
+    "upgradeCost": 1750000,
+    "inputCost": 0,
+    "outputCost": 1750
+  },
+  {
+    "id": 93,
+    "name": "Fish Farm",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Water",
+        "amount": 23,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Wheat",
+        "amount": 5,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Oxygen",
+        "amount": 5,
+        "optional": 0,
+        "id": 92
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fish",
+        "amount": 8,
+        "id": 47
+      },
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "id": 14
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Plankton",
+        "amount": 1,
+        "id": 95
+      }
+    ],
+    "cost": 5043000,
+    "upgradeCost": 454000,
+    "inputCost": 975,
+    "outputCost": 1429
+  },
+  {
+    "id": 94,
+    "name": "Plant Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 6,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 30,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Plant",
+        "amount": 60,
+        "id": 96
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 6,
+        "id": 92
+      }
+    ],
+    "cost": 2730000,
+    "upgradeCost": -60000,
+    "inputCost": 900,
+    "outputCost": 840
+  },
+  {
+    "id": 95,
+    "name": "Rice Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 40,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Rice",
+        "amount": 76,
+        "id": 106
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 4,
+        "id": 92
+      }
+    ],
+    "cost": 3630000,
+    "upgradeCost": 140000,
+    "inputCost": 1000,
+    "outputCost": 1140
+  },
+  {
+    "id": 96,
+    "name": "Potato Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 6,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 30,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Potato",
+        "amount": 35,
+        "id": 100
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 8,
+        "id": 92
+      }
+    ],
+    "cost": 2730000,
+    "upgradeCost": -60000,
+    "inputCost": 900,
+    "outputCost": 840
+  },
+  {
+    "id": 97,
+    "name": "Wheat Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 40,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Wheat",
+        "amount": 48,
+        "id": 145
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 4,
+        "id": 92
+      }
+    ],
+    "cost": 3468000,
+    "upgradeCost": 104000,
+    "inputCost": 1000,
+    "outputCost": 1104
+  },
+  {
+    "id": 98,
+    "name": "Corn Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 60,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Corn",
+        "amount": 60,
+        "id": 29
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 4,
+        "id": 92
+      }
+    ],
+    "cost": 4260000,
+    "upgradeCost": 280000,
+    "inputCost": 1400,
+    "outputCost": 1680
+  },
+  {
+    "id": 99,
+    "name": "Wood Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 3,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 75,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Wood",
+        "amount": 6,
+        "id": 148
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 3,
+        "id": 92
+      }
+    ],
+    "cost": 5025000,
+    "upgradeCost": 450000,
+    "inputCost": 1650,
+    "outputCost": 2100
+  },
+  {
+    "id": 100,
+    "name": "Fruit Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 80,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fruit",
+        "amount": 40,
+        "id": 52
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 4,
+        "id": 92
+      }
+    ],
+    "cost": 4980000,
+    "upgradeCost": 440000,
+    "inputCost": 1800,
+    "outputCost": 2240
+  },
+  {
+    "id": 101,
+    "name": "Coffee Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 35,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Fertilizer",
+        "amount": 2,
+        "optional": 0,
+        "id": 46
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Coffee",
+        "amount": 10,
+        "id": 24
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 1,
+        "id": 92
+      }
+    ],
+    "cost": 5169000,
+    "upgradeCost": 482000,
+    "inputCost": 1388,
+    "outputCost": 1870
+  },
+  {
+    "id": 102,
+    "name": "Cocoa Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 30,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Fertilizer",
+        "amount": 2,
+        "optional": 0,
+        "id": 46
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Cocoa",
+        "amount": 20,
+        "id": 23
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 1,
+        "id": 92
+      }
+    ],
+    "cost": 5034000,
+    "upgradeCost": 452000,
+    "inputCost": 1288,
+    "outputCost": 1740
+  },
+  {
+    "id": 103,
+    "name": "Tea Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 100,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Tea",
+        "amount": 75,
+        "id": 132
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 4,
+        "id": 92
+      }
+    ],
+    "cost": 5587500,
+    "upgradeCost": 575000,
+    "inputCost": 2200,
+    "outputCost": 2775
+  },
+  {
+    "id": 104,
+    "name": "Vegetable Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 4,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 40,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Vegetable",
+        "amount": 35,
+        "id": 140
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 4,
+        "id": 92
+      }
+    ],
+    "cost": 3540000,
+    "upgradeCost": 120000,
+    "inputCost": 1000,
+    "outputCost": 1120
+  },
+  {
+    "id": 105,
+    "name": "Spices Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Water",
+        "amount": 35,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Fertilizer",
+        "amount": 5,
+        "optional": 0,
+        "id": 46
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Spices",
+        "amount": 12,
+        "id": 127
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Oxygen",
+        "amount": 1,
+        "id": 92
+      }
+    ],
+    "cost": 6919500,
+    "upgradeCost": 871000,
+    "inputCost": 2345,
+    "outputCost": 3216
+  },
+  {
+    "id": 106,
+    "name": "Sheep Ranch",
+    "type": "Ranch",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 2,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Oxygen",
+        "amount": 10,
+        "optional": 0,
+        "id": 92
+      },
+      {
+        "name": "Wheat",
+        "amount": 18,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Water",
+        "amount": 12,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Sheep",
+        "amount": 15,
+        "id": 120
+      },
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "id": 14
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Fabric",
+        "amount": 2,
+        "id": 45
+      }
+    ],
+    "cost": 5740500,
+    "upgradeCost": 609000,
+    "inputCost": 1554,
+    "outputCost": 2163
+  },
+  {
+    "id": 107,
+    "name": "Sheep Ranch",
+    "type": "Ranch",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Corn",
+        "amount": 10,
+        "optional": 0,
+        "id": 29
+      },
+      {
+        "name": "Oxygen",
+        "amount": 10,
+        "optional": 0,
+        "id": 92
+      },
+      {
+        "name": "Water",
+        "amount": 20,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Sheep",
+        "amount": 15,
+        "id": 120
+      },
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "id": 14
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Fabric",
+        "amount": 2,
+        "id": 45
+      }
+    ],
+    "cost": 5848500,
+    "upgradeCost": 633000,
+    "inputCost": 1530,
+    "outputCost": 2163
+  },
+  {
+    "id": 108,
+    "name": "Fungus Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "optional": 0,
+        "id": 14
+      },
+      {
+        "name": "Water",
+        "amount": 5,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Mineral",
+        "amount": 1,
+        "optional": 0,
+        "id": 81
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fungus",
+        "amount": 25,
+        "id": 54
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Toxic Waste",
+        "amount": 1,
+        "id": 136
+      }
+    ],
+    "cost": 4516500,
+    "upgradeCost": 337000,
+    "inputCost": 813,
+    "outputCost": 1150
+  },
+  {
+    "id": 109,
+    "name": "Cattle Ranch",
+    "type": "Ranch",
+    "inputs": [
+      {
+        "name": "Wheat",
+        "amount": 15,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Oxygen",
+        "amount": 10,
+        "optional": 0,
+        "id": 92
+      },
+      {
+        "name": "Water",
+        "amount": 15,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Cattle",
+        "amount": 8,
+        "id": 18
+      }
+    ],
+    "garbages": [
+      {
+        "name": "Bio Gas",
+        "amount": 1,
+        "id": 14
+      }
+    ],
+    "cost": 5641500,
+    "upgradeCost": 587000,
+    "inputCost": 1445,
+    "outputCost": 2032
+  },
+  {
+    "id": 110,
+    "name": "Cattle Ranch",
+    "type": "Ranch",
+    "inputs": [
+      {
+        "name": "Corn",
+        "amount": 15,
+        "optional": 0,
+        "id": 29
+      },
+      {
+        "name": "Oxygen",
+        "amount": 10,
+        "optional": 0,
+        "id": 92
+      },
+      {
+        "name": "Water",
+        "amount": 15,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Cattle",
+        "amount": 8,
+        "id": 18
+      },
+      {
+        "name": "Bio Gas",
+        "amount": 2,
+        "id": 14
+      }
+    ],
+    "garbages": [],
+    "cost": 7221000,
+    "upgradeCost": 938000,
+    "inputCost": 1520,
+    "outputCost": 2458
+  },
+  {
+    "id": 111,
+    "name": "Protein Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Meat",
+        "amount": 25,
+        "optional": 0,
+        "id": 76
+      },
+      {
+        "name": "Dairy",
+        "amount": 80,
+        "optional": 0,
+        "id": 31
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Protein",
+        "amount": 100,
+        "id": 103
+      }
+    ],
+    "garbages": [],
+    "cost": 7297500,
+    "upgradeCost": 955000,
+    "inputCost": 2445,
+    "outputCost": 3400
+  },
+  {
+    "id": 112,
+    "name": "Meat Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Cattle",
+        "amount": 10,
+        "optional": 0,
+        "id": 18
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Meat",
+        "amount": 85,
+        "id": 76
+      },
+      {
+        "name": "Leather",
+        "amount": 10,
+        "id": 73
+      }
+    ],
+    "garbages": [],
+    "cost": 7387500,
+    "upgradeCost": 975000,
+    "inputCost": 2540,
+    "outputCost": 3515
+  },
+  {
+    "id": 113,
+    "name": "Dairy Farm",
+    "type": "Farm",
+    "inputs": [
+      {
+        "name": "Cattle",
+        "amount": 10,
+        "optional": 0,
+        "id": 18
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Dairy",
+        "amount": 180,
+        "id": 31
+      },
+      {
+        "name": "Leather",
+        "amount": 10,
+        "id": 73
+      }
+    ],
+    "garbages": [],
+    "cost": 8625000,
+    "upgradeCost": 1250000,
+    "inputCost": 2540,
+    "outputCost": 3790
+  },
+  {
+    "id": 114,
+    "name": "Fabric Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Sheep",
+        "amount": 15,
+        "optional": 0,
+        "id": 120
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Fabric",
+        "amount": 30,
+        "id": 45
+      }
+    ],
+    "garbages": [],
+    "cost": 6510000,
+    "upgradeCost": 780000,
+    "inputCost": 1950,
+    "outputCost": 2730
+  },
+  {
+    "id": 115,
+    "name": "Clothes Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Fabric",
+        "amount": 80,
+        "optional": 0,
+        "id": 45
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Clothes",
+        "amount": 100,
+        "id": 21
+      }
+    ],
+    "garbages": [],
+    "cost": 16140000,
+    "upgradeCost": 2920000,
+    "inputCost": 7280,
+    "outputCost": 10200
+  },
+  {
+    "id": 116,
+    "name": "Paper Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Water",
+        "amount": 30,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Wood",
+        "amount": 2,
+        "optional": 0,
+        "id": 148
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Paper",
+        "amount": 40,
+        "id": 94
+      }
+    ],
+    "garbages": [],
+    "cost": 5430000,
+    "upgradeCost": 540000,
+    "inputCost": 1300,
+    "outputCost": 1840
+  },
+  {
+    "id": 117,
+    "name": "Brewery",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Water",
+        "amount": 150,
+        "optional": 0,
+        "id": 144
+      },
+      {
+        "name": "Wheat",
+        "amount": 50,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Fungus",
+        "amount": 10,
+        "optional": 0,
+        "id": 54
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Beer",
+        "amount": 30,
+        "id": 13
+      }
+    ],
+    "garbages": [],
+    "cost": 11415000,
+    "upgradeCost": 1870000,
+    "inputCost": 4610,
+    "outputCost": 6480
+  },
+  {
+    "id": 118,
+    "name": "Wine Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Fruit",
+        "amount": 50,
+        "optional": 0,
+        "id": 52
+      },
+      {
+        "name": "Fungus",
+        "amount": 10,
+        "optional": 0,
+        "id": 54
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Wine",
+        "amount": 25,
+        "id": 146
+      }
+    ],
+    "garbages": [],
+    "cost": 8805000,
+    "upgradeCost": 1290000,
+    "inputCost": 3260,
+    "outputCost": 4550
+  },
+  {
+    "id": 119,
+    "name": "Distillery",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 10,
+        "optional": 0,
+        "id": 39
+      },
+      {
+        "name": "Wheat",
+        "amount": 50,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Water",
+        "amount": 250,
+        "optional": 0,
+        "id": 144
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Liquor",
+        "amount": 5,
+        "id": 74
+      }
+    ],
+    "garbages": [],
+    "cost": 15082500,
+    "upgradeCost": 2685000,
+    "inputCost": 6650,
+    "outputCost": 9335
+  },
+  {
+    "id": 120,
+    "name": "Food Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Wheat",
+        "amount": 50,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Meat",
+        "amount": 10,
+        "optional": 0,
+        "id": 76
+      },
+      {
+        "name": "Corn",
+        "amount": 10,
+        "optional": 0,
+        "id": 29
+      },
+      {
+        "name": "Vegetable",
+        "amount": 10,
+        "optional": 0,
+        "id": 140
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Food",
+        "amount": 10,
+        "id": 49
+      }
+    ],
+    "garbages": [],
+    "cost": 6960000,
+    "upgradeCost": 880000,
+    "inputCost": 2120,
+    "outputCost": 3000
+  },
+  {
+    "id": 121,
+    "name": "Food Bar Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Wheat",
+        "amount": 50,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Corn",
+        "amount": 10,
+        "optional": 0,
+        "id": 29
+      },
+      {
+        "name": "Rice",
+        "amount": 10,
+        "optional": 0,
+        "id": 106
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Food Bar",
+        "amount": 10,
+        "id": 50
+      }
+    ],
+    "garbages": [],
+    "cost": 5700000,
+    "upgradeCost": 600000,
+    "inputCost": 1630,
+    "outputCost": 2230
+  },
+  {
+    "id": 122,
+    "name": "Luxury Food Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      },
+      {
+        "name": "Wheat",
+        "amount": 50,
+        "optional": 0,
+        "id": 145
+      },
+      {
+        "name": "Fruit",
+        "amount": 10,
+        "optional": 0,
+        "id": 52
+      },
+      {
+        "name": "Spices",
+        "amount": 6,
+        "optional": 0,
+        "id": 127
+      },
+      {
+        "name": "Wine",
+        "amount": 7,
+        "optional": 0,
+        "id": 146
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Luxury Food",
+        "amount": 1,
+        "id": 75
+      }
+    ],
+    "garbages": [],
+    "cost": 11145000,
+    "upgradeCost": 1810000,
+    "inputCost": 4642,
+    "outputCost": 6452
+  },
+  {
+    "id": 123,
+    "name": "Book Factory",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Paper",
+        "amount": 20,
+        "optional": 0,
+        "id": 94
+      },
+      {
+        "name": "Energy Cell",
+        "amount": 1,
+        "optional": 1,
+        "id": 39
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Book",
+        "amount": 4,
+        "id": 16
+      }
+    ],
+    "garbages": [],
+    "cost": 4377000,
+    "upgradeCost": 306000,
+    "inputCost": 970,
+    "outputCost": 1276
+  },
+  {
+    "id": 124,
+    "name": "Jewelry Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Platinum",
+        "amount": 2,
+        "optional": 0,
+        "id": 99
+      },
+      {
+        "name": "Gem",
+        "amount": 5,
+        "optional": 0,
+        "id": 58
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Jewelry",
+        "amount": 4,
+        "id": 68
+      }
+    ],
+    "garbages": [],
+    "cost": 9930000,
+    "upgradeCost": 1540000,
+    "inputCost": 3500,
+    "outputCost": 5040
+  },
+  {
+    "id": 125,
+    "name": "Jewelry Manufacturer",
+    "type": "Factory",
+    "inputs": [
+      {
+        "name": "Gold",
+        "amount": 1,
+        "optional": 0,
+        "id": 60
+      },
+      {
+        "name": "Diamond",
+        "amount": 4,
+        "optional": 0,
+        "id": 32
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Jewelry",
+        "amount": 4,
+        "id": 68
+      }
+    ],
+    "garbages": [],
+    "cost": 9480000,
+    "upgradeCost": 1440000,
+    "inputCost": 3600,
+    "outputCost": 5040
+  }
+]
