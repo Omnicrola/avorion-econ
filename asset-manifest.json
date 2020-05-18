@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/avorion-econ/static/css/main.fd52632c.chunk.css",
-    "main.js": "/avorion-econ/static/js/main.a79520e7.chunk.js",
-    "main.js.map": "/avorion-econ/static/js/main.a79520e7.chunk.js.map",
+    "main.js": "/avorion-econ/static/js/main.a1c57894.chunk.js",
+    "main.js.map": "/avorion-econ/static/js/main.a1c57894.chunk.js.map",
     "runtime-main.js": "/avorion-econ/static/js/runtime-main.8d63bb70.js",
     "runtime-main.js.map": "/avorion-econ/static/js/runtime-main.8d63bb70.js.map",
-    "static/js/2.05027b9c.chunk.js": "/avorion-econ/static/js/2.05027b9c.chunk.js",
-    "static/js/2.05027b9c.chunk.js.map": "/avorion-econ/static/js/2.05027b9c.chunk.js.map",
+    "static/js/2.0d33b5a8.chunk.js": "/avorion-econ/static/js/2.0d33b5a8.chunk.js",
+    "static/js/2.0d33b5a8.chunk.js.map": "/avorion-econ/static/js/2.0d33b5a8.chunk.js.map",
     "index.html": "/avorion-econ/index.html",
-    "precache-manifest.b3d20ab70840433d5f246e1d8e910fb8.js": "/avorion-econ/precache-manifest.b3d20ab70840433d5f246e1d8e910fb8.js",
+    "precache-manifest.6dcec6cd28e7f5a95796f336cd561d52.js": "/avorion-econ/precache-manifest.6dcec6cd28e7f5a95796f336cd561d52.js",
     "service-worker.js": "/avorion-econ/service-worker.js",
     "static/css/main.fd52632c.chunk.css.map": "/avorion-econ/static/css/main.fd52632c.chunk.css.map",
-    "static/js/2.05027b9c.chunk.js.LICENSE.txt": "/avorion-econ/static/js/2.05027b9c.chunk.js.LICENSE.txt",
+    "static/js/2.0d33b5a8.chunk.js.LICENSE.txt": "/avorion-econ/static/js/2.0d33b5a8.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/avorion-econ/static/media/planet-bg.c81c232e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d63bb70.js",
-    "static/js/2.05027b9c.chunk.js",
+    "static/js/2.0d33b5a8.chunk.js",
     "static/css/main.fd52632c.chunk.css",
-    "static/js/main.a79520e7.chunk.js"
+    "static/js/main.a1c57894.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/avorion-econ/precache-manifest.b3d20ab70840433d5f246e1d8e910fb8.js"
+  "/avorion-econ/precache-manifest.6dcec6cd28e7f5a95796f336cd561d52.js"
 );
 
 self.addEventListener('message', (event) => {

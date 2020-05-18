@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2932e6f97a82bce26f646f3cdb42787",
+    "revision": "82c439b1558bfbeae97fe2d94c9933a9",
     "url": "/avorion-econ/index.html"
   },
   {
-    "revision": "77f50e99329693f8f851",
+    "revision": "bbd88116232cf9f9331e",
     "url": "/avorion-econ/static/css/main.fd52632c.chunk.css"
   },
   {
-    "revision": "45fe0358360e580e4907",
-    "url": "/avorion-econ/static/js/2.05027b9c.chunk.js"
+    "revision": "6cf00ffd7b566de95097",
+    "url": "/avorion-econ/static/js/2.0d33b5a8.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/avorion-econ/static/js/2.05027b9c.chunk.js.LICENSE.txt"
+    "url": "/avorion-econ/static/js/2.0d33b5a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77f50e99329693f8f851",
-    "url": "/avorion-econ/static/js/main.a79520e7.chunk.js"
+    "revision": "bbd88116232cf9f9331e",
+    "url": "/avorion-econ/static/js/main.a1c57894.chunk.js"
   },
   {
     "revision": "a9820b74f8922a611f5d",
