@@ -49,6 +49,10 @@ export function Factory({factory}) {
                         <h5>Total Sales: <Credits amount={factory.outputCost}/></h5>
                         {factory.outputs.map(i => (
                             <Resource key={'i-' + i.id} data={i}/>))}
+                        {factory.garbages.length > 0 && <h4>Garbage</h4>}
+                        {factory.garbages.map(i => (
+                            <Resource key={'i-' + i.id} data={i}/>))}
+
                     </div>
                 </div>
             </CardContent>
