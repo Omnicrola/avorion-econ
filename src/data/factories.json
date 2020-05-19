@@ -15,7 +15,8 @@
     "cost": 12000000,
     "upgradeCost": 2000000,
     "inputCost": 0,
-    "outputCost": 2000
+    "outputCost": 2000,
+    "productionTime": 2000
   },
   {
     "id": 2,
@@ -48,7 +49,8 @@
     "cost": 10425000,
     "upgradeCost": 1650000,
     "inputCost": 0,
-    "outputCost": 1650
+    "outputCost": 1650,
+    "productionTime": 1650
   },
   {
     "id": 3,
@@ -86,7 +88,8 @@
     "cost": 12315000,
     "upgradeCost": 2070000,
     "inputCost": 0,
-    "outputCost": 2070
+    "outputCost": 2070,
+    "productionTime": 2070
   },
   {
     "id": 4,
@@ -114,7 +117,8 @@
     "cost": 12720000,
     "upgradeCost": 2160000,
     "inputCost": 0,
-    "outputCost": 2160
+    "outputCost": 2160,
+    "productionTime": 2160
   },
   {
     "id": 5,
@@ -147,7 +151,8 @@
     "cost": 11100000,
     "upgradeCost": 1800000,
     "inputCost": 0,
-    "outputCost": 1800
+    "outputCost": 1800,
+    "productionTime": 1800
   },
   {
     "id": 6,
@@ -165,7 +170,8 @@
     "cost": 12450000,
     "upgradeCost": 2100000,
     "inputCost": 0,
-    "outputCost": 2100
+    "outputCost": 2100,
+    "productionTime": 2100
   },
   {
     "id": 7,
@@ -183,7 +189,8 @@
     "cost": 6600000,
     "upgradeCost": 800000,
     "inputCost": 0,
-    "outputCost": 800
+    "outputCost": 800,
+    "productionTime": 800
   },
   {
     "id": 8,
@@ -201,7 +208,8 @@
     "cost": 6375000,
     "upgradeCost": 750000,
     "inputCost": 0,
-    "outputCost": 750
+    "outputCost": 750,
+    "productionTime": 750
   },
   {
     "id": 9,
@@ -219,7 +227,8 @@
     "cost": 11550000,
     "upgradeCost": 1900000,
     "inputCost": 0,
-    "outputCost": 1900
+    "outputCost": 1900,
+    "productionTime": 1900
   },
   {
     "id": 10,
@@ -237,7 +246,8 @@
     "cost": 12000000,
     "upgradeCost": 2000000,
     "inputCost": 0,
-    "outputCost": 2000
+    "outputCost": 2000,
+    "productionTime": 2000
   },
   {
     "id": 11,
@@ -255,7 +265,8 @@
     "cost": 9750000,
     "upgradeCost": 1500000,
     "inputCost": 0,
-    "outputCost": 1500
+    "outputCost": 1500,
+    "productionTime": 1500
   },
   {
     "id": 12,
@@ -286,7 +297,8 @@
     "cost": 6150000,
     "upgradeCost": 700000,
     "inputCost": 1750,
-    "outputCost": 2450
+    "outputCost": 2450,
+    "productionTime": 2450
   },
   {
     "id": 13,
@@ -309,7 +321,8 @@
     "cost": 9075000,
     "upgradeCost": 1350000,
     "inputCost": 0,
-    "outputCost": 1350
+    "outputCost": 1350,
+    "productionTime": 1350
   },
   {
     "id": 14,
@@ -332,7 +345,8 @@
     "cost": 7725000,
     "upgradeCost": 1050000,
     "inputCost": 0,
-    "outputCost": 1050
+    "outputCost": 1050,
+    "productionTime": 1050
   },
   {
     "id": 15,
@@ -355,7 +369,8 @@
     "cost": 7050000,
     "upgradeCost": 900000,
     "inputCost": 0,
-    "outputCost": 900
+    "outputCost": 900,
+    "productionTime": 900
   },
   {
     "id": 16,
@@ -373,7 +388,8 @@
     "cost": 14250000,
     "upgradeCost": 2500000,
     "inputCost": 0,
-    "outputCost": 2500
+    "outputCost": 2500,
+    "productionTime": 2500
   },
   {
     "id": 17,
@@ -391,7 +407,8 @@
     "cost": 10875000,
     "upgradeCost": 1750000,
     "inputCost": 0,
-    "outputCost": 1750
+    "outputCost": 1750,
+    "productionTime": 1750
   },
   {
     "id": 18,
@@ -409,7 +426,8 @@
     "cost": 12000000,
     "upgradeCost": 2000000,
     "inputCost": 0,
-    "outputCost": 2000
+    "outputCost": 2000,
+    "productionTime": 2000
   },
   {
     "id": 19,
@@ -427,7 +445,8 @@
     "cost": 12000000,
     "upgradeCost": 2000000,
     "inputCost": 0,
-    "outputCost": 2000
+    "outputCost": 2000,
+    "productionTime": 2000
   },
   {
     "id": 20,
@@ -445,7 +464,8 @@
     "cost": 9750000,
     "upgradeCost": 1500000,
     "inputCost": 0,
-    "outputCost": 1500
+    "outputCost": 1500,
+    "productionTime": 1500
   },
   {
     "id": 21,
@@ -463,7 +483,8 @@
     "cost": 8625000,
     "upgradeCost": 1250000,
     "inputCost": 0,
-    "outputCost": 1250
+    "outputCost": 1250,
+    "productionTime": 1250
   },
   {
     "id": 22,
@@ -488,7 +509,8 @@
     "cost": 5965500,
     "upgradeCost": 659000,
     "inputCost": 1456,
-    "outputCost": 2115
+    "outputCost": 2115,
+    "productionTime": 4230
   },
   {
     "id": 23,
@@ -513,7 +535,8 @@
     "cost": 6105000,
     "upgradeCost": 690000,
     "inputCost": 1425,
-    "outputCost": 2115
+    "outputCost": 2115,
+    "productionTime": 4230
   },
   {
     "id": 24,
@@ -538,7 +561,8 @@
     "cost": 5893500,
     "upgradeCost": 643000,
     "inputCost": 1472,
-    "outputCost": 2115
+    "outputCost": 2115,
+    "productionTime": 4230
   },
   {
     "id": 25,
@@ -563,7 +587,8 @@
     "cost": 5713500,
     "upgradeCost": 603000,
     "inputCost": 1512,
-    "outputCost": 2115
+    "outputCost": 2115,
+    "productionTime": 4230
   },
   {
     "id": 26,
@@ -606,7 +631,8 @@
     "cost": 5479500,
     "upgradeCost": 551000,
     "inputCost": 1381,
-    "outputCost": 1932
+    "outputCost": 1932,
+    "productionTime": 9660
   },
   {
     "id": 27,
@@ -643,7 +669,8 @@
     "cost": 9565500,
     "upgradeCost": 1459000,
     "inputCost": 3649,
-    "outputCost": 5108
+    "outputCost": 5108,
+    "productionTime": 30648
   },
   {
     "id": 28,
@@ -686,7 +713,8 @@
     "cost": 6568500,
     "upgradeCost": 793000,
     "inputCost": 1981,
-    "outputCost": 2774
+    "outputCost": 2774,
+    "productionTime": 13870
   },
   {
     "id": 29,
@@ -717,7 +745,8 @@
     "cost": 5718000,
     "upgradeCost": 604000,
     "inputCost": 1508,
-    "outputCost": 2112
+    "outputCost": 2112,
+    "productionTime": 8448
   },
   {
     "id": 30,
@@ -759,7 +788,8 @@
     "cost": 5421000,
     "upgradeCost": 538000,
     "inputCost": 1520,
-    "outputCost": 2058
+    "outputCost": 2058,
+    "productionTime": 4116
   },
   {
     "id": 31,
@@ -808,7 +838,8 @@
     "cost": 7077000,
     "upgradeCost": 906000,
     "inputCost": 2454,
-    "outputCost": 3360
+    "outputCost": 3360,
+    "productionTime": 13440
   },
   {
     "id": 32,
@@ -857,7 +888,8 @@
     "cost": 5470500,
     "upgradeCost": 549000,
     "inputCost": 1541,
-    "outputCost": 2090
+    "outputCost": 2090,
+    "productionTime": 8360
   },
   {
     "id": 33,
@@ -888,7 +920,8 @@
     "cost": 4957500,
     "upgradeCost": 435000,
     "inputCost": 1620,
-    "outputCost": 2055
+    "outputCost": 2055,
+    "productionTime": 4110
   },
   {
     "id": 34,
@@ -937,7 +970,8 @@
     "cost": 8805000,
     "upgradeCost": 1290000,
     "inputCost": 3400,
-    "outputCost": 4690
+    "outputCost": 4690,
+    "productionTime": 4690
   },
   {
     "id": 35,
@@ -986,7 +1020,8 @@
     "cost": 5533500,
     "upgradeCost": 563000,
     "inputCost": 1577,
-    "outputCost": 2140
+    "outputCost": 2140,
+    "productionTime": 8560
   },
   {
     "id": 36,
@@ -1029,7 +1064,8 @@
     "cost": 5286000,
     "upgradeCost": 508000,
     "inputCost": 1427,
-    "outputCost": 1935
+    "outputCost": 1935,
+    "productionTime": 7740
   },
   {
     "id": 37,
@@ -1066,7 +1102,8 @@
     "cost": 5520000,
     "upgradeCost": 560000,
     "inputCost": 2128,
-    "outputCost": 2688
+    "outputCost": 2688,
+    "productionTime": 13440
   },
   {
     "id": 38,
@@ -1121,7 +1158,8 @@
     "cost": 6496500,
     "upgradeCost": 777000,
     "inputCost": 2118,
-    "outputCost": 2895
+    "outputCost": 2895,
+    "productionTime": 14475
   },
   {
     "id": 39,
@@ -1158,7 +1196,8 @@
     "cost": 5848500,
     "upgradeCost": 633000,
     "inputCost": 1583,
-    "outputCost": 2216
+    "outputCost": 2216,
+    "productionTime": 2216
   },
   {
     "id": 40,
@@ -1189,7 +1228,8 @@
     "cost": 5529000,
     "upgradeCost": 562000,
     "inputCost": 1100,
-    "outputCost": 1662
+    "outputCost": 1662,
+    "productionTime": 1662
   },
   {
     "id": 41,
@@ -1238,7 +1278,8 @@
     "cost": 5250000,
     "upgradeCost": 500000,
     "inputCost": 1240,
-    "outputCost": 1740
+    "outputCost": 1740,
+    "productionTime": 6960
   },
   {
     "id": 42,
@@ -1287,7 +1328,8 @@
     "cost": 4584000,
     "upgradeCost": 352000,
     "inputCost": 880,
-    "outputCost": 1232
+    "outputCost": 1232,
+    "productionTime": 2464
   },
   {
     "id": 43,
@@ -1318,7 +1360,8 @@
     "cost": 4872000,
     "upgradeCost": 416000,
     "inputCost": 1040,
-    "outputCost": 1456
+    "outputCost": 1456,
+    "productionTime": 1456
   },
   {
     "id": 44,
@@ -1399,7 +1442,8 @@
     "cost": 7644000,
     "upgradeCost": 1032000,
     "inputCost": 2586,
-    "outputCost": 3618
+    "outputCost": 3618,
+    "productionTime": 10854
   },
   {
     "id": 45,
@@ -1436,7 +1480,8 @@
     "cost": 4849500,
     "upgradeCost": 411000,
     "inputCost": 1014,
-    "outputCost": 1425
+    "outputCost": 1425,
+    "productionTime": 5700
   },
   {
     "id": 46,
@@ -1467,7 +1512,8 @@
     "cost": 5038500,
     "upgradeCost": 453000,
     "inputCost": 1131,
-    "outputCost": 1584
+    "outputCost": 1584,
+    "productionTime": 6336
   },
   {
     "id": 47,
@@ -1522,7 +1568,8 @@
     "cost": 6100500,
     "upgradeCost": 689000,
     "inputCost": 1716,
-    "outputCost": 2405
+    "outputCost": 2405,
+    "productionTime": 9620
   },
   {
     "id": 48,
@@ -1571,7 +1618,8 @@
     "cost": 6388500,
     "upgradeCost": 753000,
     "inputCost": 2756,
-    "outputCost": 3509
+    "outputCost": 3509,
+    "productionTime": 3509
   },
   {
     "id": 49,
@@ -1614,7 +1662,8 @@
     "cost": 6469500,
     "upgradeCost": 771000,
     "inputCost": 2100,
-    "outputCost": 2871
+    "outputCost": 2871,
+    "productionTime": 2871
   },
   {
     "id": 50,
@@ -1675,7 +1724,8 @@
     "cost": 10330500,
     "upgradeCost": 1629000,
     "inputCost": 4063,
-    "outputCost": 5692
+    "outputCost": 5692,
+    "productionTime": 22768
   },
   {
     "id": 51,
@@ -1724,7 +1774,8 @@
     "cost": 16149000,
     "upgradeCost": 2922000,
     "inputCost": 7306,
-    "outputCost": 10228
+    "outputCost": 10228,
+    "productionTime": 61368
   },
   {
     "id": 52,
@@ -1773,7 +1824,8 @@
     "cost": 9367500,
     "upgradeCost": 1415000,
     "inputCost": 3535,
-    "outputCost": 4950
+    "outputCost": 4950,
+    "productionTime": 24750
   },
   {
     "id": 53,
@@ -1810,7 +1862,8 @@
     "cost": 33528000,
     "upgradeCost": 6784000,
     "inputCost": 16962,
-    "outputCost": 23746
+    "outputCost": 23746,
+    "productionTime": 142476
   },
   {
     "id": 54,
@@ -1853,7 +1906,8 @@
     "cost": 38973000,
     "upgradeCost": 7994000,
     "inputCost": 19976,
-    "outputCost": 27970
+    "outputCost": 27970,
+    "productionTime": 167820
   },
   {
     "id": 55,
@@ -1902,7 +1956,8 @@
     "cost": 22903500,
     "upgradeCost": 4423000,
     "inputCost": 11047,
-    "outputCost": 15470
+    "outputCost": 15470,
+    "productionTime": 92820
   },
   {
     "id": 56,
@@ -1939,7 +1994,8 @@
     "cost": 23551500,
     "upgradeCost": 4567000,
     "inputCost": 11390,
-    "outputCost": 15957
+    "outputCost": 15957,
+    "productionTime": 95742
   },
   {
     "id": 57,
@@ -1982,7 +2038,8 @@
     "cost": 14857500,
     "upgradeCost": 2635000,
     "inputCost": 5223,
-    "outputCost": 7858
+    "outputCost": 7858,
+    "productionTime": 47148
   },
   {
     "id": 58,
@@ -2031,7 +2088,8 @@
     "cost": 39706500,
     "upgradeCost": 8157000,
     "inputCost": 15417,
-    "outputCost": 23574
+    "outputCost": 23574,
+    "productionTime": 141444
   },
   {
     "id": 59,
@@ -2096,7 +2154,8 @@
     "cost": 51361500,
     "upgradeCost": 10747000,
     "inputCost": 16842,
-    "outputCost": 27589
+    "outputCost": 27589,
+    "productionTime": 165534
   },
   {
     "id": 60,
@@ -2127,7 +2186,8 @@
     "cost": 11572500,
     "upgradeCost": 1905000,
     "inputCost": 4785,
-    "outputCost": 6690
+    "outputCost": 6690,
+    "productionTime": 33450
   },
   {
     "id": 61,
@@ -2176,7 +2236,8 @@
     "cost": 11433000,
     "upgradeCost": 1874000,
     "inputCost": 4703,
-    "outputCost": 6577
+    "outputCost": 6577,
+    "productionTime": 39462
   },
   {
     "id": 62,
@@ -2225,7 +2286,8 @@
     "cost": 8805000,
     "upgradeCost": 1290000,
     "inputCost": 3400,
-    "outputCost": 4690
+    "outputCost": 4690,
+    "productionTime": 23450
   },
   {
     "id": 63,
@@ -2268,7 +2330,8 @@
     "cost": 12963000,
     "upgradeCost": 2214000,
     "inputCost": 5540,
-    "outputCost": 7754
+    "outputCost": 7754,
+    "productionTime": 38770
   },
   {
     "id": 64,
@@ -2311,7 +2374,8 @@
     "cost": 10245000,
     "upgradeCost": 1610000,
     "inputCost": 4020,
-    "outputCost": 5630
+    "outputCost": 5630,
+    "productionTime": 28150
   },
   {
     "id": 65,
@@ -2348,7 +2412,8 @@
     "cost": 4552500,
     "upgradeCost": 345000,
     "inputCost": 866,
-    "outputCost": 1211
+    "outputCost": 1211,
+    "productionTime": 6055
   },
   {
     "id": 66,
@@ -2385,7 +2450,8 @@
     "cost": 35413500,
     "upgradeCost": 7203000,
     "inputCost": 18188,
-    "outputCost": 25391
+    "outputCost": 25391,
+    "productionTime": 177737
   },
   {
     "id": 67,
@@ -2416,7 +2482,8 @@
     "cost": 7185000,
     "upgradeCost": 930000,
     "inputCost": 2331,
-    "outputCost": 3261
+    "outputCost": 3261,
+    "productionTime": 16305
   },
   {
     "id": 68,
@@ -2447,7 +2514,8 @@
     "cost": 11815500,
     "upgradeCost": 1959000,
     "inputCost": 4899,
-    "outputCost": 6858
+    "outputCost": 6858,
+    "productionTime": 34290
   },
   {
     "id": 69,
@@ -2518,7 +2586,8 @@
     "cost": 486840000,
     "upgradeCost": 107520000,
     "inputCost": 268773,
-    "outputCost": 376293
+    "outputCost": 376293,
+    "productionTime": 3010344
   },
   {
     "id": 70,
@@ -2567,7 +2636,8 @@
     "cost": 41151000,
     "upgradeCost": 8478000,
     "inputCost": 21196,
-    "outputCost": 29674
+    "outputCost": 29674,
+    "productionTime": 237392
   },
   {
     "id": 71,
@@ -2626,7 +2696,8 @@
     "cost": 19335000,
     "upgradeCost": 3630000,
     "inputCost": 9030,
-    "outputCost": 12660
+    "outputCost": 12660,
+    "productionTime": 50640
   },
   {
     "id": 72,
@@ -2669,7 +2740,8 @@
     "cost": 9034500,
     "upgradeCost": 1341000,
     "inputCost": 3348,
-    "outputCost": 4689
+    "outputCost": 4689,
+    "productionTime": 14067
   },
   {
     "id": 73,
@@ -2712,7 +2784,8 @@
     "cost": 24537000,
     "upgradeCost": 4786000,
     "inputCost": 11956,
-    "outputCost": 16742
+    "outputCost": 16742,
+    "productionTime": 100452
   },
   {
     "id": 74,
@@ -2761,7 +2834,8 @@
     "cost": 66751500,
     "upgradeCost": 14167000,
     "inputCost": 35409,
-    "outputCost": 49576
+    "outputCost": 49576,
+    "productionTime": 347032
   },
   {
     "id": 75,
@@ -2810,7 +2884,8 @@
     "cost": 95101500,
     "upgradeCost": 20467000,
     "inputCost": 51165,
-    "outputCost": 71632
+    "outputCost": 71632,
+    "productionTime": 573056
   },
   {
     "id": 76,
@@ -2853,7 +2928,8 @@
     "cost": 53827500,
     "upgradeCost": 11295000,
     "inputCost": 28258,
-    "outputCost": 39553
+    "outputCost": 39553,
+    "productionTime": 276871
   },
   {
     "id": 77,
@@ -2896,7 +2972,8 @@
     "cost": 24523500,
     "upgradeCost": 4783000,
     "inputCost": 11946,
-    "outputCost": 16729
+    "outputCost": 16729,
+    "productionTime": 100374
   },
   {
     "id": 78,
@@ -2944,7 +3021,8 @@
     "cost": 29527500,
     "upgradeCost": 5895000,
     "inputCost": 14733,
-    "outputCost": 20628
+    "outputCost": 20628,
+    "productionTime": 144396
   },
   {
     "id": 79,
@@ -2993,7 +3071,8 @@
     "cost": 18475500,
     "upgradeCost": 3439000,
     "inputCost": 8585,
-    "outputCost": 12024
+    "outputCost": 12024,
+    "productionTime": 48096
   },
   {
     "id": 80,
@@ -3048,7 +3127,8 @@
     "cost": 87487500,
     "upgradeCost": 18775000,
     "inputCost": 46939,
-    "outputCost": 65714
+    "outputCost": 65714,
+    "productionTime": 459998
   },
   {
     "id": 81,
@@ -3097,7 +3177,8 @@
     "cost": 29284500,
     "upgradeCost": 5841000,
     "inputCost": 14602,
-    "outputCost": 20443
+    "outputCost": 20443,
+    "productionTime": 143101
   },
   {
     "id": 82,
@@ -3140,7 +3221,8 @@
     "cost": 27336000,
     "upgradeCost": 5408000,
     "inputCost": 13522,
-    "outputCost": 18930
+    "outputCost": 18930,
+    "productionTime": 94650
   },
   {
     "id": 83,
@@ -3201,7 +3283,8 @@
     "cost": 53607000,
     "upgradeCost": 11246000,
     "inputCost": 28119,
-    "outputCost": 39365
+    "outputCost": 39365,
+    "productionTime": 314920
   },
   {
     "id": 84,
@@ -3250,7 +3333,8 @@
     "cost": 51753000,
     "upgradeCost": 10834000,
     "inputCost": 27106,
-    "outputCost": 37940
+    "outputCost": 37940,
+    "productionTime": 265580
   },
   {
     "id": 85,
@@ -3311,7 +3395,8 @@
     "cost": 102108000,
     "upgradeCost": 22024000,
     "inputCost": 55063,
-    "outputCost": 77087
+    "outputCost": 77087,
+    "productionTime": 616696
   },
   {
     "id": 86,
@@ -3354,7 +3439,8 @@
     "cost": 10920000,
     "upgradeCost": 1760000,
     "inputCost": 4400,
-    "outputCost": 6160
+    "outputCost": 6160,
+    "productionTime": 36960
   },
   {
     "id": 87,
@@ -3397,7 +3483,8 @@
     "cost": 17467500,
     "upgradeCost": 3215000,
     "inputCost": 8035,
-    "outputCost": 11250
+    "outputCost": 11250,
+    "productionTime": 67500
   },
   {
     "id": 88,
@@ -3464,7 +3551,8 @@
     "cost": 190681500,
     "upgradeCost": 41707000,
     "inputCost": 104270,
-    "outputCost": 145977
+    "outputCost": 145977,
+    "productionTime": 1313793
   },
   {
     "id": 89,
@@ -3531,7 +3619,8 @@
     "cost": 121521000,
     "upgradeCost": 26338000,
     "inputCost": 65848,
-    "outputCost": 92186
+    "outputCost": 92186,
+    "productionTime": 829674
   },
   {
     "id": 90,
@@ -3586,7 +3675,8 @@
     "cost": 126313500,
     "upgradeCost": 27403000,
     "inputCost": 68503,
-    "outputCost": 95906
+    "outputCost": 95906,
+    "productionTime": 863154
   },
   {
     "id": 91,
@@ -3604,7 +3694,8 @@
     "cost": 9750000,
     "upgradeCost": 1500000,
     "inputCost": 0,
-    "outputCost": 1500
+    "outputCost": 1500,
+    "productionTime": 1500
   },
   {
     "id": 92,
@@ -3622,7 +3713,8 @@
     "cost": 10875000,
     "upgradeCost": 1750000,
     "inputCost": 0,
-    "outputCost": 1750
+    "outputCost": 1750,
+    "productionTime": 1750
   },
   {
     "id": 93,
@@ -3670,7 +3762,8 @@
     "cost": 5043000,
     "upgradeCost": 454000,
     "inputCost": 975,
-    "outputCost": 1429
+    "outputCost": 1429,
+    "productionTime": 2858
   },
   {
     "id": 94,
@@ -3707,7 +3800,8 @@
     "cost": 2730000,
     "upgradeCost": -60000,
     "inputCost": 900,
-    "outputCost": 840
+    "outputCost": 840,
+    "productionTime": 840
   },
   {
     "id": 95,
@@ -3744,7 +3838,8 @@
     "cost": 3630000,
     "upgradeCost": 140000,
     "inputCost": 1000,
-    "outputCost": 1140
+    "outputCost": 1140,
+    "productionTime": 1140
   },
   {
     "id": 96,
@@ -3781,7 +3876,8 @@
     "cost": 2730000,
     "upgradeCost": -60000,
     "inputCost": 900,
-    "outputCost": 840
+    "outputCost": 840,
+    "productionTime": 840
   },
   {
     "id": 97,
@@ -3818,7 +3914,8 @@
     "cost": 3468000,
     "upgradeCost": 104000,
     "inputCost": 1000,
-    "outputCost": 1104
+    "outputCost": 1104,
+    "productionTime": 1104
   },
   {
     "id": 98,
@@ -3855,7 +3952,8 @@
     "cost": 4260000,
     "upgradeCost": 280000,
     "inputCost": 1400,
-    "outputCost": 1680
+    "outputCost": 1680,
+    "productionTime": 1680
   },
   {
     "id": 99,
@@ -3892,7 +3990,8 @@
     "cost": 5025000,
     "upgradeCost": 450000,
     "inputCost": 1650,
-    "outputCost": 2100
+    "outputCost": 2100,
+    "productionTime": 2100
   },
   {
     "id": 100,
@@ -3929,7 +4028,8 @@
     "cost": 4980000,
     "upgradeCost": 440000,
     "inputCost": 1800,
-    "outputCost": 2240
+    "outputCost": 2240,
+    "productionTime": 2240
   },
   {
     "id": 101,
@@ -3972,7 +4072,8 @@
     "cost": 5169000,
     "upgradeCost": 482000,
     "inputCost": 1388,
-    "outputCost": 1870
+    "outputCost": 1870,
+    "productionTime": 9350
   },
   {
     "id": 102,
@@ -4015,7 +4116,8 @@
     "cost": 5034000,
     "upgradeCost": 452000,
     "inputCost": 1288,
-    "outputCost": 1740
+    "outputCost": 1740,
+    "productionTime": 8700
   },
   {
     "id": 103,
@@ -4052,7 +4154,8 @@
     "cost": 5587500,
     "upgradeCost": 575000,
     "inputCost": 2200,
-    "outputCost": 2775
+    "outputCost": 2775,
+    "productionTime": 2775
   },
   {
     "id": 104,
@@ -4089,7 +4192,8 @@
     "cost": 3540000,
     "upgradeCost": 120000,
     "inputCost": 1000,
-    "outputCost": 1120
+    "outputCost": 1120,
+    "productionTime": 1120
   },
   {
     "id": 105,
@@ -4132,7 +4236,8 @@
     "cost": 6919500,
     "upgradeCost": 871000,
     "inputCost": 2345,
-    "outputCost": 3216
+    "outputCost": 3216,
+    "productionTime": 16080
   },
   {
     "id": 106,
@@ -4186,7 +4291,8 @@
     "cost": 5740500,
     "upgradeCost": 609000,
     "inputCost": 1554,
-    "outputCost": 2163
+    "outputCost": 2163,
+    "productionTime": 4326
   },
   {
     "id": 107,
@@ -4240,7 +4346,8 @@
     "cost": 5848500,
     "upgradeCost": 633000,
     "inputCost": 1530,
-    "outputCost": 2163
+    "outputCost": 2163,
+    "productionTime": 4326
   },
   {
     "id": 108,
@@ -4283,7 +4390,8 @@
     "cost": 4516500,
     "upgradeCost": 337000,
     "inputCost": 813,
-    "outputCost": 1150
+    "outputCost": 1150,
+    "productionTime": 3450
   },
   {
     "id": 109,
@@ -4326,7 +4434,8 @@
     "cost": 5641500,
     "upgradeCost": 587000,
     "inputCost": 1445,
-    "outputCost": 2032
+    "outputCost": 2032,
+    "productionTime": 4064
   },
   {
     "id": 110,
@@ -4368,7 +4477,8 @@
     "cost": 7221000,
     "upgradeCost": 938000,
     "inputCost": 1520,
-    "outputCost": 2458
+    "outputCost": 2458,
+    "productionTime": 4916
   },
   {
     "id": 111,
@@ -4399,7 +4509,8 @@
     "cost": 7297500,
     "upgradeCost": 955000,
     "inputCost": 2445,
-    "outputCost": 3400
+    "outputCost": 3400,
+    "productionTime": 13600
   },
   {
     "id": 112,
@@ -4429,7 +4540,8 @@
     "cost": 7387500,
     "upgradeCost": 975000,
     "inputCost": 2540,
-    "outputCost": 3515
+    "outputCost": 3515,
+    "productionTime": 10545
   },
   {
     "id": 113,
@@ -4459,7 +4571,8 @@
     "cost": 8625000,
     "upgradeCost": 1250000,
     "inputCost": 2540,
-    "outputCost": 3790
+    "outputCost": 3790,
+    "productionTime": 11370
   },
   {
     "id": 114,
@@ -4484,7 +4597,8 @@
     "cost": 6510000,
     "upgradeCost": 780000,
     "inputCost": 1950,
-    "outputCost": 2730
+    "outputCost": 2730,
+    "productionTime": 8190
   },
   {
     "id": 115,
@@ -4509,7 +4623,8 @@
     "cost": 16140000,
     "upgradeCost": 2920000,
     "inputCost": 7280,
-    "outputCost": 10200
+    "outputCost": 10200,
+    "productionTime": 40800
   },
   {
     "id": 116,
@@ -4540,7 +4655,8 @@
     "cost": 5430000,
     "upgradeCost": 540000,
     "inputCost": 1300,
-    "outputCost": 1840
+    "outputCost": 1840,
+    "productionTime": 3680
   },
   {
     "id": 117,
@@ -4577,7 +4693,8 @@
     "cost": 11415000,
     "upgradeCost": 1870000,
     "inputCost": 4610,
-    "outputCost": 6480
+    "outputCost": 6480,
+    "productionTime": 25920
   },
   {
     "id": 118,
@@ -4608,7 +4725,8 @@
     "cost": 8805000,
     "upgradeCost": 1290000,
     "inputCost": 3260,
-    "outputCost": 4550
+    "outputCost": 4550,
+    "productionTime": 18200
   },
   {
     "id": 119,
@@ -4645,7 +4763,8 @@
     "cost": 15082500,
     "upgradeCost": 2685000,
     "inputCost": 6650,
-    "outputCost": 9335
+    "outputCost": 9335,
+    "productionTime": 18670
   },
   {
     "id": 120,
@@ -4688,7 +4807,8 @@
     "cost": 6960000,
     "upgradeCost": 880000,
     "inputCost": 2120,
-    "outputCost": 3000
+    "outputCost": 3000,
+    "productionTime": 12000
   },
   {
     "id": 121,
@@ -4731,7 +4851,8 @@
     "cost": 5700000,
     "upgradeCost": 600000,
     "inputCost": 1630,
-    "outputCost": 2230
+    "outputCost": 2230,
+    "productionTime": 4460
   },
   {
     "id": 122,
@@ -4780,7 +4901,8 @@
     "cost": 11145000,
     "upgradeCost": 1810000,
     "inputCost": 4642,
-    "outputCost": 6452
+    "outputCost": 6452,
+    "productionTime": 38712
   },
   {
     "id": 123,
@@ -4811,7 +4933,8 @@
     "cost": 4377000,
     "upgradeCost": 306000,
     "inputCost": 970,
-    "outputCost": 1276
+    "outputCost": 1276,
+    "productionTime": 3828
   },
   {
     "id": 124,
@@ -4842,7 +4965,8 @@
     "cost": 9930000,
     "upgradeCost": 1540000,
     "inputCost": 3500,
-    "outputCost": 5040
+    "outputCost": 5040,
+    "productionTime": 5040
   },
   {
     "id": 125,
@@ -4873,6 +4997,7 @@
     "cost": 9480000,
     "upgradeCost": 1440000,
     "inputCost": 3600,
-    "outputCost": 5040
+    "outputCost": 5040,
+    "productionTime": 5040
   }
 ]

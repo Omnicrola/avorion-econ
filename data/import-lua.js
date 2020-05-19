@@ -12,6 +12,7 @@ const GOODS_OUTPUT_FILE = './src/data/goods.json';
 const FACTORY_BASE_COST = 3000000;
 const FACTORY_COST_MULTIPLER = 4500;
 const FACTORY_UPGRADE_MULTIPLER = 1000;
+const MINIMUM_PRODUCTION_TIME = 15.0; // minimum time to produce a good is 15 seconds
 
 // *** MAIN
 try {
@@ -59,11 +60,12 @@ function transformFactory(data, index, goods) {
     factory.outputs = convertInputs(data.results, goods);
     factory.garbages = convertInputs(data.garbages, goods);
 
-    const {cost, upgradeCost, inputTotal, outputTotal} = getFactoryCosts(factory, goods);
+    const {cost, upgradeCost, inputTotal, outputTotal, productionTime} = getFactoryCosts(factory, goods);
     factory.cost = cost;
     factory.upgradeCost = upgradeCost;
     factory.inputCost = inputTotal;
     factory.outputCost = outputTotal;
+    factory.productionTime = productionTime;
 
     return factory;
 }
@@ -82,7 +84,10 @@ function convertInputs(inputs, goods) {
     });
 }
 
-// function translated from Avorion/data/scripts/lib/productions.lua:79-127
+// cost function translated from Avorion/data/scripts/lib/productions.lua:79-127
+// cost to build the factory is profit (sale price of all outputs, minus cost of inputs) multiplied by a set multipler, plus a base cost
+// time to produce function from Avorion/data/scripts/entity/merchants/factory.lua:1765-1786
+// time per cycle is the total value of the produced goods, multipled by the the level of good, divided by the production capacity of the factory
 function getFactoryCosts(factory, goods) {
     const inputTotal = factory.inputs
         .map(i => findPriceForGood(i, goods))
@@ -95,11 +100,22 @@ function getFactoryCosts(factory, goods) {
     const cost = FACTORY_BASE_COST + (profitMargin * FACTORY_COST_MULTIPLER);
     const upgradeCost = profitMargin * FACTORY_UPGRADE_MULTIPLER; // should also be multiplied by size later
 
-    return {cost, upgradeCost, inputTotal, outputTotal};
+    const outputTime = factory.outputs
+        .map(i => getProductionTimeForGood(i, goods))
+        .reduce(sum,0);
+    const productionTime = Math.max(outputTime, MINIMUM_PRODUCTION_TIME);  // division by factory production capacity will be done at run-time
+
+    return {cost, upgradeCost, inputTotal, outputTotal, productionTime};
+}
+
+function getProductionTimeForGood(input, goods) {
+    const good = goods.find(good => good.id === input.id);
+    const time = good.price * input.amount * Math.max(1, good.level);
+    return time;
 }
 
 function findPriceForGood(input, goods) {
-    const good = goods.find(good => good.name === input.name);
+    const good = goods.find(good => good.id === input.id);
     return good.price * input.amount;
 }
 
